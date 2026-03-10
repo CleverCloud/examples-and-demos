@@ -43,7 +43,7 @@ runtimes:
         url: https://github.com/CleverCloud/.NET-example
         description: Deploy a .NET application on Clever Cloud
         status: active
-        last_update: 2023-10-03
+        last_update: 2026-03-10
       - name: .NET Example (cc-dotnet)
         url: https://github.com/CleverCloud/cc-dotnet-example
         description: .NET deployment example

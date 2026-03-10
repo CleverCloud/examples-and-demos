@@ -44,7 +44,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [.NET Example](https://github.com/CleverCloud/.NET-example) | Deploy a .NET application on Clever Cloud | 2023-10-03 | 🟡 |
+| [.NET Example](https://github.com/CleverCloud/.NET-example) | Deploy a .NET application on Clever Cloud | 2026-03-10 | 🟢 |
 | [.NET Example (cc-dotnet)](https://github.com/CleverCloud/cc-dotnet-example) | .NET deployment example | 2024-04-30 | 🟡 |
 | [.NET 6 Blazor Example](https://github.com/CleverCloud/dotnet-6-blazor-example) | Blazor app with .NET 6 | 2024-09-13 | 🟡 |
 | [.NET 8 Blazor Example](https://github.com/CleverCloud/dotnet-8-blazor-example) | Blazor app with .NET 8 | 2024-09-13 | 🟡 |
@@ -288,8 +288,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 34 | Updated within the last year |
-| 🟡 Aging | 40 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 35 | Updated within the last year |
+| 🟡 Aging | 39 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 37 | Not updated for more than 3 years |
 | 📌 Fixed | 10 | Pinned to a specific version, still useful |
 | ⛔ Deprecated | 1 | Upstream project discontinued |
