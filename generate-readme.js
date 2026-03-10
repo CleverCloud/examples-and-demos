@@ -5,7 +5,7 @@ import { parse } from "yaml";
 
 const data = parse(readFileSync("repositories.yaml", "utf8"));
 
-const FRESHNESS_MONTHS = { fresh: 6, aging: 30 };
+const FRESHNESS_MONTHS = { fresh: 12, aging: 36 };
 
 function freshness(lastUpdate, status) {
   if (status === "archived") return "📦";
@@ -95,9 +95,9 @@ w(
   "Each example includes a freshness indicator based on the date of its last commit:"
 );
 w();
-w("- 🟢 **Fresh** — Updated within the last 6 months");
-w("- 🟡 **Aging** — Updated between 6 months and 2.5 years ago");
-w("- 🔴 **Outdated** — Not updated for more than 2.5 years");
+w("- 🟢 **Fresh** — Updated within the last year");
+w("- 🟡 **Aging** — Updated between 1 and 3 years ago");
+w("- 🔴 **Outdated** — Not updated for more than 3 years");
 w("- 📌 **Fixed** — Pinned to a specific version, still useful for reference");
 w("- 📦 **Archived** — Repository is archived");
 w();
@@ -132,11 +132,9 @@ w("## Summary");
 w();
 w("| Status | Count | Meaning |");
 w("|--------|-------|---------|");
-w(`| 🟢 Fresh | ${stats["🟢"]} | Updated within the last 6 months |`);
-w(
-  `| 🟡 Aging | ${stats["🟡"]} | Updated between 6 months and 2.5 years ago |`
-);
-w(`| 🔴 Outdated | ${stats["🔴"]} | Not updated for more than 2.5 years |`);
+w(`| 🟢 Fresh | ${stats["🟢"]} | Updated within the last year |`);
+w(`| 🟡 Aging | ${stats["🟡"]} | Updated between 1 and 3 years ago |`);
+w(`| 🔴 Outdated | ${stats["🔴"]} | Not updated for more than 3 years |`);
 if (stats["📌"])
   w(
     `| 📌 Fixed | ${stats["📌"]} | Pinned to a specific version, still useful |`

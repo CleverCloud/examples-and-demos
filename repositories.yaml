@@ -98,7 +98,7 @@ runtimes:
       - name: Haskell Scotty Example
         url: https://github.com/CleverCloud/haskell-scotty-example
         description: Haskell web app with Scotty
-        status: active
+        status: fixed
         last_update: 2024-09
 
   java:
@@ -129,6 +129,11 @@ runtimes:
         description: Run Kotlin Spring Boot with StatsD on Clever Cloud
         status: active
         last_update: 2018-01
+      - name: Vaadin Example
+        url: https://github.com/CleverCloud/vaadin-example
+        description: Deploy a Vaadin application on Clever Cloud
+        status: active
+        last_update: 2026-03
       - name: botr4j Example
         url: https://github.com/CleverCloud/botr4j-example
         description: Usage examples for botr4j
@@ -178,16 +183,6 @@ runtimes:
         description: Run Meteor with MongoDB on Clever Cloud
         status: active
         last_update: 2017-08
-      - name: Node 14 Meteor 2 Example
-        url: https://github.com/CleverCloud/node-14-meteor-2-example
-        description: Meteor 2 with Node 14
-        status: active
-        last_update: 2024-09
-      - name: Node 20 Meteor 3 Example
-        url: https://github.com/CleverCloud/node-20-meteor-3-example
-        description: Meteor 3 with Node 20
-        status: active
-        last_update: 2024-09
       - name: Node.js Pulsar Example
         url: https://github.com/CleverCloud/nodejs-pulsar-example
         description: Apache Pulsar with Node.js
@@ -243,6 +238,16 @@ runtimes:
         description: Run IO.js on Clever Cloud
         status: active
         last_update: 2015-03
+      - name: Node 14 Meteor 2 Example
+        url: https://github.com/CleverCloud/node-14-meteor-2-example
+        description: Meteor 2 with Node 14
+        status: fixed
+        last_update: 2024-09
+      - name: Node 20 Meteor 3 Example
+        url: https://github.com/CleverCloud/node-20-meteor-3-example
+        description: Meteor 3 with Node 20
+        status: fixed
+        last_update: 2024-09
 
   php:
     title: PHP
@@ -326,36 +331,6 @@ runtimes:
         description: Run Flask on Clever Cloud
         status: active
         last_update: 2015-08
-      - name: Python 3 Flask Example
-        url: https://github.com/CleverCloud/python-3-flask-example
-        description: Flask web application
-        status: active
-        last_update: 2025-03
-      - name: Python 3.9 Django Daphne Example
-        url: https://github.com/CleverCloud/python-3.9-django-daphne-example
-        description: Django application with Daphne ASGI server
-        status: active
-        last_update: 2025-03
-      - name: Python 3.10 Django Gunicorn Example
-        url: https://github.com/CleverCloud/python-3.10-django-gunicorn-example
-        description: Django with Gunicorn
-        status: active
-        last_update: 2024-09
-      - name: Python 3.11 Django Uvicorn Example
-        url: https://github.com/CleverCloud/python-3.11-django-uvicorn-example
-        description: Django with Uvicorn
-        status: active
-        last_update: 2024-09
-      - name: Python 3.12 Django uWSGI Example
-        url: https://github.com/CleverCloud/python-3.12-django-uwsgi-example
-        description: Django with uWSGI
-        status: active
-        last_update: 2024-12
-      - name: Python 3.13 Django uWSGI Example
-        url: https://github.com/CleverCloud/python-3.13-django-uwsgi-example
-        description: Django with uWSGI on Python 3.13
-        status: active
-        last_update: 2024-12
       - name: Python Django UV Example
         url: https://github.com/CleverCloud/python-django-uv-example
         description: Deploy a Django app, blazing fast, using uv
@@ -376,6 +351,36 @@ runtimes:
         description: Run Falcon with StatsD on Clever Cloud
         status: active
         last_update: 2018-01
+      - name: Python 3 Flask Example
+        url: https://github.com/CleverCloud/python-3-flask-example
+        description: Flask web application
+        status: fixed
+        last_update: 2025-03
+      - name: Python 3.9 Django Daphne Example
+        url: https://github.com/CleverCloud/python-3.9-django-daphne-example
+        description: Django application with Daphne ASGI server
+        status: fixed
+        last_update: 2025-03
+      - name: Python 3.10 Django Gunicorn Example
+        url: https://github.com/CleverCloud/python-3.10-django-gunicorn-example
+        description: Django with Gunicorn
+        status: fixed
+        last_update: 2024-09
+      - name: Python 3.11 Django Uvicorn Example
+        url: https://github.com/CleverCloud/python-3.11-django-uvicorn-example
+        description: Django with Uvicorn
+        status: fixed
+        last_update: 2024-09
+      - name: Python 3.12 Django uWSGI Example
+        url: https://github.com/CleverCloud/python-3.12-django-uwsgi-example
+        description: Django with uWSGI
+        status: fixed
+        last_update: 2024-12
+      - name: Python 3.13 Django uWSGI Example
+        url: https://github.com/CleverCloud/python-3.13-django-uwsgi-example
+        description: Django with uWSGI on Python 3.13
+        status: fixed
+        last_update: 2024-12
 
   ruby:
     title: Ruby
@@ -448,11 +453,6 @@ runtimes:
         description: Rust with Actix Web
         status: active
         last_update: 2024-09
-      - name: Rust Docker Example
-        url: https://github.com/CleverCloud/rust-docker-example
-        description: Run Rust with Docker on Clever Cloud
-        status: active
-        last_update: 2022-09
       - name: Rust Wemos Example
         url: https://github.com/CleverCloud/rust-wemos-example
         description: Run Rust Wemos on Clever Cloud
@@ -468,6 +468,11 @@ runtimes:
         description: Run Wemos with StatsD on Clever Cloud
         status: active
         last_update: 2023-10
+      - name: Rust Docker Example
+        url: https://github.com/CleverCloud/rust-docker-example
+        description: Run Rust with Docker on Clever Cloud
+        status: fixed
+        last_update: 2022-09
 
   scala:
     title: Scala
