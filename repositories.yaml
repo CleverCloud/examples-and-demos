@@ -5,8 +5,9 @@
 # Status values:
 #   active   - Repository is maintained and available
 #   archived - Repository is archived on GitHub
-#   fixed    - Example works but won't receive updates (pinned to specific versions)
-#   no_repo  - Placeholder for planned examples with no repository yet
+#   fixed      - Example works but won't receive updates (pinned to specific versions)
+#   deprecated - Upstream project is discontinued or no longer maintained
+#   no_repo    - Placeholder for planned examples with no repository yet
 #
 # Structure:
 #   Each top-level key is a section (rendered as ## heading)
@@ -24,7 +25,7 @@ runtimes:
         url: https://github.com/CleverCloud/boxlang-example
         description: Deploy a Boxlang application on Clever Cloud
         status: active
-        last_update: 2026-02
+        last_update: 2026-02-06
 
   dart:
     title: Dart
@@ -33,7 +34,7 @@ runtimes:
         url: https://github.com/CleverCloud/dart-with-mise-example
         description: Deploy a Dart app on Clever Cloud, using Mise and Linux runtime
         status: active
-        last_update: 2025-07
+        last_update: 2025-07-04
 
   dotnet:
     title: ".NET / C#"
@@ -42,22 +43,22 @@ runtimes:
         url: https://github.com/CleverCloud/.NET-example
         description: Deploy a .NET application on Clever Cloud
         status: active
-        last_update: 2023-10
+        last_update: 2023-10-03
       - name: .NET Example (cc-dotnet)
         url: https://github.com/CleverCloud/cc-dotnet-example
         description: .NET deployment example
         status: active
-        last_update: 2024-04
+        last_update: 2024-04-30
       - name: .NET 6 Blazor Example
         url: https://github.com/CleverCloud/dotnet-6-blazor-example
         description: Blazor app with .NET 6
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: .NET 8 Blazor Example
         url: https://github.com/CleverCloud/dotnet-8-blazor-example
         description: Blazor app with .NET 8
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
 
   elixir:
     title: Elixir
@@ -66,7 +67,7 @@ runtimes:
         url: https://github.com/CleverCloud/phoenix-docker-example
         description: Run Phoenix with Docker on Clever Cloud
         status: active
-        last_update: 2017-03
+        last_update: 2017-03-16
 
   go:
     title: Go
@@ -75,22 +76,22 @@ runtimes:
         url: https://github.com/CleverCloud/Go-example
         description: A Go app example
         status: active
-        last_update: 2022-12
+        last_update: 2022-12-12
       - name: Go New Relic Example
         url: https://github.com/CleverCloud/Go-New-Relic-example
         description: A Go example app monitored by New Relic agent
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-18
       - name: Go Workspaces Example
         url: https://github.com/CleverCloud/go-workspaces-example
         description: Deploy Go applications relying on Workspaces
         status: active
-        last_update: 2024-05
+        last_update: 2024-05-13
       - name: Goji StatsD Example
         url: https://github.com/CleverCloud/goji-statsd-example
         description: Run Goji with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01
+        last_update: 2018-01-16
 
   haskell:
     title: Haskell
@@ -99,7 +100,7 @@ runtimes:
         url: https://github.com/CleverCloud/haskell-scotty-example
         description: Haskell web app with Scotty
         status: fixed
-        last_update: 2024-09
+        last_update: 2024-09-11
 
   java:
     title: Java
@@ -108,37 +109,37 @@ runtimes:
         url: https://github.com/CleverCloud/java-war-example
         description: Run Java WAR project on Clever Cloud
         status: active
-        last_update: 2017-08
+        last_update: 2017-08-03
       - name: Quarkus Example
         url: https://github.com/CleverCloud/quarkus-example
         description: Run Quarkus on Clever Cloud
         status: active
-        last_update: 2026-03
+        last_update: 2026-03-10
       - name: Spring MySQL Example
         url: https://github.com/CleverCloud/spring-mysql-example
         description: Spring Boot example on Clever Cloud
         status: active
-        last_update: 2023-10
+        last_update: 2023-10-10
       - name: Spring Boot MongoDB Example
         url: https://github.com/CleverCloud/springboot-mongo-example
         description: Run Spring Boot with MongoDB on Clever Cloud
         status: active
-        last_update: 2022-03
+        last_update: 2022-03-15
       - name: Kotlin Spring Boot StatsD Example
         url: https://github.com/CleverCloud/kotlin-spring-boot-statsd-example
         description: Run Kotlin Spring Boot with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01
+        last_update: 2018-01-15
       - name: Vaadin Example
         url: https://github.com/CleverCloud/vaadin-example
         description: Deploy a Vaadin application on Clever Cloud
         status: active
-        last_update: 2026-03
+        last_update: 2026-03-10
       - name: botr4j Example
         url: https://github.com/CleverCloud/botr4j-example
         description: Usage examples for botr4j
         status: active
-        last_update: 2011-01
+        last_update: 2011-01-12
 
   javascript:
     title: JavaScript / Node.js
@@ -147,107 +148,112 @@ runtimes:
         url: https://github.com/CleverCloud/nodejs-example
         description: The smallest (no deps) node app you can deploy on Clever Cloud
         status: active
-        last_update: 2025-09
+        last_update: 2025-09-15
       - name: Express.js MongoDB StatsD Example
         url: https://github.com/CleverCloud/expressjs-mongodb-statsd-example
         description: Run Express.js with MongoDB and StatsD
         status: active
-        last_update: 2021-12
+        last_update: 2021-12-27
       - name: Express.js PostgreSQL Example
         url: https://github.com/CleverCloud/expressjs-postgresql-example
         description: Run Express.js with PostgreSQL
         status: active
-        last_update: 2024-07
+        last_update: 2024-07-17
       - name: HexoJS Example
         url: https://github.com/CleverCloud/HexoJS-example
         description: Deploy Hexo-based website on Clever Cloud
         status: active
-        last_update: 2025-03
+        last_update: 2025-03-17
       - name: FaolTS Node.js MateriaKV Example
         url: https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example
         description: Node.js application using MateriaKV
         status: active
-        last_update: 2025-05
+        last_update: 2025-05-21
       - name: MCP PostgreSQL Example
         url: https://github.com/CleverCloud/mcp-pg-example
         description: MCP server for PostgreSQL with natural language querying
         status: active
-        last_update: 2026-01
+        last_update: 2026-01-31
       - name: Meteor.js Node ESM Example
         url: https://github.com/CleverCloud/meteorjs-node-esm-example
         description: Meteor.js with Node.js ESM 14.21.4
         status: active
-        last_update: 2024-02
+        last_update: 2024-02-23
       - name: Meteor.js MongoDB Example
         url: https://github.com/CleverCloud/meteorjs-mongodb-example
         description: Run Meteor with MongoDB on Clever Cloud
         status: active
-        last_update: 2017-08
+        last_update: 2017-08-18
       - name: Node.js Pulsar Example
         url: https://github.com/CleverCloud/nodejs-pulsar-example
         description: Apache Pulsar with Node.js
         status: active
-        last_update: 2021-10
+        last_update: 2021-10-19
       - name: Node.js TCP Chat Example
         url: https://github.com/CleverCloud/nodejs-tcp-chat-example
         description: Dead simple TCP chat on Clever Cloud
         status: active
-        last_update: 2020-05
+        last_update: 2020-05-18
       - name: Hapi.js APM Example
         url: https://github.com/CleverCloud/hapijs-apm-example
         description: Run Hapi.js with Elastic APM
         status: active
-        last_update: 2020-03
+        last_update: 2026-03-10
       - name: Hapi.js StatsD Example
         url: https://github.com/CleverCloud/hapijs-statsd-example
         description: Run Hapi.js with StatsD
         status: active
-        last_update: 2018-01
+        last_update: 2026-03-10
       - name: Keystone.js Example
         url: https://github.com/CleverCloud/keystonejs-example
         description: Run Keystone on Clever Cloud
         status: active
-        last_update: 2017-10
+        last_update: 2017-10-18
       - name: Storybook Example
         url: https://github.com/CleverCloud/storybook-example
         description: Deploy Storybook on Clever Cloud
         status: active
-        last_update: 2023-10
+        last_update: 2023-10-05
       - name: Vinext Example
         url: https://github.com/CleverCloud/vinext-example
         description: Vinext demo application served by Bun
         status: active
-        last_update: 2026-02
+        last_update: 2026-02-25
       - name: SvelteKit Example
         url: https://github.com/CleverCloud/sveltekit-example
         description: SvelteKit on Clever Cloud
         status: active
-        last_update: 2021-09
+        last_update: 2021-09-08
       - name: Angular Example
         url: https://github.com/CleverCloud/angular-example
         description: Angular Tour of Heroes on Clever Cloud
         status: active
-        last_update: 2024-04
+        last_update: 2024-04-10
       - name: CasperJS Example
         url: https://github.com/CleverCloud/casperjs-example
         description: Run CasperJS on Clever Cloud
         status: active
-        last_update: 2018-09
+        last_update: 2018-09-03
       - name: IO.js Example
         url: https://github.com/CleverCloud/iojs-example
         description: Run IO.js on Clever Cloud
         status: active
-        last_update: 2015-03
+        last_update: 2015-03-16
+      - name: Parse React Example
+        url: https://github.com/CleverCloud/parse-react-example
+        description: React parse integration
+        status: active
+        last_update: 2021-04-02
       - name: Node 14 Meteor 2 Example
         url: https://github.com/CleverCloud/node-14-meteor-2-example
         description: Meteor 2 with Node 14
         status: fixed
-        last_update: 2024-09
+        last_update: 2024-09-11
       - name: Node 20 Meteor 3 Example
         url: https://github.com/CleverCloud/node-20-meteor-3-example
         description: Meteor 3 with Node 20
         status: fixed
-        last_update: 2024-09
+        last_update: 2024-09-13
 
   php:
     title: PHP
@@ -256,57 +262,57 @@ runtimes:
         url: https://github.com/CleverCloud/api-platform-example
         description: API Platform on Clever Cloud
         status: active
-        last_update: 2025-09
+        last_update: 2025-09-20
       - name: FrankenPHP KV JSON Example
         url: https://github.com/CleverCloud/frankenphp-kv-json-example
         description: PHP app using FrankenPHP runtime and MateriaKV JSON commands
         status: active
-        last_update: 2025-08
+        last_update: 2025-08-07
       - name: PHP Composer Example
         url: https://github.com/CleverCloud/php-composer-example
         description: Run PHP with Composer on Clever Cloud
         status: active
-        last_update: 2016-06
+        last_update: 2016-06-27
       - name: PHP FrankenPHP Binary Example
         url: https://github.com/CleverCloud/php-franken-binary-example
         description: Deploy Laravel/Octane as FrankenPHP binary
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-04
       - name: PHP FrankenPHP Laravel Example
         url: https://github.com/CleverCloud/php-franken-laravel-example
         description: Deploy FrankenPHP-based Laravel app
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-02
       - name: PHP FrankenPHP Standalone Example
         url: https://github.com/CleverCloud/php-franken-standalone-example
         description: Deploy FrankenPHP standalone binary app
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-02
       - name: PHP FrankenPHP Symfony Example
         url: https://github.com/CleverCloud/php-franken-symfony-example
         description: Deploy FrankenPHP-based Symfony app
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-02
       - name: PHP Sessions KV Example
         url: https://github.com/CleverCloud/php-sessions-kv-example
         description: PHP applications with sessions on Materia KV
         status: active
-        last_update: 2025-10
+        last_update: 2025-10-15
       - name: Laravel PostgreSQL Example
         url: https://github.com/CleverCloud/laravel-postgresql-example
         description: Run Laravel with PostgreSQL
         status: active
-        last_update: 2020-03
+        last_update: 2020-03-17
       - name: Lumen StatsD Example
         url: https://github.com/CleverCloud/lumen-statsd-example
         description: Run Lumen with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01
+        last_update: 2018-01-15
       - name: HHVM Example
         url: https://github.com/CleverCloud/hhvm-example
         description: Run HHVM on Clever Cloud
         status: active
-        last_update: 2015-01
+        last_update: 2015-01-06
 
   python:
     title: Python
@@ -315,72 +321,72 @@ runtimes:
         url: https://github.com/CleverCloud/celery-gunicorn-example
         description: Python app using Celery and Gunicorn
         status: active
-        last_update: 2025-04
+        last_update: 2025-04-04
       - name: Django Example
         url: https://github.com/CleverCloud/django-example
         description: Run Django on Clever Cloud
         status: active
-        last_update: 2024-04
+        last_update: 2024-04-23
       - name: Django Todo List Example
         url: https://github.com/CleverCloud/django-todo-list-example
         description: Django todo list with modern Python tooling (uv, pyproject.toml)
         status: active
-        last_update: 2025-12
+        last_update: 2025-12-03
       - name: Flask Example
         url: https://github.com/CleverCloud/flask-example
         description: Run Flask on Clever Cloud
         status: active
-        last_update: 2015-08
+        last_update: 2015-08-23
       - name: Python Django UV Example
         url: https://github.com/CleverCloud/python-django-uv-example
         description: Deploy a Django app, blazing fast, using uv
         status: active
-        last_update: 2024-12
+        last_update: 2024-12-09
       - name: Python FastAPI UV Example
         url: https://github.com/CleverCloud/python-fastapi-uv-example
         description: Deploy a FastAPI app, blazing fast, using uv
         status: active
-        last_update: 2025-07
+        last_update: 2025-07-01
       - name: Keras Example
         url: https://github.com/CleverCloud/keras-example
         description: Run Keras on Clever Grid
         status: active
-        last_update: 2019-07
+        last_update: 2019-07-07
       - name: Falcon StatsD Example
         url: https://github.com/CleverCloud/falcon-statsd-example
         description: Run Falcon with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01
+        last_update: 2018-01-16
       - name: Python 3 Flask Example
         url: https://github.com/CleverCloud/python-3-flask-example
         description: Flask web application
         status: fixed
-        last_update: 2025-03
+        last_update: 2025-03-15
       - name: Python 3.9 Django Daphne Example
         url: https://github.com/CleverCloud/python-3.9-django-daphne-example
         description: Django application with Daphne ASGI server
         status: fixed
-        last_update: 2025-03
+        last_update: 2025-03-17
       - name: Python 3.10 Django Gunicorn Example
         url: https://github.com/CleverCloud/python-3.10-django-gunicorn-example
         description: Django with Gunicorn
         status: fixed
-        last_update: 2024-09
+        last_update: 2024-09-18
       - name: Python 3.11 Django Uvicorn Example
         url: https://github.com/CleverCloud/python-3.11-django-uvicorn-example
         description: Django with Uvicorn
         status: fixed
-        last_update: 2024-09
+        last_update: 2024-09-18
       - name: Python 3.12 Django uWSGI Example
         url: https://github.com/CleverCloud/python-3.12-django-uwsgi-example
         description: Django with uWSGI
         status: fixed
-        last_update: 2024-12
+        last_update: 2024-12-13
       - name: Python 3.13 Django uWSGI Example
         url: https://github.com/CleverCloud/python-3.13-django-uwsgi-example
         description: Django with uWSGI on Python 3.13
         status: fixed
-        last_update: 2024-12
+        last_update: 2024-12-09
 
   ruby:
     title: Ruby
@@ -389,12 +395,12 @@ runtimes:
         url: https://github.com/CleverCloud/rack-example
         description: Run Rack on Clever Cloud
         status: active
-        last_update: 2024-03
+        last_update: 2024-03-19
       - name: Rack StatsD Example
         url: https://github.com/CleverCloud/rack-statsd-example
         description: Run Rack with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01
+        last_update: 2018-01-16
       - name: Rails PostgreSQL Example
         url: https://github.com/CleverCloud/rails-postgresql-example
         description: Run Ruby on Rails with PostgreSQL
@@ -403,47 +409,47 @@ runtimes:
         url: https://github.com/CleverCloud/ruby-2.7-rails-example
         description: Rails with Ruby 2.7
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: Ruby 3.0 Rails Example
         url: https://github.com/CleverCloud/ruby-3.0-rails-example
         description: Rails with Ruby 3.0
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: Ruby 3.1 Rails Example
         url: https://github.com/CleverCloud/ruby-3.1-rails-example
         description: Rails with Ruby 3.1
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: Ruby 3.2 Rails Example
         url: https://github.com/CleverCloud/ruby-3.2-rails-example
         description: Rails with Ruby 3.2
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: Ruby 3.3 Rails Example
         url: https://github.com/CleverCloud/ruby-3.3-rails-example
         description: Rails with Ruby 3.3
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-13
       - name: Ruby Multi Redirect Example
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
         status: active
-        last_update: 2024-02
+        last_update: 2024-02-26
       - name: Ruby PostgreSQL Example
         url: https://github.com/CleverCloud/ruby-postgresql-example
         description: Ruby on Rails with PostgreSQL
         status: active
-        last_update: 2023-05
+        last_update: 2023-05-24
       - name: Sinatra PostgreSQL Example
         url: https://github.com/CleverCloud/sinatra-postgresql-example
         description: Run Sinatra with PostgreSQL
         status: active
-        last_update: 2017-10
+        last_update: 2017-10-05
       - name: MKV Raw TCP Ruby Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-ruby-example
         description: Materia KV raw TCP demo in Ruby
         status: active
-        last_update: 2024-06
+        last_update: 2024-06-11
 
   rust:
     title: Rust
@@ -452,27 +458,27 @@ runtimes:
         url: https://github.com/CleverCloud/rust-stable-actix-example
         description: Rust with Actix Web
         status: active
-        last_update: 2024-09
+        last_update: 2024-09-18
       - name: Rust Wemos Example
         url: https://github.com/CleverCloud/rust-wemos-example
         description: Run Rust Wemos on Clever Cloud
         status: active
-        last_update: 2018-05
+        last_update: 2018-05-23
       - name: Biscuit Cryptography Example
         url: https://github.com/CleverCloud/biscuit-cryptography-example
         description: Biscuit tokens cryptography implementation
         status: active
-        last_update: 2021-04
+        last_update: 2021-04-23
       - name: Wemos StatsD Example
         url: https://github.com/CleverCloud/wemos-statsd-example
         description: Run Wemos with StatsD on Clever Cloud
         status: active
-        last_update: 2023-10
+        last_update: 2023-10-02
       - name: Rust Docker Example
         url: https://github.com/CleverCloud/rust-docker-example
         description: Run Rust with Docker on Clever Cloud
         status: fixed
-        last_update: 2022-09
+        last_update: 2022-09-19
 
   scala:
     title: Scala
@@ -481,12 +487,12 @@ runtimes:
         url: https://github.com/CleverCloud/play-scala-example
         description: Deploy a Scala app built with Play Framework
         status: active
-        last_update: 2023-10
+        last_update: 2023-10-05
       - name: Scala Akka HTTP Postgres Example
         url: https://github.com/CleverCloud/scala-akka-http-postgres-example
         description: Akka HTTP example with PostgreSQL persistence
         status: active
-        last_update: 2022-05
+        last_update: 2022-05-20
 
   smalltalk:
     title: Smalltalk
@@ -495,7 +501,7 @@ runtimes:
         url: https://github.com/CleverCloud/seaside-example
         description: Seaside web application with Pharo Smalltalk
         status: active
-        last_update: 2015-12
+        last_update: 2015-12-02
 
   swift:
     title: Swift
@@ -504,12 +510,12 @@ runtimes:
         url: https://github.com/CleverCloud/swift-hello-world-example
         description: Deploy a Swift app using Mise and Linux runtime
         status: active
-        last_update: 2025-07
+        last_update: 2025-07-02
       - name: Swift Vapor Example
         url: https://github.com/CleverCloud/swift-vapor-example
         description: Run Swift with PostgreSQL using Vapor
         status: active
-        last_update: 2023-05
+        last_update: 2023-05-23
 
   v:
     title: V
@@ -518,12 +524,12 @@ runtimes:
         url: https://github.com/CleverCloud/v-example
         description: Deploy a V app using V runtime
         status: active
-        last_update: 2025-07
+        last_update: 2025-07-04
       - name: MKV Raw TCP V Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-v-example
         description: Materia KV raw TCP demo in V
         status: active
-        last_update: 2024-06
+        last_update: 2024-06-11
 
   zig:
     title: Zig
@@ -532,7 +538,7 @@ runtimes:
         url: https://github.com/CleverCloud/zig-with-mise-example
         description: Deploy a Zig app using Mise and Linux runtime
         status: active
-        last_update: 2025-07
+        last_update: 2025-07-04
 
 self_hosted:
   title: Self-Hosted Applications
@@ -540,131 +546,126 @@ self_hosted:
   apps:
     title: Applications
     examples:
-      - name: n8n Example
-        url: https://github.com/CleverCloud/n8n-example
-        description: Run n8n workflow automation
-        status: active
-        last_update: 2026-02
-      - name: Strapi Example
-        url: https://github.com/CleverCloud/strapi-example
-        description: Deploy Strapi CMS on Clever Cloud
-        status: active
-        last_update: 2025-06
-      - name: WordPress Bedrock Example
-        url: https://github.com/CleverCloud/wordpress-bedrock-example
-        description: Install and manage WordPress with Bedrock's Composer
-        status: active
-        last_update: 2025-04
-      - name: WordPress Example
-        url: https://github.com/CleverCloud/wordpress-example
-        description: Run WordPress on Clever Cloud
-        status: active
-        last_update: 2020-01
-      - name: HiveMQ Example
-        url: https://github.com/CleverCloud/hivemq-example
-        description: Deploy HiveMQ MQTT broker
-        status: active
-        last_update: 2026-01
-      - name: HiveMQ Add-on Provider Example
-        url: https://github.com/CleverCloud/hivemq-adp-example
-        description: HiveMQ as add-on provider
-        status: active
-        last_update: 2026-01
-      - name: Kestra Example
-        url: https://github.com/CleverCloud/kestra-example
-        description: Deploy Kestra orchestration platform
-        status: active
-        last_update: 2025-08
-      - name: Outline Example
-        url: https://github.com/CleverCloud/outline-example
-        description: Run Outline wiki on Clever Cloud
-        status: active
-        last_update: 2025-08
-      - name: GlitchTip Example
-        url: https://github.com/CleverCloud/glitchtip-example
-        description: Run GlitchTip error tracking
-        status: active
-        last_update: 2025-08
-      - name: Docs Example
-        url: https://github.com/CleverCloud/docs-example
-        description: Collaborative note-taking platform (Django + React)
-        status: active
-        last_update: 2025-06
-      - name: Khoj Example
-        url: https://github.com/CleverCloud/khoj-example
-        description: Deploy Khoj AI assistant
-        status: active
-        last_update: 2025-06
       - name: ChromaDB Server Example
         url: https://github.com/CleverCloud/chromadb-server-example
         description: Vector database for AI applications
         status: active
-        last_update: 2025-03
-      - name: Ollama Chat Deploy Example
-        url: https://github.com/CleverCloud/ollama-chat-deploy-example
-        description: Deploy AI models with Ollama
-        status: active
-        last_update: 2024-02
-      - name: Mosquitto Example
-        url: https://github.com/CleverCloud/mosquitto-for-clevercloud-example
-        description: Deploy Mosquitto MQTT broker
-        status: active
-        last_update: 2024-10
-      - name: Moodle Example
-        url: https://github.com/CleverCloud/moodle-example
-        description: Deploy the open source learning platform
-        status: active
-        last_update: 2024-03
-      - name: Mattermost Example
-        url: https://github.com/CleverCloud/mattermost-example
-        description: Run Mattermost on Clever Cloud
-        status: active
-        last_update: 2024-02
-      - name: Umami Example
-        url: https://github.com/CleverCloud/umami-example
-        description: Deploy Umami analytics
-        status: active
-        last_update: 2023-09
-      - name: PostOwl Example
-        url: https://github.com/CleverCloud/PostOwl-example
-        description: Replicate SQLite on Clever Cloud
-        status: active
-        last_update: 2023-08
-      - name: Okazanta Example
-        url: https://github.com/CleverCloud/okazanta-example
-        description: Deploy a status page
-        status: active
-        last_update: 2022-12
-      - name: Grafana Example
-        url: https://github.com/CleverCloud/grafana-example
-        description: Run Grafana on Clever Cloud
-        status: active
-        last_update: 2022-05
+        last_update: 2025-03-17
       - name: Collabora Online Example
         url: https://github.com/CleverCloud/collabora-online-example
         description: Run Collabora Online with Docker
         status: active
-        last_update: 2021-04
-      - name: Parse Server Example
-        url: https://github.com/CleverCloud/parse-server-example
-        description: Run parse-server on Clever Cloud
+        last_update: 2021-04-03
+      - name: Docs Example
+        url: https://github.com/CleverCloud/docs-example
+        description: Collaborative note-taking platform (Django + React)
         status: active
-        last_update: 2021-04
+        last_update: 2025-06-26
+      - name: GlitchTip Example
+        url: https://github.com/CleverCloud/glitchtip-example
+        description: Run GlitchTip error tracking
+        status: active
+        last_update: 2025-08-18
+      - name: Grafana Example
+        url: https://github.com/CleverCloud/grafana-example
+        description: Run Grafana on Clever Cloud
+        status: active
+        last_update: 2022-05-19
+      - name: HiveMQ Example
+        url: https://github.com/CleverCloud/hivemq-example
+        description: Deploy HiveMQ MQTT broker
+        status: active
+        last_update: 2026-01-08
+      - name: HiveMQ Add-on Provider Example
+        url: https://github.com/CleverCloud/hivemq-adp-example
+        description: HiveMQ as add-on provider
+        status: active
+        last_update: 2026-01-15
+      - name: Kestra Example
+        url: https://github.com/CleverCloud/kestra-example
+        description: Deploy Kestra orchestration platform
+        status: active
+        last_update: 2025-08-18
+      - name: Khoj Example
+        url: https://github.com/CleverCloud/khoj-example
+        description: Deploy Khoj AI assistant
+        status: active
+        last_update: 2025-06-18
+      - name: Mattermost Example
+        url: https://github.com/CleverCloud/mattermost-example
+        description: Run Mattermost on Clever Cloud
+        status: active
+        last_update: 2024-02-21
+      - name: Mosquitto Example
+        url: https://github.com/CleverCloud/mosquitto-for-clevercloud-example
+        description: Deploy Mosquitto MQTT broker
+        status: active
+        last_update: 2024-10-02
+      - name: Moodle Example
+        url: https://github.com/CleverCloud/moodle-example
+        description: Deploy the open source learning platform
+        status: active
+        last_update: 2024-03-18
+      - name: n8n Example
+        url: https://github.com/CleverCloud/n8n-example
+        description: Run n8n workflow automation
+        status: active
+        last_update: 2026-02-06
+      - name: Ollama Chat Deploy Example
+        url: https://github.com/CleverCloud/ollama-chat-deploy-example
+        description: Deploy AI models with Ollama
+        status: active
+        last_update: 2024-02-23
+      - name: Outline Example
+        url: https://github.com/CleverCloud/outline-example
+        description: Run Outline wiki on Clever Cloud
+        status: active
+        last_update: 2026-03-10
       - name: Parse Server Dashboard Example
         url: https://github.com/CleverCloud/parse-server-dashboard-example
         description: Run parse-server dashboard
         status: active
-        last_update: 2021-04
-      - name: Parse React Example
-        url: https://github.com/CleverCloud/parse-react-example
-        description: React parse integration
+        last_update: 2021-04-02
+      - name: Parse Server Example
+        url: https://github.com/CleverCloud/parse-server-example
+        description: Run parse-server on Clever Cloud
         status: active
-        last_update: 2021-04
+        last_update: 2021-04-02
+      - name: PostOwl Example
+        url: https://github.com/CleverCloud/PostOwl-example
+        description: Run PostOwl, personal website for blogging, letter sharing and private journaling
+        status: active
+        last_update: 2023-08-18
       - name: Rocket.Chat Example
         url: https://github.com/CleverCloud/rocketchat-example
         description: Run Rocket.Chat on Clever Cloud
         status: active
-        last_update: 2017-09
+        last_update: 2017-09-21
+      - name: Strapi Example
+        url: https://github.com/CleverCloud/strapi-example
+        description: Deploy Strapi CMS on Clever Cloud
+        status: active
+        last_update: 2025-06-08
+      - name: Umami Example
+        url: https://github.com/CleverCloud/umami-example
+        description: Deploy Umami analytics
+        status: active
+        last_update: 2023-09-29
+      - name: WordPress Bedrock Example
+        url: https://github.com/CleverCloud/wordpress-bedrock-example
+        description: Install and manage WordPress with Bedrock's Composer
+        status: active
+        last_update: 2025-04-30
+      - name: WordPress Example
+        url: https://github.com/CleverCloud/wordpress-example
+        description: Run WordPress on Clever Cloud
+        status: active
+        last_update: 2020-01-27
+      - name: Okazanta Example
+        url: https://github.com/CleverCloud/okazanta-example
+        description: Deploy a status page (upstream project discontinued)
+        status: deprecated
+        last_update: 2026-03-10
 
 kubernetes:
   title: Kubernetes
@@ -676,7 +677,7 @@ kubernetes:
         url: https://github.com/CleverCloud/clever-autoscaler-operator-example
         description: K8s operator for Clever Cloud node group autoscaling
         status: active
-        last_update: 2025-12
+        last_update: 2025-12-04
 
 addons:
   title: Add-ons
@@ -688,7 +689,7 @@ addons:
         url: https://github.com/CleverCloud/otoroshi-api-example
         description: Otoroshi API gateway example
         status: active
-        last_update: 2025-05
+        last_update: 2025-05-05
 
 other:
   title: Other Examples
@@ -700,22 +701,22 @@ other:
         url: https://github.com/CleverCloud/Gitlab-simple-CI-CD-example
         description: Deploy from GitLab with clever-tools
         status: active
-        last_update: 2024-12
+        last_update: 2024-12-12
       - name: Elastic APM Configuration Example
         url: https://github.com/CleverCloud/Elastic-APM-configuration-files-example
         description: Connect apps to Elastic APM on Clever Cloud
         status: active
-        last_update: 2023-08
+        last_update: 2023-08-16
       - name: Logstash Example
         url: https://github.com/CleverCloud/logstash-example
         description: Logstash on Clever Cloud
         status: active
-        last_update: 2023-06
+        last_update: 2023-06-29
       - name: Network Groups Example
         url: https://github.com/CleverCloud/network-groups-example
         description: Network isolation and VPN configurations
         status: active
-        last_update: 2025-11
+        last_update: 2025-11-05
 
   platform:
     title: Platform
@@ -724,7 +725,7 @@ other:
         url: https://github.com/CleverCloud/create-an-addon-provider-example
         description: Step-by-step add-on creation
         status: active
-        last_update: 2022-02
+        last_update: 2022-02-09
 
   templates:
     title: Templates
@@ -733,4 +734,4 @@ other:
         url: https://github.com/CleverCloud/template-example
         description: Template repository to create example applications
         status: active
-        last_update: 2021-07
+        last_update: 2021-07-03

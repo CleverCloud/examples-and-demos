@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "generate": "node generate-readme.js"
+    "generate": "node generate-readme.js",
+    "update-dates": "node update-dates.js",
+    "update": "node update-dates.js && node generate-readme.js"
   },
   "dependencies": {
     "yaml": "^2.8.2"

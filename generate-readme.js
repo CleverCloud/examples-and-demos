@@ -9,6 +9,7 @@ const FRESHNESS_MONTHS = { fresh: 12, aging: 36 };
 
 function freshness(lastUpdate, status) {
   if (status === "archived") return "📦";
+  if (status === "deprecated") return "⛔";
   if (status === "fixed") return "📌";
   if (status === "no_repo") return "—";
   if (!lastUpdate) return "🔴";
@@ -53,7 +54,7 @@ function collectExamples(obj) {
 }
 
 const allExamples = collectExamples(data);
-const stats = { "🟢": 0, "🟡": 0, "🔴": 0, "📌": 0, "📦": 0, "—": 0 };
+const stats = { "🟢": 0, "🟡": 0, "🔴": 0, "📌": 0, "⛔": 0, "📦": 0, "—": 0 };
 for (const ex of allExamples) {
   const icon = freshness(ex.last_update, ex.status);
   stats[icon] = (stats[icon] || 0) + 1;
@@ -99,6 +100,7 @@ w("- 🟢 **Fresh** — Updated within the last year");
 w("- 🟡 **Aging** — Updated between 1 and 3 years ago");
 w("- 🔴 **Outdated** — Not updated for more than 3 years");
 w("- 📌 **Fixed** — Pinned to a specific version, still useful for reference");
+w("- ⛔ **Deprecated** — Upstream project is discontinued or no longer maintained");
 w("- 📦 **Archived** — Repository is archived");
 w();
 w("---");
@@ -138,6 +140,10 @@ w(`| 🔴 Outdated | ${stats["🔴"]} | Not updated for more than 3 years |`);
 if (stats["📌"])
   w(
     `| 📌 Fixed | ${stats["📌"]} | Pinned to a specific version, still useful |`
+  );
+if (stats["⛔"])
+  w(
+    `| ⛔ Deprecated | ${stats["⛔"]} | Upstream project discontinued |`
   );
 w(`| 📦 Archived | ${stats["📦"]} | Repository is archived |`);
 if (stats["—"])

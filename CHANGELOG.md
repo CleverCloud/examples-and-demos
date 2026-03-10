@@ -1,19 +1,31 @@
 # Changelog
 
+## 2026-03-10 (2)
+
+### Added
+- `deprecated` status (⛔) for repos whose upstream project is discontinued
+- `update-dates.js` script to fetch last commit dates from GitHub (`npm run update-dates`)
+- `npm run update` shortcut to update dates and regenerate README in one step
+
+### Changed
+- `okazanta-example` marked as `deprecated` (upstream project no longer exists)
+- `parse-react-example` moved from self-hosted to JavaScript runtime
+- Self-hosted apps list alphabetically sorted
+- Dates now use YYYY-MM-DD format (was YYYY-MM)
+
 ## 2026-03-10
 
 ### Added
 - `vaadin-example` under Java runtime — total examples now 123
 - `INSTRUCTIONS.md` explaining how to maintain the repo
+- `CHANGELOG.md` to track changes
 - `repositories.yaml` as single source of truth for all examples
 - `generate-readme.js` to auto-generate README from YAML (`npm run generate`)
 - Self-Hosted Applications section (n8n, Strapi, WordPress, HiveMQ, Kestra, Outline, GlitchTip, etc.)
 - Kubernetes and Add-ons sections
 - Freshness indicators based on last commit date on default branch (not `pushedAt`)
-- `CHANGELOG.md` to track changes
 - `fixed` status (📌) for repositories pinned to specific versions
 - `no_repo` status for planned examples with no repository yet
-- `vaadin-example` under Java runtime — total examples now 123
 
 ### Changed
 - 10 repositories marked as `fixed`: python-3-flask, python-3.9-django-daphne, python-3.10-django-gunicorn, python-3.11-django-uvicorn, python-3.12-django-uwsgi, python-3.13-django-uwsgi, node-14-meteor-2, node-20-meteor-3, haskell-scotty, rust-docker
