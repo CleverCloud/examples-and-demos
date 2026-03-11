@@ -110,11 +110,6 @@ runtimes:
   java:
     title: Java
     examples:
-      - name: Java WAR Example
-        url: https://github.com/CleverCloud/java-war-example
-        description: Run Java WAR project on Clever Cloud
-        status: active
-        last_update: 2017-08-03
       - name: Quarkus Example
         url: https://github.com/CleverCloud/quarkus-example
         description: Run Quarkus on Clever Cloud
@@ -140,11 +135,16 @@ runtimes:
         description: Deploy a Vaadin application on Clever Cloud
         status: active
         last_update: 2026-03-10
+      - name: Java WAR Example
+        url: https://github.com/CleverCloud/java-war-example
+        description: Run Java WAR project on Clever Cloud
+        status: active
+        last_update: 2026-03-11
       - name: botr4j Example
         url: https://github.com/CleverCloud/botr4j-example
         description: Usage examples for botr4j
-        status: active
-        last_update: 2011-01-12
+        status: deprecated
+        last_update: 2026-03-11
 
   javascript:
     title: JavaScript / Node.js

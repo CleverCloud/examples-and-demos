@@ -75,13 +75,13 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Java WAR Example](https://github.com/CleverCloud/java-war-example) | Run Java WAR project on Clever Cloud | 2017-08-03 | 🔴 |
 | [Quarkus Example](https://github.com/CleverCloud/quarkus-example) | Run Quarkus on Clever Cloud | 2026-03-10 | 🟢 |
 | [Spring MySQL Example](https://github.com/CleverCloud/spring-mysql-example) | Spring Boot example on Clever Cloud | 2023-10-10 | 🟡 |
 | [Spring Boot MongoDB Example](https://github.com/CleverCloud/springboot-mongo-example) | Run Spring Boot with MongoDB on Clever Cloud | 2022-03-15 | 🔴 |
 | [Kotlin Spring Boot StatsD Example](https://github.com/CleverCloud/kotlin-spring-boot-statsd-example) | Run Kotlin Spring Boot with StatsD on Clever Cloud | 2018-01-15 | 🔴 |
 | [Vaadin Example](https://github.com/CleverCloud/vaadin-example) | Deploy a Vaadin application on Clever Cloud | 2026-03-10 | 🟢 |
-| [botr4j Example](https://github.com/CleverCloud/botr4j-example) | Usage examples for botr4j | 2011-01-12 | 🔴 |
+| [Java WAR Example](https://github.com/CleverCloud/java-war-example) | Run Java WAR project on Clever Cloud | 2026-03-11 | 🟢 |
+| [botr4j Example](https://github.com/CleverCloud/botr4j-example) | Usage examples for botr4j | 2011-01-12 | 🪦 |
 
 ### JavaScript / Node.js
 
@@ -289,11 +289,11 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 40 | Updated within the last year |
+| 🟢 Fresh | 41 | Updated within the last year |
 | 🟡 Aging | 34 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 35 | Not updated for more than 3 years |
+| 🔴 Outdated | 33 | Not updated for more than 3 years |
 | 📌 Fixed | 12 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 2 | Upstream project discontinued |
+| 🪦 Deprecated | 3 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **124** | |
 
