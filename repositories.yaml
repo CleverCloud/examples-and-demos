@@ -87,6 +87,11 @@ runtimes:
         description: Deploy Go applications relying on Workspaces
         status: active
         last_update: 2024-05-13
+      - name: Go Chi + StatsD Example 
+        url: https://github.com/CleverCloud/go-chi-statsd-example
+        description: Run Go with Chi and StatsD on Clever Cloud
+        status: active
+        last_update: 2026-03-11
       - name: Goji StatsD Example
         url: https://github.com/CleverCloud/goji-statsd-example
         description: Run Goji with StatsD on Clever Cloud
