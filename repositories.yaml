@@ -63,10 +63,15 @@ runtimes:
   elixir:
     title: Elixir
     examples:
+      - name: Phoenix Elixir Example 
+        url: https://github.com/CleverCloud/phoenix-elixir-example
+        description: Run Phoenix on Elixir runtime on Clever Cloud
+        status: active
+        last_update: 2026-03-11
       - name: Phoenix Docker Example
         url: https://github.com/CleverCloud/phoenix-docker-example
         description: Run Phoenix with Docker on Clever Cloud
-        status: active
+        status: deprecated
         last_update: 2017-03-16
 
   go:
@@ -406,10 +411,6 @@ runtimes:
         description: Run Rack with StatsD on Clever Cloud
         status: active
         last_update: 2018-01-16
-      - name: Rails PostgreSQL Example
-        url: https://github.com/CleverCloud/rails-postgresql-example
-        description: Run Ruby on Rails with PostgreSQL
-        status: archived
       - name: Ruby Multi Redirect Example
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
@@ -455,6 +456,10 @@ runtimes:
         description: Rails with Ruby 3.3
         status: fixed 
         last_update: 2024-09-13
+      - name: Rails PostgreSQL Example
+        url: https://github.com/CleverCloud/rails-postgresql-example
+        description: Run Ruby on Rails with PostgreSQL
+        status: archived
 
   rust:
     title: Rust
