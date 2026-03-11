@@ -134,7 +134,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2025-04-04 | 🟢 |
 | [Django Example](https://github.com/CleverCloud/django-example) | Run Django on Clever Cloud | 2024-04-23 | 🟡 |
 | [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2025-12-03 | 🟢 |
-| [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2015-08-23 | 🔴 |
+| [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python Django UV Example](https://github.com/CleverCloud/python-django-uv-example) | Deploy a Django app, blazing fast, using uv | 2024-12-09 | 🟡 |
 | [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
 | [Keras Example](https://github.com/CleverCloud/keras-example) | Run Keras on Clever Grid | 2019-07-07 | 🔴 |
@@ -290,9 +290,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 44 | Updated within the last year |
+| 🟢 Fresh | 45 | Updated within the last year |
 | 🟡 Aging | 28 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 29 | Not updated for more than 3 years |
+| 🔴 Outdated | 28 | Not updated for more than 3 years |
 | 📌 Fixed | 19 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 4 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |

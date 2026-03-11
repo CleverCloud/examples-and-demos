@@ -346,7 +346,7 @@ runtimes:
         url: https://github.com/CleverCloud/flask-example
         description: Run Flask on Clever Cloud
         status: active
-        last_update: 2015-08-23
+        last_update: 2026-03-11
       - name: Python Django UV Example
         url: https://github.com/CleverCloud/python-django-uv-example
         description: Deploy a Django app, blazing fast, using uv
