@@ -90,8 +90,8 @@ runtimes:
       - name: Goji StatsD Example
         url: https://github.com/CleverCloud/goji-statsd-example
         description: Run Goji with StatsD on Clever Cloud
-        status: active
-        last_update: 2018-01-16
+        status: deprecated
+        last_update: 2026-03-11
 
   haskell:
     title: Haskell
