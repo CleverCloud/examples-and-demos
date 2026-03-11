@@ -60,7 +60,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Go Example](https://github.com/CleverCloud/Go-example) | A Go app example | 2026-03-11 | 🟢 |
-| [Go New Relic Example](https://github.com/CleverCloud/Go-New-Relic-example) | A Go example app monitored by New Relic agent | 2024-03-18 | 🟡 |
+| [Go New Relic Example](https://github.com/CleverCloud/Go-New-Relic-example) | A Go example app monitored by New Relic agent | 2026-03-11 | 🟢 |
 | [Go Workspaces Example](https://github.com/CleverCloud/go-workspaces-example) | Deploy Go applications relying on Workspaces | 2026-03-11 | 🟢 |
 | [Go Chi + StatsD Example](https://github.com/CleverCloud/go-chi-statsd-example) | Run Go with Chi and StatsD on Clever Cloud | 2026-03-11 | 🟢 |
 | [Goji StatsD Example](https://github.com/CleverCloud/goji-statsd-example) | Run Goji with StatsD on Clever Cloud | 2026-03-11 | ⛔ |
@@ -289,8 +289,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 38 | Updated within the last year |
-| 🟡 Aging | 38 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 39 | Updated within the last year |
+| 🟡 Aging | 37 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 35 | Not updated for more than 3 years |
 | 📌 Fixed | 10 | Pinned to a specific version, still useful |
 | ⛔ Deprecated | 2 | Upstream project discontinued |

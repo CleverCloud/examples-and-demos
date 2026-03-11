@@ -81,7 +81,7 @@ runtimes:
         url: https://github.com/CleverCloud/Go-New-Relic-example
         description: A Go example app monitored by New Relic agent
         status: active
-        last_update: 2024-03-18
+        last_update: 2026-03-11
       - name: Go Workspaces Example
         url: https://github.com/CleverCloud/go-workspaces-example
         description: Deploy Go applications relying on Workspaces
