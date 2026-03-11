@@ -76,7 +76,7 @@ runtimes:
         url: https://github.com/CleverCloud/Go-example
         description: A Go app example
         status: active
-        last_update: 2022-12-12
+        last_update: 2026-03-11
       - name: Go New Relic Example
         url: https://github.com/CleverCloud/Go-New-Relic-example
         description: A Go example app monitored by New Relic agent

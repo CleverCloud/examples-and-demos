@@ -59,7 +59,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Go Example](https://github.com/CleverCloud/Go-example) | A Go app example | 2022-12-12 | 🔴 |
+| [Go Example](https://github.com/CleverCloud/Go-example) | A Go app example | 2026-03-11 | 🟢 |
 | [Go New Relic Example](https://github.com/CleverCloud/Go-New-Relic-example) | A Go example app monitored by New Relic agent | 2024-03-18 | 🟡 |
 | [Go Workspaces Example](https://github.com/CleverCloud/go-workspaces-example) | Deploy Go applications relying on Workspaces | 2024-05-13 | 🟡 |
 | [Goji StatsD Example](https://github.com/CleverCloud/goji-statsd-example) | Run Goji with StatsD on Clever Cloud | 2018-01-16 | 🔴 |
@@ -288,9 +288,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 35 | Updated within the last year |
+| 🟢 Fresh | 36 | Updated within the last year |
 | 🟡 Aging | 39 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 37 | Not updated for more than 3 years |
+| 🔴 Outdated | 36 | Not updated for more than 3 years |
 | 📌 Fixed | 10 | Pinned to a specific version, still useful |
 | ⛔ Deprecated | 1 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
