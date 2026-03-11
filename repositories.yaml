@@ -124,7 +124,7 @@ runtimes:
         url: https://github.com/CleverCloud/springboot-mongo-example
         description: Run Spring Boot with MongoDB on Clever Cloud
         status: active
-        last_update: 2022-03-15
+        last_update: 2026-03-11
       - name: Kotlin Spring Boot StatsD Example
         url: https://github.com/CleverCloud/kotlin-spring-boot-statsd-example
         description: Run Kotlin Spring Boot with StatsD on Clever Cloud
