@@ -410,7 +410,7 @@ runtimes:
         url: https://github.com/CleverCloud/rack-statsd-example
         description: Run Rack with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01-16
+        last_update: 2026-03-11
       - name: Ruby Multi Redirect Example
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
