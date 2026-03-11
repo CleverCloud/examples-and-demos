@@ -410,31 +410,6 @@ runtimes:
         url: https://github.com/CleverCloud/rails-postgresql-example
         description: Run Ruby on Rails with PostgreSQL
         status: archived
-      - name: Ruby 2.7 Rails Example
-        url: https://github.com/CleverCloud/ruby-2.7-rails-example
-        description: Rails with Ruby 2.7
-        status: active
-        last_update: 2024-09-13
-      - name: Ruby 3.0 Rails Example
-        url: https://github.com/CleverCloud/ruby-3.0-rails-example
-        description: Rails with Ruby 3.0
-        status: active
-        last_update: 2024-09-13
-      - name: Ruby 3.1 Rails Example
-        url: https://github.com/CleverCloud/ruby-3.1-rails-example
-        description: Rails with Ruby 3.1
-        status: active
-        last_update: 2024-09-13
-      - name: Ruby 3.2 Rails Example
-        url: https://github.com/CleverCloud/ruby-3.2-rails-example
-        description: Rails with Ruby 3.2
-        status: active
-        last_update: 2024-09-13
-      - name: Ruby 3.3 Rails Example
-        url: https://github.com/CleverCloud/ruby-3.3-rails-example
-        description: Rails with Ruby 3.3
-        status: active
-        last_update: 2024-09-13
       - name: Ruby Multi Redirect Example
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
@@ -448,13 +423,38 @@ runtimes:
       - name: Sinatra PostgreSQL Example
         url: https://github.com/CleverCloud/sinatra-postgresql-example
         description: Run Sinatra with PostgreSQL
-        status: active
+        status: fixed
         last_update: 2017-10-05
       - name: MKV Raw TCP Ruby Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-ruby-example
         description: Materia KV raw TCP demo in Ruby
-        status: active
+        status: fixed
         last_update: 2024-06-11
+      - name: Ruby 2.7 Rails Example
+        url: https://github.com/CleverCloud/ruby-2.7-rails-example
+        description: Rails with Ruby 2.7
+        status: fixed
+        last_update: 2024-09-13
+      - name: Ruby 3.0 Rails Example
+        url: https://github.com/CleverCloud/ruby-3.0-rails-example
+        description: Rails with Ruby 3.0
+        status: fixed
+        last_update: 2024-09-13
+      - name: Ruby 3.1 Rails Example
+        url: https://github.com/CleverCloud/ruby-3.1-rails-example
+        description: Rails with Ruby 3.1
+        status: fixed
+        last_update: 2024-09-13
+      - name: Ruby 3.2 Rails Example
+        url: https://github.com/CleverCloud/ruby-3.2-rails-example
+        description: Rails with Ruby 3.2
+        status: fixed
+        last_update: 2024-09-13
+      - name: Ruby 3.3 Rails Example
+        url: https://github.com/CleverCloud/ruby-3.3-rails-example
+        description: Rails with Ruby 3.3
+        status: fixed 
+        last_update: 2024-09-13
 
   rust:
     title: Rust

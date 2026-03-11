@@ -152,15 +152,15 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Rack Example](https://github.com/CleverCloud/rack-example) | Run Rack on Clever Cloud | 2024-03-19 | 🟡 |
 | [Rack StatsD Example](https://github.com/CleverCloud/rack-statsd-example) | Run Rack with StatsD on Clever Cloud | 2018-01-16 | 🔴 |
 | [Rails PostgreSQL Example](https://github.com/CleverCloud/rails-postgresql-example) | Run Ruby on Rails with PostgreSQL | — | 📦 |
-| [Ruby 2.7 Rails Example](https://github.com/CleverCloud/ruby-2.7-rails-example) | Rails with Ruby 2.7 | 2024-09-13 | 🟡 |
-| [Ruby 3.0 Rails Example](https://github.com/CleverCloud/ruby-3.0-rails-example) | Rails with Ruby 3.0 | 2024-09-13 | 🟡 |
-| [Ruby 3.1 Rails Example](https://github.com/CleverCloud/ruby-3.1-rails-example) | Rails with Ruby 3.1 | 2024-09-13 | 🟡 |
-| [Ruby 3.2 Rails Example](https://github.com/CleverCloud/ruby-3.2-rails-example) | Rails with Ruby 3.2 | 2024-09-13 | 🟡 |
-| [Ruby 3.3 Rails Example](https://github.com/CleverCloud/ruby-3.3-rails-example) | Rails with Ruby 3.3 | 2024-09-13 | 🟡 |
 | [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2024-02-26 | 🟡 |
 | [Ruby PostgreSQL Example](https://github.com/CleverCloud/ruby-postgresql-example) | Ruby on Rails with PostgreSQL | 2023-05-24 | 🟡 |
-| [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2017-10-05 | 🔴 |
-| [MKV Raw TCP Ruby Example](https://github.com/CleverCloud/mkv-raw-tcp-ruby-example) | Materia KV raw TCP demo in Ruby | 2024-06-11 | 🟡 |
+| [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2017-10-05 | 📌 |
+| [MKV Raw TCP Ruby Example](https://github.com/CleverCloud/mkv-raw-tcp-ruby-example) | Materia KV raw TCP demo in Ruby | 2024-06-11 | 📌 |
+| [Ruby 2.7 Rails Example](https://github.com/CleverCloud/ruby-2.7-rails-example) | Rails with Ruby 2.7 | 2024-09-13 | 📌 |
+| [Ruby 3.0 Rails Example](https://github.com/CleverCloud/ruby-3.0-rails-example) | Rails with Ruby 3.0 | 2024-09-13 | 📌 |
+| [Ruby 3.1 Rails Example](https://github.com/CleverCloud/ruby-3.1-rails-example) | Rails with Ruby 3.1 | 2024-09-13 | 📌 |
+| [Ruby 3.2 Rails Example](https://github.com/CleverCloud/ruby-3.2-rails-example) | Rails with Ruby 3.2 | 2024-09-13 | 📌 |
+| [Ruby 3.3 Rails Example](https://github.com/CleverCloud/ruby-3.3-rails-example) | Rails with Ruby 3.3 | 2024-09-13 | 📌 |
 
 ### Rust
 
@@ -290,9 +290,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 42 | Updated within the last year |
-| 🟡 Aging | 34 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 32 | Not updated for more than 3 years |
-| 📌 Fixed | 12 | Pinned to a specific version, still useful |
+| 🟡 Aging | 28 | Updated between 1 and 3 years ago |
+| 🔴 Outdated | 31 | Not updated for more than 3 years |
+| 📌 Fixed | 19 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 3 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **124** | |
