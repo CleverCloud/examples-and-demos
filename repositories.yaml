@@ -44,20 +44,20 @@ runtimes:
         description: Deploy a .NET application on Clever Cloud
         status: active
         last_update: 2026-03-10
-      - name: .NET Example (cc-dotnet)
+      - name: .NET Blazor app Example
         url: https://github.com/CleverCloud/cc-dotnet-example
-        description: .NET deployment example
+        description: Deploy a .NET Blazor app on Clever Cloud
         status: active
-        last_update: 2024-04-30
+        last_update: 2026-03-11
       - name: .NET 6 Blazor Example
         url: https://github.com/CleverCloud/dotnet-6-blazor-example
         description: Blazor app with .NET 6
-        status: active
+        status: fixed
         last_update: 2024-09-13
       - name: .NET 8 Blazor Example
         url: https://github.com/CleverCloud/dotnet-8-blazor-example
         description: Blazor app with .NET 8
-        status: active
+        status: fixed
         last_update: 2024-09-13
 
   elixir:

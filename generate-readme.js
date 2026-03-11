@@ -9,7 +9,7 @@ const FRESHNESS_MONTHS = { fresh: 12, aging: 36 };
 
 function freshness(lastUpdate, status) {
   if (status === "archived") return "📦";
-  if (status === "deprecated") return "⛔";
+  if (status === "deprecated") return "🪦";
   if (status === "fixed") return "📌";
   if (status === "no_repo") return "—";
   if (!lastUpdate) return "🔴";
@@ -54,14 +54,14 @@ function collectExamples(obj) {
 }
 
 const allExamples = collectExamples(data);
-const stats = { "🟢": 0, "🟡": 0, "🔴": 0, "📌": 0, "⛔": 0, "📦": 0, "—": 0 };
+const stats = { "🟢": 0, "🟡": 0, "🔴": 0, "📌": 0, "🪦": 0, "📦": 0, "—": 0 };
 for (const ex of allExamples) {
   const icon = freshness(ex.last_update, ex.status);
   stats[icon] = (stats[icon] || 0) + 1;
 }
 
 const now = new Date();
-const generated = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+const generated = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
 
 // Build README
 const lines = [];
@@ -100,7 +100,7 @@ w("- 🟢 **Fresh** — Updated within the last year");
 w("- 🟡 **Aging** — Updated between 1 and 3 years ago");
 w("- 🔴 **Outdated** — Not updated for more than 3 years");
 w("- 📌 **Fixed** — Pinned to a specific version, still useful for reference");
-w("- ⛔ **Deprecated** — Upstream project is discontinued or no longer maintained");
+w("- 🪦 **Deprecated** — Upstream project is discontinued or no longer maintained");
 w("- 📦 **Archived** — Repository is archived");
 w();
 w("---");
@@ -141,9 +141,9 @@ if (stats["📌"])
   w(
     `| 📌 Fixed | ${stats["📌"]} | Pinned to a specific version, still useful |`
   );
-if (stats["⛔"])
+if (stats["🪦"])
   w(
-    `| ⛔ Deprecated | ${stats["⛔"]} | Upstream project discontinued |`
+    `| 🪦 Deprecated | ${stats["🪦"]} | Upstream project discontinued |`
   );
 w(`| 📦 Archived | ${stats["📦"]} | Repository is archived |`);
 if (stats["—"])

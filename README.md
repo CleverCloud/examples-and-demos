@@ -21,7 +21,7 @@ Each example includes a freshness indicator based on the date of its last commit
 - 🟡 **Aging** — Updated between 1 and 3 years ago
 - 🔴 **Outdated** — Not updated for more than 3 years
 - 📌 **Fixed** — Pinned to a specific version, still useful for reference
-- ⛔ **Deprecated** — Upstream project is discontinued or no longer maintained
+- 🪦 **Deprecated** — Upstream project is discontinued or no longer maintained
 - 📦 **Archived** — Repository is archived
 
 ---
@@ -45,9 +45,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [.NET Example](https://github.com/CleverCloud/.NET-example) | Deploy a .NET application on Clever Cloud | 2026-03-10 | 🟢 |
-| [.NET Example (cc-dotnet)](https://github.com/CleverCloud/cc-dotnet-example) | .NET deployment example | 2024-04-30 | 🟡 |
-| [.NET 6 Blazor Example](https://github.com/CleverCloud/dotnet-6-blazor-example) | Blazor app with .NET 6 | 2024-09-13 | 🟡 |
-| [.NET 8 Blazor Example](https://github.com/CleverCloud/dotnet-8-blazor-example) | Blazor app with .NET 8 | 2024-09-13 | 🟡 |
+| [.NET Blazor app Example](https://github.com/CleverCloud/cc-dotnet-example) | Deploy a .NET Blazor app on Clever Cloud | 2026-03-11 | 🟢 |
+| [.NET 6 Blazor Example](https://github.com/CleverCloud/dotnet-6-blazor-example) | Blazor app with .NET 6 | 2024-09-13 | 📌 |
+| [.NET 8 Blazor Example](https://github.com/CleverCloud/dotnet-8-blazor-example) | Blazor app with .NET 8 | 2024-09-13 | 📌 |
 
 ### Elixir
 
@@ -63,7 +63,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Go New Relic Example](https://github.com/CleverCloud/Go-New-Relic-example) | A Go example app monitored by New Relic agent | 2026-03-11 | 🟢 |
 | [Go Workspaces Example](https://github.com/CleverCloud/go-workspaces-example) | Deploy Go applications relying on Workspaces | 2026-03-11 | 🟢 |
 | [Go Chi + StatsD Example](https://github.com/CleverCloud/go-chi-statsd-example) | Run Go with Chi and StatsD on Clever Cloud | 2026-03-11 | 🟢 |
-| [Goji StatsD Example](https://github.com/CleverCloud/goji-statsd-example) | Run Goji with StatsD on Clever Cloud | 2026-03-11 | ⛔ |
+| [Goji StatsD Example](https://github.com/CleverCloud/goji-statsd-example) | Run Goji with StatsD on Clever Cloud | 2026-03-11 | 🪦 |
 
 ### Haskell
 
@@ -236,7 +236,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2025-04-30 | 🟢 |
 | [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2020-01-27 | 🔴 |
-| [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | ⛔ |
+| [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
 
 ---
 
@@ -289,15 +289,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 39 | Updated within the last year |
-| 🟡 Aging | 37 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 40 | Updated within the last year |
+| 🟡 Aging | 34 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 35 | Not updated for more than 3 years |
-| 📌 Fixed | 10 | Pinned to a specific version, still useful |
-| ⛔ Deprecated | 2 | Upstream project discontinued |
+| 📌 Fixed | 12 | Pinned to a specific version, still useful |
+| 🪦 Deprecated | 2 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **124** | |
 
-> **Last generated**: 2026-03 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-11 — Dates are based on the last commit on the default branch.
 
 ---
 

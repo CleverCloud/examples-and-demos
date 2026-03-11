@@ -64,7 +64,7 @@ No changes to `generate-readme.js` are needed — it reads titles and structure 
 |--------|---------|-------|
 | `active` | Repository is maintained and available | 🟢 🟡 🔴 (based on age) |
 | `fixed` | Pinned to specific versions, still useful for reference | 📌 |
-| `deprecated` | Upstream project is discontinued or no longer maintained | ⛔ |
+| `deprecated` | Upstream project is discontinued or no longer maintained | 🪦 |
 | `archived` | Repository is archived on GitHub | 📦 |
 | `no_repo` | Placeholder for planned examples with no repository yet | — |
 
