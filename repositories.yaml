@@ -357,11 +357,6 @@ runtimes:
         description: Deploy a FastAPI app, blazing fast, using uv
         status: active
         last_update: 2025-07-01
-      - name: Keras Example
-        url: https://github.com/CleverCloud/keras-example
-        description: Run Keras on Clever Grid
-        status: active
-        last_update: 2019-07-07
       - name: Falcon StatsD Example
         url: https://github.com/CleverCloud/falcon-statsd-example
         description: Run Falcon with StatsD on Clever Cloud
@@ -397,6 +392,11 @@ runtimes:
         description: Django with uWSGI on Python 3.13
         status: fixed
         last_update: 2024-12-09
+      - name: Keras Example
+        url: https://github.com/CleverCloud/keras-example
+        description: Run Keras on Clever Grid
+        status: deprecated
+        last_update: 2019-07-07
 
   ruby:
     title: Ruby

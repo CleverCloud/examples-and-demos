@@ -137,7 +137,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python Django UV Example](https://github.com/CleverCloud/python-django-uv-example) | Deploy a Django app, blazing fast, using uv | 2024-12-09 | 🟡 |
 | [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
-| [Keras Example](https://github.com/CleverCloud/keras-example) | Run Keras on Clever Grid | 2019-07-07 | 🔴 |
 | [Falcon StatsD Example](https://github.com/CleverCloud/falcon-statsd-example) | Run Falcon with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python 3 Flask Example](https://github.com/CleverCloud/python-3-flask-example) | Flask web application | 2025-03-15 | 📌 |
 | [Python 3.9 Django Daphne Example](https://github.com/CleverCloud/python-3.9-django-daphne-example) | Django application with Daphne ASGI server | 2025-03-17 | 📌 |
@@ -145,6 +144,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Python 3.11 Django Uvicorn Example](https://github.com/CleverCloud/python-3.11-django-uvicorn-example) | Django with Uvicorn | 2024-09-18 | 📌 |
 | [Python 3.12 Django uWSGI Example](https://github.com/CleverCloud/python-3.12-django-uwsgi-example) | Django with uWSGI | 2024-12-13 | 📌 |
 | [Python 3.13 Django uWSGI Example](https://github.com/CleverCloud/python-3.13-django-uwsgi-example) | Django with uWSGI on Python 3.13 | 2024-12-09 | 📌 |
+| [Keras Example](https://github.com/CleverCloud/keras-example) | Run Keras on Clever Grid | 2019-07-07 | 🪦 |
 
 ### Ruby
 
@@ -292,9 +292,9 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 46 | Updated within the last year |
 | 🟡 Aging | 28 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 27 | Not updated for more than 3 years |
+| 🔴 Outdated | 26 | Not updated for more than 3 years |
 | 📌 Fixed | 19 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 4 | Upstream project discontinued |
+| 🪦 Deprecated | 5 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
