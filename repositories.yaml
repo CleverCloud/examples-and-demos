@@ -124,7 +124,7 @@ runtimes:
         url: https://github.com/CleverCloud/spring-mysql-example
         description: Spring Boot example on Clever Cloud
         status: active
-        last_update: 2023-10-10
+        last_update: 2026-03-11
       - name: Spring Boot MongoDB Example
         url: https://github.com/CleverCloud/springboot-mongo-example
         description: Run Spring Boot with MongoDB on Clever Cloud

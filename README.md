@@ -77,7 +77,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Quarkus Example](https://github.com/CleverCloud/quarkus-example) | Run Quarkus on Clever Cloud | 2026-03-10 | 🟢 |
-| [Spring MySQL Example](https://github.com/CleverCloud/spring-mysql-example) | Spring Boot example on Clever Cloud | 2023-10-10 | 🟡 |
+| [Spring MySQL Example](https://github.com/CleverCloud/spring-mysql-example) | Spring Boot example on Clever Cloud | 2026-03-11 | 🟢 |
 | [Spring Boot MongoDB Example](https://github.com/CleverCloud/springboot-mongo-example) | Run Spring Boot with MongoDB on Clever Cloud | 2026-03-11 | 🟢 |
 | [Kotlin Spring Boot StatsD Example](https://github.com/CleverCloud/kotlin-spring-boot-statsd-example) | Run Kotlin Spring Boot with StatsD on Clever Cloud | 2026-03-12 | 🟢 |
 | [Vaadin Example](https://github.com/CleverCloud/vaadin-example) | Deploy a Vaadin application on Clever Cloud | 2026-03-10 | 🟢 |
@@ -290,8 +290,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 50 | Updated within the last year |
-| 🟡 Aging | 27 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 51 | Updated within the last year |
+| 🟡 Aging | 26 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 20 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 10 | Upstream project discontinued |
