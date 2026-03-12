@@ -184,11 +184,6 @@ runtimes:
         description: MCP server for PostgreSQL with natural language querying
         status: active
         last_update: 2026-01-31
-      - name: Meteor.js Node ESM Example
-        url: https://github.com/CleverCloud/meteorjs-node-esm-example
-        description: Meteor.js with Node.js ESM 14.21.4
-        status: active
-        last_update: 2024-02-23
       - name: Meteor.js MongoDB Example
         url: https://github.com/CleverCloud/meteorjs-mongodb-example
         description: Run Meteor with MongoDB on Clever Cloud
@@ -269,6 +264,11 @@ runtimes:
         description: Meteor 3 with Node 20
         status: fixed
         last_update: 2024-09-13
+      - name: Meteor.js Node ESM Example
+        url: https://github.com/CleverCloud/meteorjs-node-esm-example
+        description: Meteor.js with Node.js ESM 14.21.4
+        status: deprecated
+        last_update: 2024-02-23
 
   php:
     title: PHP

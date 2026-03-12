@@ -94,7 +94,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟢 |
 | [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟢 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
-| [Meteor.js Node ESM Example](https://github.com/CleverCloud/meteorjs-node-esm-example) | Meteor.js with Node.js ESM 14.21.4 | 2024-02-23 | 🟡 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2017-08-18 | 🔴 |
 | [Node.js Pulsar Example](https://github.com/CleverCloud/nodejs-pulsar-example) | Apache Pulsar with Node.js | 2021-10-19 | 🔴 |
 | [Node.js TCP Chat Example](https://github.com/CleverCloud/nodejs-tcp-chat-example) | Dead simple TCP chat on Clever Cloud | 2020-05-18 | 🔴 |
@@ -111,6 +110,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Node 14 Meteor 2 Example](https://github.com/CleverCloud/node-14-meteor-2-example) | Meteor 2 with Node 14 | 2024-09-11 | 📌 |
 | [Node 20 Meteor 3 Example](https://github.com/CleverCloud/node-20-meteor-3-example) | Meteor 3 with Node 20 | 2024-09-13 | 📌 |
+| [Meteor.js Node ESM Example](https://github.com/CleverCloud/meteorjs-node-esm-example) | Meteor.js with Node.js ESM 14.21.4 | 2024-02-23 | 🪦 |
 
 ### PHP
 
@@ -291,10 +291,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 53 | Updated within the last year |
-| 🟡 Aging | 25 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 24 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 19 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 10 | Upstream project discontinued |
+| 🪦 Deprecated | 11 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
