@@ -90,7 +90,7 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2025-09-15 | 🟢 |
 | [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-03-12 | 🟢 |
-| [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2024-07-17 | 🟡 |
+| [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2026-03-12 | 🟢 |
 | [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟢 |
 | [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟢 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
@@ -290,8 +290,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 52 | Updated within the last year |
-| 🟡 Aging | 26 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 53 | Updated within the last year |
+| 🟡 Aging | 25 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 19 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 10 | Upstream project discontinued |

@@ -168,7 +168,7 @@ runtimes:
         url: https://github.com/CleverCloud/expressjs-postgresql-example
         description: Run Express.js with PostgreSQL
         status: active
-        last_update: 2024-07-17
+        last_update: 2026-03-12
       - name: HexoJS Example
         url: https://github.com/CleverCloud/HexoJS-example
         description: Deploy Hexo-based website on Clever Cloud
