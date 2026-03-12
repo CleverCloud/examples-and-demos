@@ -254,6 +254,11 @@ runtimes:
         description: React parse integration
         status: active
         last_update: 2021-04-02
+      - name: Wemos StatsD Example
+        url: https://github.com/CleverCloud/wemos-statsd-example
+        description: Run Wemos with StatsD on Clever Cloud
+        status: active
+        last_update: 2023-10-02
       - name: Node 14 Meteor 2 Example
         url: https://github.com/CleverCloud/node-14-meteor-2-example
         description: Meteor 2 with Node 14
@@ -282,7 +287,7 @@ runtimes:
         url: https://github.com/CleverCloud/php-composer-example
         description: Run PHP with Composer on Clever Cloud
         status: active
-        last_update: 2016-06-27
+        last_update: 2026-03-12
       - name: PHP FrankenPHP Binary Example
         url: https://github.com/CleverCloud/php-franken-binary-example
         description: Deploy Laravel/Octane as FrankenPHP binary
@@ -316,12 +321,12 @@ runtimes:
       - name: Lumen StatsD Example
         url: https://github.com/CleverCloud/lumen-statsd-example
         description: Run Lumen with StatsD on Clever Cloud
-        status: active
+        status: deprecated
         last_update: 2018-01-15
       - name: HHVM Example
         url: https://github.com/CleverCloud/hhvm-example
         description: Run HHVM on Clever Cloud
-        status: active
+        status: deprecated
         last_update: 2015-01-06
 
   python:
@@ -424,13 +429,8 @@ runtimes:
       - name: Sinatra PostgreSQL Example
         url: https://github.com/CleverCloud/sinatra-postgresql-example
         description: Run Sinatra with PostgreSQL
-        status: fixed
-        last_update: 2017-10-05
-      - name: MKV Raw TCP Ruby Example
-        url: https://github.com/CleverCloud/mkv-raw-tcp-ruby-example
-        description: Materia KV raw TCP demo in Ruby
-        status: fixed
-        last_update: 2024-06-11
+        status: active
+        last_update: 2026-03-12
       - name: Ruby 2.7 Rails Example
         url: https://github.com/CleverCloud/ruby-2.7-rails-example
         description: Rails with Ruby 2.7
@@ -456,6 +456,11 @@ runtimes:
         description: Rails with Ruby 3.3
         status: fixed 
         last_update: 2024-09-13
+      - name: MKV Raw TCP Ruby Example
+        url: https://github.com/CleverCloud/mkv-raw-tcp-ruby-example
+        description: Materia KV raw TCP demo in Ruby
+        status: deprecated
+        last_update: 2024-06-11
       - name: Rails PostgreSQL Example
         url: https://github.com/CleverCloud/rails-postgresql-example
         description: Run Ruby on Rails with PostgreSQL
@@ -469,26 +474,21 @@ runtimes:
         description: Rust with Actix Web
         status: active
         last_update: 2024-09-18
-      - name: Rust Wemos Example
-        url: https://github.com/CleverCloud/rust-wemos-example
-        description: Run Rust Wemos on Clever Cloud
-        status: active
-        last_update: 2018-05-23
       - name: Biscuit Cryptography Example
         url: https://github.com/CleverCloud/biscuit-cryptography-example
         description: Biscuit tokens cryptography implementation
         status: active
         last_update: 2021-04-23
-      - name: Wemos StatsD Example
-        url: https://github.com/CleverCloud/wemos-statsd-example
-        description: Run Wemos with StatsD on Clever Cloud
-        status: active
-        last_update: 2023-10-02
       - name: Rust Docker Example
         url: https://github.com/CleverCloud/rust-docker-example
         description: Run Rust with Docker on Clever Cloud
         status: fixed
         last_update: 2022-09-19
+      - name: Rust Wemos Example
+        url: https://github.com/CleverCloud/rust-wemos-example
+        description: Run Rust Wemos on Clever Cloud
+        status: deprecated
+        last_update: 2018-05-23
 
   scala:
     title: Scala
@@ -538,7 +538,7 @@ runtimes:
       - name: MKV Raw TCP V Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-v-example
         description: Materia KV raw TCP demo in V
-        status: active
+        status: deprecated
         last_update: 2024-06-11
 
   zig:

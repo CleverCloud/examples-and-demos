@@ -34,11 +34,7 @@ Use `date` command to resolve relative dates to absolute values for the git comm
 Run this with the resolved `--since` (and `--until` if applicable):
 
 ```bash
-for commit in $(git log --all --since="SINCE" [--until="UNTIL"] --format="%H" -- repositories.yaml); do
-  echo "=== $(git log -1 --oneline $commit) ==="
-  git diff "$commit^..$commit" -- repositories.yaml | grep -E '^[\+\-].*(name:|status:|last_update:)' | grep -v '^---\|^+++'
-  echo
-done
+git log --all --since="SINCE" [--until="UNTIL"] --format="%H" -- repositories.yaml | while read commit; do echo "=== $commit ==="; git diff "$commit^..$commit" -- repositories.yaml | grep -E '^[\+\-].*(name:|status:|last_update:)' | grep -v '^---\|^+++'; echo; done
 ```
 
 If the range includes today, also check for uncommitted changes with `git diff -- repositories.yaml`.
@@ -74,24 +70,24 @@ Compare the freshness distribution at the **start** and **end** of the period us
 
 Start with a header showing the date range, e.g. "## Changes from 2026-03-01 to 2026-03-11" or "## Changes today (2026-03-11)".
 
-Then use these sections (omit empty ones):
-
-**Updated:**
-- Repositories whose `last_update` date changed within the period
+Then use these sections (omit empty ones). **Each repository must appear only once**, in the most significant section. Priority order: Status changes > Added > Updated. For example, if a repo was both updated and deprecated, list it only under "Status changed to deprecated" with a note like "active → deprecated, updated".
 
 **Added:**
 - New repositories (additions with no corresponding removal)
 
-**Status changed to deprecated:**
-- Repositories whose `status` changed to `deprecated`
+**Updated:**
+- Repositories whose `last_update` date changed within the period (and had no other changes above)
 
 **Status changed to fixed:**
 - Repositories whose `status` changed to `fixed`
 
+**Status changed to deprecated:**
+- Repositories whose `status` changed to `deprecated`
+
 **Other status changes:**
 - Any other `status` field changes (e.g. active → archived)
 
-Format as a numbered list under each heading. Include the repository name and a short note (e.g. "updated", "active → deprecated"). End with a total count.
+Format as a numbered list under each heading (numbering continues across sections). Include the repository name and a short note (e.g. "updated", "active → deprecated, updated"). End with a total count of unique repositories changed.
 
 Then show the **Status evolution** table with columns: Status | Start | End | Diff. Show the diff as `+N`, `-N`, or `=` if unchanged.
 

@@ -108,6 +108,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [CasperJS Example](https://github.com/CleverCloud/casperjs-example) | Run CasperJS on Clever Cloud | 2018-09-03 | 🔴 |
 | [IO.js Example](https://github.com/CleverCloud/iojs-example) | Run IO.js on Clever Cloud | 2015-03-16 | 🔴 |
 | [Parse React Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
+| [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Node 14 Meteor 2 Example](https://github.com/CleverCloud/node-14-meteor-2-example) | Meteor 2 with Node 14 | 2024-09-11 | 📌 |
 | [Node 20 Meteor 3 Example](https://github.com/CleverCloud/node-20-meteor-3-example) | Meteor 3 with Node 20 | 2024-09-13 | 📌 |
 
@@ -117,15 +118,15 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2025-09-20 | 🟢 |
 | [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2025-08-07 | 🟢 |
-| [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2016-06-27 | 🔴 |
+| [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
 | [PHP FrankenPHP Binary Example](https://github.com/CleverCloud/php-franken-binary-example) | Deploy Laravel/Octane as FrankenPHP binary | 2024-03-04 | 🟡 |
 | [PHP FrankenPHP Laravel Example](https://github.com/CleverCloud/php-franken-laravel-example) | Deploy FrankenPHP-based Laravel app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Standalone Example](https://github.com/CleverCloud/php-franken-standalone-example) | Deploy FrankenPHP standalone binary app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Symfony Example](https://github.com/CleverCloud/php-franken-symfony-example) | Deploy FrankenPHP-based Symfony app | 2024-03-02 | 🟡 |
 | [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
 | [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2020-03-17 | 🔴 |
-| [Lumen StatsD Example](https://github.com/CleverCloud/lumen-statsd-example) | Run Lumen with StatsD on Clever Cloud | 2018-01-15 | 🔴 |
-| [HHVM Example](https://github.com/CleverCloud/hhvm-example) | Run HHVM on Clever Cloud | 2015-01-06 | 🔴 |
+| [Lumen StatsD Example](https://github.com/CleverCloud/lumen-statsd-example) | Run Lumen with StatsD on Clever Cloud | 2018-01-15 | 🪦 |
+| [HHVM Example](https://github.com/CleverCloud/hhvm-example) | Run HHVM on Clever Cloud | 2015-01-06 | 🪦 |
 
 ### Python
 
@@ -154,13 +155,13 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Rack StatsD Example](https://github.com/CleverCloud/rack-statsd-example) | Run Rack with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
 | [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2024-02-26 | 🟡 |
 | [Ruby PostgreSQL Example](https://github.com/CleverCloud/ruby-postgresql-example) | Ruby on Rails with PostgreSQL | 2023-05-24 | 🟡 |
-| [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2017-10-05 | 📌 |
-| [MKV Raw TCP Ruby Example](https://github.com/CleverCloud/mkv-raw-tcp-ruby-example) | Materia KV raw TCP demo in Ruby | 2024-06-11 | 📌 |
+| [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2026-03-12 | 🟢 |
 | [Ruby 2.7 Rails Example](https://github.com/CleverCloud/ruby-2.7-rails-example) | Rails with Ruby 2.7 | 2024-09-13 | 📌 |
 | [Ruby 3.0 Rails Example](https://github.com/CleverCloud/ruby-3.0-rails-example) | Rails with Ruby 3.0 | 2024-09-13 | 📌 |
 | [Ruby 3.1 Rails Example](https://github.com/CleverCloud/ruby-3.1-rails-example) | Rails with Ruby 3.1 | 2024-09-13 | 📌 |
 | [Ruby 3.2 Rails Example](https://github.com/CleverCloud/ruby-3.2-rails-example) | Rails with Ruby 3.2 | 2024-09-13 | 📌 |
 | [Ruby 3.3 Rails Example](https://github.com/CleverCloud/ruby-3.3-rails-example) | Rails with Ruby 3.3 | 2024-09-13 | 📌 |
+| [MKV Raw TCP Ruby Example](https://github.com/CleverCloud/mkv-raw-tcp-ruby-example) | Materia KV raw TCP demo in Ruby | 2024-06-11 | 🪦 |
 | [Rails PostgreSQL Example](https://github.com/CleverCloud/rails-postgresql-example) | Run Ruby on Rails with PostgreSQL | — | 📦 |
 
 ### Rust
@@ -168,10 +169,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Rust Actix Example](https://github.com/CleverCloud/rust-stable-actix-example) | Rust with Actix Web | 2024-09-18 | 🟡 |
-| [Rust Wemos Example](https://github.com/CleverCloud/rust-wemos-example) | Run Rust Wemos on Clever Cloud | 2018-05-23 | 🔴 |
 | [Biscuit Cryptography Example](https://github.com/CleverCloud/biscuit-cryptography-example) | Biscuit tokens cryptography implementation | 2021-04-23 | 🔴 |
-| [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Rust Docker Example](https://github.com/CleverCloud/rust-docker-example) | Run Rust with Docker on Clever Cloud | 2022-09-19 | 📌 |
+| [Rust Wemos Example](https://github.com/CleverCloud/rust-wemos-example) | Run Rust Wemos on Clever Cloud | 2018-05-23 | 🪦 |
 
 ### Scala
 
@@ -198,7 +198,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [V Example](https://github.com/CleverCloud/v-example) | Deploy a V app using V runtime | 2025-07-04 | 🟢 |
-| [MKV Raw TCP V Example](https://github.com/CleverCloud/mkv-raw-tcp-v-example) | Materia KV raw TCP demo in V | 2024-06-11 | 🟡 |
+| [MKV Raw TCP V Example](https://github.com/CleverCloud/mkv-raw-tcp-v-example) | Materia KV raw TCP demo in V | 2024-06-11 | 🪦 |
 
 ### Zig
 
@@ -290,15 +290,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 46 | Updated within the last year |
-| 🟡 Aging | 28 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 26 | Not updated for more than 3 years |
-| 📌 Fixed | 19 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 5 | Upstream project discontinued |
+| 🟢 Fresh | 48 | Updated within the last year |
+| 🟡 Aging | 27 | Updated between 1 and 3 years ago |
+| 🔴 Outdated | 22 | Not updated for more than 3 years |
+| 📌 Fixed | 17 | Pinned to a specific version, still useful |
+| 🪦 Deprecated | 10 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
-> **Last generated**: 2026-03-11 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-12 — Dates are based on the last commit on the default branch.
 
 ---
 
