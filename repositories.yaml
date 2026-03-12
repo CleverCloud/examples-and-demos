@@ -188,7 +188,7 @@ runtimes:
         url: https://github.com/CleverCloud/meteorjs-mongodb-example
         description: Run Meteor with MongoDB on Clever Cloud
         status: active
-        last_update: 2017-08-18
+        last_update: 2026-03-12
       - name: Node.js Pulsar Example
         url: https://github.com/CleverCloud/nodejs-pulsar-example
         description: Apache Pulsar with Node.js
