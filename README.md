@@ -119,12 +119,12 @@ Each example includes a freshness indicator based on the date of its last commit
 | [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2025-09-20 | 🟢 |
 | [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2025-08-07 | 🟢 |
 | [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
+| [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2026-03-12 | 🟢 |
 | [PHP FrankenPHP Binary Example](https://github.com/CleverCloud/php-franken-binary-example) | Deploy Laravel/Octane as FrankenPHP binary | 2024-03-04 | 🟡 |
 | [PHP FrankenPHP Laravel Example](https://github.com/CleverCloud/php-franken-laravel-example) | Deploy FrankenPHP-based Laravel app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Standalone Example](https://github.com/CleverCloud/php-franken-standalone-example) | Deploy FrankenPHP standalone binary app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Symfony Example](https://github.com/CleverCloud/php-franken-symfony-example) | Deploy FrankenPHP-based Symfony app | 2024-03-02 | 🟡 |
 | [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
-| [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2020-03-17 | 🔴 |
 | [Lumen StatsD Example](https://github.com/CleverCloud/lumen-statsd-example) | Run Lumen with StatsD on Clever Cloud | 2018-01-15 | 🪦 |
 | [HHVM Example](https://github.com/CleverCloud/hhvm-example) | Run HHVM on Clever Cloud | 2015-01-06 | 🪦 |
 
@@ -290,9 +290,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 48 | Updated within the last year |
+| 🟢 Fresh | 49 | Updated within the last year |
 | 🟡 Aging | 27 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 22 | Not updated for more than 3 years |
+| 🔴 Outdated | 21 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 10 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
