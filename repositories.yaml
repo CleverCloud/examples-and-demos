@@ -134,7 +134,7 @@ runtimes:
         url: https://github.com/CleverCloud/kotlin-spring-boot-statsd-example
         description: Run Kotlin Spring Boot with StatsD on Clever Cloud
         status: active
-        last_update: 2018-01-15
+        last_update: 2026-03-12
       - name: Vaadin Example
         url: https://github.com/CleverCloud/vaadin-example
         description: Deploy a Vaadin application on Clever Cloud
@@ -293,6 +293,11 @@ runtimes:
         description: Run Laravel with PostgreSQL
         status: active
         last_update: 2026-03-12
+      - name: PHP Sessions KV Example
+        url: https://github.com/CleverCloud/php-sessions-kv-example
+        description: PHP applications with sessions on Materia KV
+        status: active
+        last_update: 2025-10-15
       - name: PHP FrankenPHP Binary Example
         url: https://github.com/CleverCloud/php-franken-binary-example
         description: Deploy Laravel/Octane as FrankenPHP binary
@@ -313,11 +318,6 @@ runtimes:
         description: Deploy FrankenPHP-based Symfony app
         status: active
         last_update: 2024-03-02
-      - name: PHP Sessions KV Example
-        url: https://github.com/CleverCloud/php-sessions-kv-example
-        description: PHP applications with sessions on Materia KV
-        status: active
-        last_update: 2025-10-15
       - name: Lumen StatsD Example
         url: https://github.com/CleverCloud/lumen-statsd-example
         description: Run Lumen with StatsD on Clever Cloud

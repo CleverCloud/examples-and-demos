@@ -79,7 +79,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Quarkus Example](https://github.com/CleverCloud/quarkus-example) | Run Quarkus on Clever Cloud | 2026-03-10 | 🟢 |
 | [Spring MySQL Example](https://github.com/CleverCloud/spring-mysql-example) | Spring Boot example on Clever Cloud | 2023-10-10 | 🟡 |
 | [Spring Boot MongoDB Example](https://github.com/CleverCloud/springboot-mongo-example) | Run Spring Boot with MongoDB on Clever Cloud | 2026-03-11 | 🟢 |
-| [Kotlin Spring Boot StatsD Example](https://github.com/CleverCloud/kotlin-spring-boot-statsd-example) | Run Kotlin Spring Boot with StatsD on Clever Cloud | 2018-01-15 | 🔴 |
+| [Kotlin Spring Boot StatsD Example](https://github.com/CleverCloud/kotlin-spring-boot-statsd-example) | Run Kotlin Spring Boot with StatsD on Clever Cloud | 2026-03-12 | 🟢 |
 | [Vaadin Example](https://github.com/CleverCloud/vaadin-example) | Deploy a Vaadin application on Clever Cloud | 2026-03-10 | 🟢 |
 | [Java WAR Example](https://github.com/CleverCloud/java-war-example) | Run Java WAR project on Clever Cloud | 2026-03-11 | 🟢 |
 | [botr4j Example](https://github.com/CleverCloud/botr4j-example) | Usage examples for botr4j | 2026-03-11 | 🪦 |
@@ -120,11 +120,11 @@ Each example includes a freshness indicator based on the date of its last commit
 | [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2025-08-07 | 🟢 |
 | [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
 | [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2026-03-12 | 🟢 |
+| [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
 | [PHP FrankenPHP Binary Example](https://github.com/CleverCloud/php-franken-binary-example) | Deploy Laravel/Octane as FrankenPHP binary | 2024-03-04 | 🟡 |
 | [PHP FrankenPHP Laravel Example](https://github.com/CleverCloud/php-franken-laravel-example) | Deploy FrankenPHP-based Laravel app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Standalone Example](https://github.com/CleverCloud/php-franken-standalone-example) | Deploy FrankenPHP standalone binary app | 2024-03-02 | 🟡 |
 | [PHP FrankenPHP Symfony Example](https://github.com/CleverCloud/php-franken-symfony-example) | Deploy FrankenPHP-based Symfony app | 2024-03-02 | 🟡 |
-| [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
 | [Lumen StatsD Example](https://github.com/CleverCloud/lumen-statsd-example) | Run Lumen with StatsD on Clever Cloud | 2018-01-15 | 🪦 |
 | [HHVM Example](https://github.com/CleverCloud/hhvm-example) | Run HHVM on Clever Cloud | 2015-01-06 | 🪦 |
 
@@ -290,9 +290,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 49 | Updated within the last year |
+| 🟢 Fresh | 50 | Updated within the last year |
 | 🟡 Aging | 27 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 21 | Not updated for more than 3 years |
+| 🔴 Outdated | 20 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 10 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
