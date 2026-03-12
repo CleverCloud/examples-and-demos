@@ -163,7 +163,7 @@ runtimes:
         url: https://github.com/CleverCloud/expressjs-mongodb-statsd-example
         description: Run Express.js with MongoDB and StatsD
         status: active
-        last_update: 2021-12-27
+        last_update: 2026-03-12
       - name: Express.js PostgreSQL Example
         url: https://github.com/CleverCloud/expressjs-postgresql-example
         description: Run Express.js with PostgreSQL

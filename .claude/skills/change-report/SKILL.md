@@ -11,6 +11,7 @@ Generate a change report for `repositories.yaml` over a date range.
 ## Supporting scripts
 
 - [scripts/freshness-stats.js](scripts/freshness-stats.js) — Computes freshness category counts from `repositories.yaml`. Outputs JSON. Accepts `--commit <sha>` to read the file at a specific commit, and `--date YYYY-MM-DD` to evaluate freshness relative to a given date.
+- [scripts/freshness-diff.js](scripts/freshness-diff.js) — Compares two snapshots and lists every repo whose freshness category changed. Used in Step 5 to verify the report is complete.
 
 ## Step 1: Parse the date range from $ARGUMENTS
 
@@ -106,3 +107,19 @@ Example:
 ```
 
 If there are no changes in the period, say so.
+
+## Step 5: Verify consistency
+
+After drafting the report, cross-check the change list against the evolution table:
+
+1. Run the diff script to list every repo that changed freshness category between start and end:
+   ```bash
+   node ${CLAUDE_SKILL_DIR}/scripts/freshness-diff.js --commit-start <before-commit> --date-start SINCE --date-end END_DATE [--commit-end <end-commit>]
+   ```
+   This outputs every repo whose category changed (e.g. `Spring MySQL Example: 🟡 → 🟢`).
+
+2. Every repo in that diff output must appear in the change list. If any are missing, you missed a commit — go back and find it.
+
+3. Verify no repo appears in more than one section (deduplication).
+
+4. Verify the total unique repo count matches.
