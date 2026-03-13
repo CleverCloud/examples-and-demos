@@ -233,8 +233,8 @@ Each example includes a freshness indicator based on the date of its last commit
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
 | [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 🟡 |
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
-| [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2021-04-02 | 🔴 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
+| [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
 | [Parse React Client Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2023-08-18 | 🟡 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
@@ -295,9 +295,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 58 | Updated within the last year |
+| 🟢 Fresh | 59 | Updated within the last year |
 | 🟡 Aging | 23 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 9 | Not updated for more than 3 years |
+| 🔴 Outdated | 8 | Not updated for more than 3 years |
 | 📌 Fixed | 18 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 16 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
