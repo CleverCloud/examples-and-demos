@@ -95,8 +95,8 @@ Each example includes a freshness indicator based on the date of its last commit
 | [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟢 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2026-03-12 | 🟢 |
-| [Node.js Pulsar Example](https://github.com/CleverCloud/nodejs-pulsar-example) | Apache Pulsar with Node.js | 2021-10-19 | 🔴 |
-| [Node.js TCP Chat Example](https://github.com/CleverCloud/nodejs-tcp-chat-example) | Dead simple TCP chat on Clever Cloud | 2020-05-18 | 🔴 |
+| [Node.js Pulsar Example](https://github.com/CleverCloud/nodejs-pulsar-example) | Apache Pulsar with Node.js | 2026-03-13 | 🟢 |
+| [Node.js TCP Chat Example](https://github.com/CleverCloud/nodejs-tcp-chat-example) | Dead simple TCP chat on Clever Cloud | 2026-03-13 | 🟢 |
 | [Hapi.js APM Example](https://github.com/CleverCloud/hapijs-apm-example) | Run Hapi.js with Elastic APM | 2026-03-10 | 🟢 |
 | [Hapi.js StatsD Example](https://github.com/CleverCloud/hapijs-statsd-example) | Run Hapi.js with StatsD | 2026-03-10 | 🟢 |
 | [Keystone.js Example](https://github.com/CleverCloud/keystonejs-example) | Run Keystone on Clever Cloud | 2017-10-18 | 🔴 |
@@ -290,9 +290,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 54 | Updated within the last year |
+| 🟢 Fresh | 56 | Updated within the last year |
 | 🟡 Aging | 24 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 17 | Not updated for more than 3 years |
+| 🔴 Outdated | 15 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 12 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |

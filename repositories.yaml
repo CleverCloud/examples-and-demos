@@ -198,7 +198,7 @@ runtimes:
         url: https://github.com/CleverCloud/nodejs-tcp-chat-example
         description: Dead simple TCP chat on Clever Cloud
         status: active
-        last_update: 2020-05-18
+        last_update: 2026-03-13
       - name: Hapi.js APM Example
         url: https://github.com/CleverCloud/hapijs-apm-example
         description: Run Hapi.js with Elastic APM
