@@ -223,7 +223,7 @@ runtimes:
         url: https://github.com/CleverCloud/sveltekit-example
         description: SvelteKit on Clever Cloud
         status: active
-        last_update: 2021-09-08
+        last_update: 2026-03-13
       - name: Angular Example
         url: https://github.com/CleverCloud/angular-example
         description: Angular Tour of Heroes on Clever Cloud
