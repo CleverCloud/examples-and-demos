@@ -184,7 +184,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Seaside Example](https://github.com/CleverCloud/seaside-example) | Seaside web application with Pharo Smalltalk | 2015-12-02 | 🔴 |
+| [Seaside Example](https://github.com/CleverCloud/seaside-example) | Seaside web application with Pharo Smalltalk | 2015-12-02 | 🪦 |
 
 ### Swift
 
@@ -292,13 +292,13 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 54 | Updated within the last year |
 | 🟡 Aging | 24 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 18 | Not updated for more than 3 years |
+| 🔴 Outdated | 17 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 11 | Upstream project discontinued |
+| 🪦 Deprecated | 12 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
-> **Last generated**: 2026-03-12 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-13 — Dates are based on the last commit on the default branch.
 
 ---
 

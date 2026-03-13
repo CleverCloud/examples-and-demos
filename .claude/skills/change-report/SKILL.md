@@ -71,13 +71,14 @@ Compare the freshness distribution at the **start** and **end** of the period us
 
 Start with a header showing the date range, e.g. "## Changes from 2026-03-01 to 2026-03-11" or "## Changes today (2026-03-11)".
 
-Then use these sections (omit empty ones). **Each repository must appear only once**, in the most significant section. Priority order: Status changes > Added > Updated. For example, if a repo was both updated and deprecated, list it only under "Status changed to deprecated" with a note like "active → deprecated, updated".
+Then use these sections (omit empty ones). **Each repository must appear only once**, in the most significant section. Priority order: Status changes > Added > Updated. For example, if a repo was both updated and deprecated, list it only under "Status changed to deprecated" with a note like "active → deprecated, updated". Exception: if a repo changed status to active (e.g. fixed → active) **and** was updated, list it under "Updated" with a note like "fixed → active, updated".
 
 **Added:**
 - New repositories (additions with no corresponding removal)
 
 **Updated:**
-- Repositories whose `last_update` date changed within the period (and had no other changes above)
+- Repositories whose `last_update` date changed within the period (and had no other significant status change)
+- Also includes repos that changed status to active (e.g. unfixed) and were updated
 
 **Status changed to fixed:**
 - Repositories whose `status` changed to `fixed`

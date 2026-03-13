@@ -193,7 +193,7 @@ runtimes:
         url: https://github.com/CleverCloud/nodejs-pulsar-example
         description: Apache Pulsar with Node.js
         status: active
-        last_update: 2021-10-19
+        last_update: 2026-03-13
       - name: Node.js TCP Chat Example
         url: https://github.com/CleverCloud/nodejs-tcp-chat-example
         description: Dead simple TCP chat on Clever Cloud
@@ -510,7 +510,7 @@ runtimes:
       - name: Seaside Example
         url: https://github.com/CleverCloud/seaside-example
         description: Seaside web application with Pharo Smalltalk
-        status: active
+        status: deprecated
         last_update: 2015-12-02
 
   swift:
