@@ -646,11 +646,6 @@ self_hosted:
         description: Run PostOwl, personal website for blogging, letter sharing and private journaling
         status: active
         last_update: 2023-08-18
-      - name: Rocket.Chat Example
-        url: https://github.com/CleverCloud/rocketchat-example
-        description: Run Rocket.Chat on Clever Cloud
-        status: active
-        last_update: 2017-09-21
       - name: Strapi Example
         url: https://github.com/CleverCloud/strapi-example
         description: Deploy Strapi CMS on Clever Cloud
@@ -676,6 +671,11 @@ self_hosted:
         description: Deploy a status page (upstream project discontinued)
         status: deprecated
         last_update: 2026-03-10
+      - name: Rocket.Chat Example
+        url: https://github.com/CleverCloud/rocketchat-example
+        description: Run Rocket.Chat on Clever Cloud
+        status: deprecated
+        last_update: 2017-09-21
 
 kubernetes:
   title: Kubernetes

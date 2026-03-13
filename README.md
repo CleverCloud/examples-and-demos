@@ -232,12 +232,12 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2021-04-02 | 🔴 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2021-04-02 | 🔴 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2023-08-18 | 🟡 |
-| [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🔴 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2025-04-30 | 🟢 |
 | [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2020-01-27 | 🔴 |
 | [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
+| [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🪦 |
 
 ---
 
@@ -292,9 +292,9 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 57 | Updated within the last year |
 | 🟡 Aging | 24 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 11 | Not updated for more than 3 years |
+| 🔴 Outdated | 10 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 15 | Upstream project discontinued |
+| 🪦 Deprecated | 16 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
