@@ -224,11 +224,6 @@ runtimes:
         description: SvelteKit on Clever Cloud
         status: active
         last_update: 2026-03-13
-      - name: Wemos StatsD Example
-        url: https://github.com/CleverCloud/wemos-statsd-example
-        description: Run Wemos with StatsD on Clever Cloud
-        status: active
-        last_update: 2023-10-02
       - name: Node 14 Meteor 2 Example
         url: https://github.com/CleverCloud/node-14-meteor-2-example
         description: Meteor 2 with Node 14
@@ -264,6 +259,11 @@ runtimes:
         description: React parse integration
         status: deprecated
         last_update: 2021-04-02
+      - name: Wemos StatsD Example
+        url: https://github.com/CleverCloud/wemos-statsd-example
+        description: Run Wemos with StatsD on Clever Cloud
+        status: deprecated
+        last_update: 2023-10-02
 
   php:
     title: PHP

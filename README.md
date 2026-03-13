@@ -102,7 +102,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Storybook Example](https://github.com/CleverCloud/storybook-example) | Deploy Storybook on Clever Cloud | 2026-03-13 | 🟢 |
 | [Vinext Example](https://github.com/CleverCloud/vinext-example) | Vinext demo application served by Bun | 2026-02-25 | 🟢 |
 | [SvelteKit Example](https://github.com/CleverCloud/sveltekit-example) | SvelteKit on Clever Cloud | 2026-03-13 | 🟢 |
-| [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Node 14 Meteor 2 Example](https://github.com/CleverCloud/node-14-meteor-2-example) | Meteor 2 with Node 14 | 2024-09-11 | 📌 |
 | [Node 20 Meteor 3 Example](https://github.com/CleverCloud/node-20-meteor-3-example) | Meteor 3 with Node 20 | 2024-09-13 | 📌 |
 | [Meteor.js Node ESM Example](https://github.com/CleverCloud/meteorjs-node-esm-example) | Meteor.js with Node.js ESM 14.21.4 | 2024-02-23 | 🪦 |
@@ -110,6 +109,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [IO.js Example](https://github.com/CleverCloud/iojs-example) | Run IO.js on Clever Cloud | 2015-03-16 | 🪦 |
 | [CasperJS Example](https://github.com/CleverCloud/casperjs-example) | Run CasperJS on Clever Cloud | 2018-09-03 | 🪦 |
 | [Parse React Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🪦 |
+| [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🪦 |
 
 ### PHP
 
@@ -301,14 +301,14 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 60 | Updated within the last year |
-| 🟡 Aging | 22 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 21 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 6 | Not updated for more than 3 years |
 | 📌 Fixed | 19 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 17 | Upstream project discontinued |
+| 🪦 Deprecated | 18 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
-> **Last generated**: 2026-03-13 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-16 — Dates are based on the last commit on the default branch.
 
 ---
 
