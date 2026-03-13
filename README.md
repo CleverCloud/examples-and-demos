@@ -103,7 +103,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Vinext Example](https://github.com/CleverCloud/vinext-example) | Vinext demo application served by Bun | 2026-02-25 | 🟢 |
 | [SvelteKit Example](https://github.com/CleverCloud/sveltekit-example) | SvelteKit on Clever Cloud | 2021-09-08 | 🔴 |
 | [Angular Example](https://github.com/CleverCloud/angular-example) | Angular Tour of Heroes on Clever Cloud | 2024-04-10 | 🟡 |
-| [CasperJS Example](https://github.com/CleverCloud/casperjs-example) | Run CasperJS on Clever Cloud | 2018-09-03 | 🔴 |
 | [Parse React Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
 | [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Node 14 Meteor 2 Example](https://github.com/CleverCloud/node-14-meteor-2-example) | Meteor 2 with Node 14 | 2024-09-11 | 📌 |
@@ -111,6 +110,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Meteor.js Node ESM Example](https://github.com/CleverCloud/meteorjs-node-esm-example) | Meteor.js with Node.js ESM 14.21.4 | 2024-02-23 | 🪦 |
 | [Keystone.js Example](https://github.com/CleverCloud/keystonejs-example) | Run Keystone on Clever Cloud | 2017-10-18 | 🪦 |
 | [IO.js Example](https://github.com/CleverCloud/iojs-example) | Run IO.js on Clever Cloud | 2015-03-16 | 🪦 |
+| [CasperJS Example](https://github.com/CleverCloud/casperjs-example) | Run CasperJS on Clever Cloud | 2018-09-03 | 🪦 |
 
 ### PHP
 
@@ -292,9 +292,9 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 56 | Updated within the last year |
 | 🟡 Aging | 24 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 13 | Not updated for more than 3 years |
+| 🔴 Outdated | 12 | Not updated for more than 3 years |
 | 📌 Fixed | 17 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 14 | Upstream project discontinued |
+| 🪦 Deprecated | 15 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
