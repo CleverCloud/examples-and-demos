@@ -209,11 +209,6 @@ runtimes:
         description: Run Hapi.js with StatsD
         status: active
         last_update: 2026-03-10
-      - name: Keystone.js Example
-        url: https://github.com/CleverCloud/keystonejs-example
-        description: Run Keystone on Clever Cloud
-        status: active
-        last_update: 2017-10-18
       - name: Storybook Example
         url: https://github.com/CleverCloud/storybook-example
         description: Deploy Storybook on Clever Cloud
@@ -269,6 +264,11 @@ runtimes:
         description: Meteor.js with Node.js ESM 14.21.4
         status: deprecated
         last_update: 2024-02-23
+      - name: Keystone.js Example
+        url: https://github.com/CleverCloud/keystonejs-example
+        description: Run Keystone on Clever Cloud
+        status: deprecated
+        last_update: 2017-10-18
 
   php:
     title: PHP
