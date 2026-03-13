@@ -102,7 +102,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Storybook Example](https://github.com/CleverCloud/storybook-example) | Deploy Storybook on Clever Cloud | 2023-10-05 | 🟡 |
 | [Vinext Example](https://github.com/CleverCloud/vinext-example) | Vinext demo application served by Bun | 2026-02-25 | 🟢 |
 | [SvelteKit Example](https://github.com/CleverCloud/sveltekit-example) | SvelteKit on Clever Cloud | 2026-03-13 | 🟢 |
-| [Parse React Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
 | [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
 | [Node 14 Meteor 2 Example](https://github.com/CleverCloud/node-14-meteor-2-example) | Meteor 2 with Node 14 | 2024-09-11 | 📌 |
 | [Node 20 Meteor 3 Example](https://github.com/CleverCloud/node-20-meteor-3-example) | Meteor 3 with Node 20 | 2024-09-13 | 📌 |
@@ -235,7 +234,8 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 🟡 |
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2021-04-02 | 🔴 |
-| [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2021-04-02 | 🔴 |
+| [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
+| [Parse React Client Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2023-08-18 | 🟡 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
@@ -295,9 +295,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 57 | Updated within the last year |
+| 🟢 Fresh | 58 | Updated within the last year |
 | 🟡 Aging | 23 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 10 | Not updated for more than 3 years |
+| 🔴 Outdated | 9 | Not updated for more than 3 years |
 | 📌 Fixed | 18 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 16 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
