@@ -469,11 +469,6 @@ runtimes:
         description: Rust with Actix Web
         status: active
         last_update: 2024-09-18
-      - name: Biscuit Cryptography Example
-        url: https://github.com/CleverCloud/biscuit-cryptography-example
-        description: Biscuit tokens cryptography implementation
-        status: active
-        last_update: 2021-04-23
       - name: Rust Docker Example
         url: https://github.com/CleverCloud/rust-docker-example
         description: Run Rust with Docker on Clever Cloud
@@ -749,3 +744,12 @@ other:
         description: Template repository to create example applications
         status: active
         last_update: 2021-07-03
+
+  biscuit:
+    title: Eclipse Biscuit
+    examples:
+      - name: Biscuit Example
+        url: https://github.com/CleverCloud/biscuit-example
+        description: Biscuit tokens example
+        status: fixed
+        last_update: 2021-04-23

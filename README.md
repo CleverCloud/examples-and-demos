@@ -168,7 +168,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Rust Actix Example](https://github.com/CleverCloud/rust-stable-actix-example) | Rust with Actix Web | 2024-09-18 | 🟡 |
-| [Biscuit Cryptography Example](https://github.com/CleverCloud/biscuit-cryptography-example) | Biscuit tokens cryptography implementation | 2021-04-23 | 🔴 |
 | [Rust Docker Example](https://github.com/CleverCloud/rust-docker-example) | Run Rust with Docker on Clever Cloud | 2022-09-19 | 📌 |
 | [Rust Wemos Example](https://github.com/CleverCloud/rust-wemos-example) | Run Rust Wemos on Clever Cloud | 2018-05-23 | 🪦 |
 
@@ -289,6 +288,12 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [Template Example](https://github.com/CleverCloud/template-example) | Template repository to create example applications | 2021-07-03 | 🔴 |
 
+### Eclipse Biscuit
+
+| Example | Description | Last Commit | Status |
+|---------|-------------|-------------|--------|
+| [Biscuit Example](https://github.com/CleverCloud/biscuit-example) | Biscuit tokens example | 2021-04-23 | 📌 |
+
 ---
 
 ## Summary
@@ -297,8 +302,8 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 59 | Updated within the last year |
 | 🟡 Aging | 23 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 7 | Not updated for more than 3 years |
-| 📌 Fixed | 18 | Pinned to a specific version, still useful |
+| 🔴 Outdated | 6 | Not updated for more than 3 years |
+| 📌 Fixed | 19 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 17 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
