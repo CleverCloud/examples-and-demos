@@ -224,11 +224,6 @@ runtimes:
         description: SvelteKit on Clever Cloud
         status: active
         last_update: 2026-03-13
-      - name: Angular Example
-        url: https://github.com/CleverCloud/angular-example
-        description: Angular Tour of Heroes on Clever Cloud
-        status: active
-        last_update: 2024-04-10
       - name: Parse React Example
         url: https://github.com/CleverCloud/parse-react-example
         description: React parse integration
@@ -512,6 +507,15 @@ runtimes:
         description: Seaside web application with Pharo Smalltalk
         status: deprecated
         last_update: 2015-12-02
+
+  static:
+    title: Static Sites
+    examples:
+      - name: Angular Example
+        url: https://github.com/CleverCloud/angular-example
+        description: Angular Tour of Heroes on Clever Cloud
+        status: fixed
+        last_update: 2024-04-10
 
   swift:
     title: Swift
