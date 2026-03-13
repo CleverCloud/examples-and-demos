@@ -109,6 +109,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Keystone.js Example](https://github.com/CleverCloud/keystonejs-example) | Run Keystone on Clever Cloud | 2017-10-18 | 🪦 |
 | [IO.js Example](https://github.com/CleverCloud/iojs-example) | Run IO.js on Clever Cloud | 2015-03-16 | 🪦 |
 | [CasperJS Example](https://github.com/CleverCloud/casperjs-example) | Run CasperJS on Clever Cloud | 2018-09-03 | 🪦 |
+| [Parse React Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🪦 |
 
 ### PHP
 
@@ -235,7 +236,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
-| [Parse React Client Example](https://github.com/CleverCloud/parse-react-example) | React parse integration | 2021-04-02 | 🔴 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2023-08-18 | 🟡 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
@@ -297,9 +297,9 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 59 | Updated within the last year |
 | 🟡 Aging | 23 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 8 | Not updated for more than 3 years |
+| 🔴 Outdated | 7 | Not updated for more than 3 years |
 | 📌 Fixed | 18 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 16 | Upstream project discontinued |
+| 🪦 Deprecated | 17 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 

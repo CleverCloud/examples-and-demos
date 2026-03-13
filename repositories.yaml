@@ -259,6 +259,11 @@ runtimes:
         description: Run CasperJS on Clever Cloud
         status: deprecated
         last_update: 2018-09-03
+      - name: Parse React Example
+        url: https://github.com/CleverCloud/parse-react-example
+        description: React parse integration
+        status: deprecated
+        last_update: 2021-04-02
 
   php:
     title: PHP
@@ -640,11 +645,6 @@ self_hosted:
         description: Run parse-server dashboard
         status: active
         last_update: 2026-03-13
-      - name: Parse React Client Example
-        url: https://github.com/CleverCloud/parse-react-example
-        description: React parse integration
-        status: active
-        last_update: 2021-04-02
       - name: PostOwl Example
         url: https://github.com/CleverCloud/PostOwl-example
         description: Run PostOwl, personal website for blogging, letter sharing and private journaling
