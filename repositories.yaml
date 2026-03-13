@@ -234,11 +234,6 @@ runtimes:
         description: Run CasperJS on Clever Cloud
         status: active
         last_update: 2018-09-03
-      - name: IO.js Example
-        url: https://github.com/CleverCloud/iojs-example
-        description: Run IO.js on Clever Cloud
-        status: active
-        last_update: 2015-03-16
       - name: Parse React Example
         url: https://github.com/CleverCloud/parse-react-example
         description: React parse integration
@@ -269,6 +264,11 @@ runtimes:
         description: Run Keystone on Clever Cloud
         status: deprecated
         last_update: 2017-10-18
+      - name: IO.js Example
+        url: https://github.com/CleverCloud/iojs-example
+        description: Run IO.js on Clever Cloud
+        status: deprecated
+        last_update: 2015-03-16
 
   php:
     title: PHP
