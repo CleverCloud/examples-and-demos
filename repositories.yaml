@@ -213,7 +213,7 @@ runtimes:
         url: https://github.com/CleverCloud/storybook-example
         description: Deploy Storybook on Clever Cloud
         status: active
-        last_update: 2023-10-05
+        last_update: 2026-03-13
       - name: Vinext Example
         url: https://github.com/CleverCloud/vinext-example
         description: Vinext demo application served by Bun

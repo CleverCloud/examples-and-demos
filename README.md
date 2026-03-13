@@ -99,7 +99,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Node.js TCP Chat Example](https://github.com/CleverCloud/nodejs-tcp-chat-example) | Dead simple TCP chat on Clever Cloud | 2026-03-13 | 🟢 |
 | [Hapi.js APM Example](https://github.com/CleverCloud/hapijs-apm-example) | Run Hapi.js with Elastic APM | 2026-03-10 | 🟢 |
 | [Hapi.js StatsD Example](https://github.com/CleverCloud/hapijs-statsd-example) | Run Hapi.js with StatsD | 2026-03-10 | 🟢 |
-| [Storybook Example](https://github.com/CleverCloud/storybook-example) | Deploy Storybook on Clever Cloud | 2023-10-05 | 🟡 |
+| [Storybook Example](https://github.com/CleverCloud/storybook-example) | Deploy Storybook on Clever Cloud | 2026-03-13 | 🟢 |
 | [Vinext Example](https://github.com/CleverCloud/vinext-example) | Vinext demo application served by Bun | 2026-02-25 | 🟢 |
 | [SvelteKit Example](https://github.com/CleverCloud/sveltekit-example) | SvelteKit on Clever Cloud | 2026-03-13 | 🟢 |
 | [Wemos StatsD Example](https://github.com/CleverCloud/wemos-statsd-example) | Run Wemos with StatsD on Clever Cloud | 2023-10-02 | 🟡 |
@@ -300,8 +300,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 59 | Updated within the last year |
-| 🟡 Aging | 23 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 60 | Updated within the last year |
+| 🟡 Aging | 22 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 6 | Not updated for more than 3 years |
 | 📌 Fixed | 19 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 17 | Upstream project discontinued |
