@@ -720,7 +720,7 @@ other:
         url: https://github.com/CleverCloud/logstash-example
         description: Logstash on Clever Cloud
         status: active
-        last_update: 2023-06-29
+        last_update: 2026-03-16
       - name: Network Groups Example
         url: https://github.com/CleverCloud/network-groups-example
         description: Network isolation and VPN configurations
