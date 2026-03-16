@@ -405,7 +405,7 @@ runtimes:
         url: https://github.com/CleverCloud/rack-example
         description: Run Rack on Clever Cloud
         status: active
-        last_update: 2024-03-19
+        last_update: 2026-03-16
       - name: Rack StatsD Example
         url: https://github.com/CleverCloud/rack-statsd-example
         description: Run Rack with StatsD on Clever Cloud

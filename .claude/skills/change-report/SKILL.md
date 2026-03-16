@@ -12,6 +12,7 @@ Generate a change report for `repositories.yaml` over a date range.
 
 - [scripts/freshness-stats.js](scripts/freshness-stats.js) — Computes freshness category counts from `repositories.yaml`. Outputs JSON. Accepts `--commit <sha>` to read the file at a specific commit, and `--date YYYY-MM-DD` to evaluate freshness relative to a given date.
 - [scripts/freshness-diff.js](scripts/freshness-diff.js) — Compares two snapshots and lists every repo whose freshness category changed. Used in Step 5 to verify the report is complete.
+- [scripts/repo-diff.js](scripts/repo-diff.js) — Compares all repo fields (name, status, last_update) between two snapshots. Reliably catches date-only updates, status changes, renames, additions, and removals — unlike grep-based diffing, it is not confused by block reorderings in the YAML file.
 
 ## Step 1: Parse the date range from $ARGUMENTS
 
@@ -32,17 +33,19 @@ Use `date` command to resolve relative dates to absolute values for the git comm
 
 ## Step 2: Get changes
 
-Run this with the resolved `--since` (and `--until` if applicable):
+Run the repo-diff script to compare the state of `repositories.yaml` at the start and end of the period. This reliably detects all changes including date-only updates in commits that also reorder blocks.
 
 ```bash
-git log --all --since="SINCE" [--until="UNTIL"] --format="%H" -- repositories.yaml | while read commit; do echo "=== $commit ==="; git diff "$commit^..$commit" -- repositories.yaml | grep -E '^[\+\-].*(name:|status:|last_update:)' | grep -v '^---\|^+++'; echo; done
+node ${CLAUDE_SKILL_DIR}/scripts/repo-diff.js --commit-start <before-commit> [--commit-end <end-commit>]
 ```
 
-If the range includes today, also check for uncommitted changes with `git diff -- repositories.yaml`.
+If `--commit-end` is omitted, the current working tree is used as the end state. If `--until` is set, pass `--commit-end <last-commit-in-period>`.
+
+If the range includes today, also check for uncommitted changes with `git diff -- repositories.yaml`. If there are uncommitted changes, the script already picks them up (it reads the working tree by default).
 
 ## Step 3: Analyze and categorize
 
-Analyze the diffs and categorize into the sections below. Skip simple reorderings (same data moved within the file without field changes).
+Analyze the repo-diff output and categorize into the sections below.
 
 ## Step 4: Status evolution stats
 
