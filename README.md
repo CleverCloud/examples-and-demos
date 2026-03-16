@@ -195,7 +195,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Swift Hello World Example](https://github.com/CleverCloud/swift-hello-world-example) | Deploy a Swift app using Mise and Linux runtime | 2025-07-02 | 🟢 |
-| [Swift Vapor Example](https://github.com/CleverCloud/swift-vapor-example) | Run Swift with PostgreSQL using Vapor | 2023-05-23 | 🟡 |
+| [Swift Vapor Example](https://github.com/CleverCloud/swift-vapor-example) | Run Swift with PostgreSQL using Vapor | 2023-05-23 | 🪦 |
 
 ### V
 
@@ -301,10 +301,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 67 | Updated within the last year |
-| 🟡 Aging | 9 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 8 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 21 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 27 | Upstream project discontinued |
+| 🪦 Deprecated | 28 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 

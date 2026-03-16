@@ -523,7 +523,7 @@ runtimes:
       - name: Swift Vapor Example
         url: https://github.com/CleverCloud/swift-vapor-example
         description: Run Swift with PostgreSQL using Vapor
-        status: active
+        status: deprecated
         last_update: 2023-05-23
 
   v:
