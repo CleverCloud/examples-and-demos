@@ -20,7 +20,7 @@ Each example includes a freshness indicator based on the date of its last commit
 - 🟢 **Fresh** — Updated within the last year
 - 🟡 **Aging** — Updated between 1 and 3 years ago
 - 🔴 **Outdated** — Not updated for more than 3 years
-- 📌 **Fixed** — Pinned to a specific version, still useful for reference
+- 📌 **Pinned** — Pinned to a specific version, still useful for reference
 - 🪦 **Deprecated** — Upstream project is discontinued or no longer maintained
 - 📦 **Archived** — Repository is archived
 
@@ -303,7 +303,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | 🟢 Fresh | 63 | Updated within the last year |
 | 🟡 Aging | 13 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
-| 📌 Fixed | 21 | Pinned to a specific version, still useful |
+| 📌 Pinned | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 27 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |

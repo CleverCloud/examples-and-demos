@@ -74,17 +74,17 @@ Compare the freshness distribution at the **start** and **end** of the period us
 
 Start with a header showing the date range, e.g. "## Changes from 2026-03-01 to 2026-03-11" or "## Changes today (2026-03-11)".
 
-Then use these sections (omit empty ones). **Each repository must appear only once**, in the most significant section. Priority order: Status changes > Added > Updated. For example, if a repo was both updated and deprecated, list it only under "Status changed to deprecated" with a note like "active → deprecated, updated". Exception: if a repo changed status to active (e.g. fixed → active) **and** was updated, list it under "Updated" with a note like "fixed → active, updated".
+Then use these sections (omit empty ones). **Each repository must appear only once**, in the most significant section. Priority order: Status changes > Added > Updated. For example, if a repo was both updated and deprecated, list it only under "Status changed to deprecated" with a note like "active → deprecated, updated". Exception: if a repo changed status to active (e.g. pinned → active) **and** was updated, list it under "Updated" with a note like "pinned → active, updated".
 
 **Added:**
 - New repositories (additions with no corresponding removal)
 
 **Updated:**
 - Repositories whose `last_update` date changed within the period (and had no other significant status change)
-- Also includes repos that changed status to active (e.g. unfixed) and were updated
+- Also includes repos that changed status to active (e.g. unpinned) and were updated
 
-**Status changed to fixed:**
-- Repositories whose `status` changed to `fixed`
+**Status changed to pinned:**
+- Repositories whose `status` changed to `pinned`
 
 **Status changed to deprecated:**
 - Repositories whose `status` changed to `deprecated`
@@ -104,7 +104,7 @@ Example:
 | 🟢 Fresh | 15 | 18 | +3 |
 | 🟡 Aging | 40 | 38 | -2 |
 | 🔴 Outdated | 30 | 28 | -2 |
-| 📌 Fixed | 5 | 16 | +11 |
+| 📌 Pinned | 5 | 16 | +11 |
 | 🪦 Deprecated | 1 | 4 | +3 |
 | 📦 Archived | 1 | 1 | = |
 | **Total** | **92** | **105** | **+13** |

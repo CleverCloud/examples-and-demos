@@ -30,7 +30,7 @@ const AGING = 36;
 function classify(ex, evalDate) {
   if (ex.status === "archived") return "📦";
   if (ex.status === "deprecated") return "🪦";
-  if (ex.status === "fixed") return "📌";
+  if (ex.status === "pinned" || ex.status === "fixed") return "📌";
   if (ex.status === "no_repo") return "—";
   if (!ex.last_update) return "🔴";
   const [y, m] = ex.last_update.split("-").map(Number);

@@ -89,7 +89,9 @@ for (const name of [...allNames].sort()) {
     }
   } else if (s && e) {
     const diffs = [];
-    if (s.status !== e.status) diffs.push(`status: ${s.status} → ${e.status}`);
+    // Treat "fixed" and "pinned" as equivalent (backward compatibility)
+    const normalizeStatus = (st) => st === "fixed" ? "pinned" : st;
+    if (normalizeStatus(s.status) !== normalizeStatus(e.status)) diffs.push(`status: ${s.status} → ${e.status}`);
     if (s.last_update !== e.last_update) diffs.push(`date: ${s.last_update} → ${e.last_update}`);
     if (diffs.length > 0) {
       changes.push(`${name}: ${diffs.join(", ")}`);
