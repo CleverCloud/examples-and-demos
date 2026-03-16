@@ -293,26 +293,6 @@ runtimes:
         description: PHP applications with sessions on Materia KV
         status: active
         last_update: 2025-10-15
-      - name: PHP FrankenPHP Binary Example
-        url: https://github.com/CleverCloud/php-franken-binary-example
-        description: Deploy Laravel/Octane as FrankenPHP binary
-        status: active
-        last_update: 2024-03-04
-      - name: PHP FrankenPHP Laravel Example
-        url: https://github.com/CleverCloud/php-franken-laravel-example
-        description: Deploy FrankenPHP-based Laravel app
-        status: active
-        last_update: 2024-03-02
-      - name: PHP FrankenPHP Standalone Example
-        url: https://github.com/CleverCloud/php-franken-standalone-example
-        description: Deploy FrankenPHP standalone binary app
-        status: active
-        last_update: 2024-03-02
-      - name: PHP FrankenPHP Symfony Example
-        url: https://github.com/CleverCloud/php-franken-symfony-example
-        description: Deploy FrankenPHP-based Symfony app
-        status: active
-        last_update: 2024-03-02
       - name: Lumen StatsD Example
         url: https://github.com/CleverCloud/lumen-statsd-example
         description: Run Lumen with StatsD on Clever Cloud
@@ -323,6 +303,26 @@ runtimes:
         description: Run HHVM on Clever Cloud
         status: deprecated
         last_update: 2015-01-06
+      - name: PHP FrankenPHP Binary Example
+        url: https://github.com/CleverCloud/php-franken-binary-example
+        description: Deploy Laravel/Octane as FrankenPHP binary
+        status: deprecated
+        last_update: 2024-03-04
+      - name: PHP FrankenPHP Laravel Example
+        url: https://github.com/CleverCloud/php-franken-laravel-example
+        description: Deploy FrankenPHP-based Laravel app
+        status: deprecated
+        last_update: 2024-03-02
+      - name: PHP FrankenPHP Symfony Example
+        url: https://github.com/CleverCloud/php-franken-symfony-example
+        description: Deploy FrankenPHP-based Symfony app
+        status: deprecated
+        last_update: 2024-03-02
+      - name: PHP FrankenPHP Standalone Example
+        url: https://github.com/CleverCloud/php-franken-standalone-example
+        description: Deploy FrankenPHP standalone binary app
+        status: deprecated
+        last_update: 2024-03-02
 
   python:
     title: Python

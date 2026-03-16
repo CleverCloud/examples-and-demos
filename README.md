@@ -120,12 +120,12 @@ Each example includes a freshness indicator based on the date of its last commit
 | [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
 | [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2026-03-12 | 🟢 |
 | [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
-| [PHP FrankenPHP Binary Example](https://github.com/CleverCloud/php-franken-binary-example) | Deploy Laravel/Octane as FrankenPHP binary | 2024-03-04 | 🟡 |
-| [PHP FrankenPHP Laravel Example](https://github.com/CleverCloud/php-franken-laravel-example) | Deploy FrankenPHP-based Laravel app | 2024-03-02 | 🟡 |
-| [PHP FrankenPHP Standalone Example](https://github.com/CleverCloud/php-franken-standalone-example) | Deploy FrankenPHP standalone binary app | 2024-03-02 | 🟡 |
-| [PHP FrankenPHP Symfony Example](https://github.com/CleverCloud/php-franken-symfony-example) | Deploy FrankenPHP-based Symfony app | 2024-03-02 | 🟡 |
 | [Lumen StatsD Example](https://github.com/CleverCloud/lumen-statsd-example) | Run Lumen with StatsD on Clever Cloud | 2018-01-15 | 🪦 |
 | [HHVM Example](https://github.com/CleverCloud/hhvm-example) | Run HHVM on Clever Cloud | 2015-01-06 | 🪦 |
+| [PHP FrankenPHP Binary Example](https://github.com/CleverCloud/php-franken-binary-example) | Deploy Laravel/Octane as FrankenPHP binary | 2024-03-04 | 🪦 |
+| [PHP FrankenPHP Laravel Example](https://github.com/CleverCloud/php-franken-laravel-example) | Deploy FrankenPHP-based Laravel app | 2024-03-02 | 🪦 |
+| [PHP FrankenPHP Symfony Example](https://github.com/CleverCloud/php-franken-symfony-example) | Deploy FrankenPHP-based Symfony app | 2024-03-02 | 🪦 |
+| [PHP FrankenPHP Standalone Example](https://github.com/CleverCloud/php-franken-standalone-example) | Deploy FrankenPHP standalone binary app | 2024-03-02 | 🪦 |
 
 ### Python
 
@@ -301,10 +301,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 61 | Updated within the last year |
-| 🟡 Aging | 21 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 17 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Fixed | 21 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 21 | Upstream project discontinued |
+| 🪦 Deprecated | 25 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
