@@ -332,26 +332,16 @@ runtimes:
         description: Python app using Celery and Gunicorn
         status: active
         last_update: 2025-04-04
-      - name: Django Example
-        url: https://github.com/CleverCloud/django-example
-        description: Run Django on Clever Cloud
-        status: active
-        last_update: 2024-04-23
       - name: Django Todo List Example
         url: https://github.com/CleverCloud/django-todo-list-example
         description: Django todo list with modern Python tooling (uv, pyproject.toml)
         status: active
-        last_update: 2025-12-03
+        last_update: 2026-03-16
       - name: Flask Example
         url: https://github.com/CleverCloud/flask-example
         description: Run Flask on Clever Cloud
         status: active
         last_update: 2026-03-11
-      - name: Python Django UV Example
-        url: https://github.com/CleverCloud/python-django-uv-example
-        description: Deploy a Django app, blazing fast, using uv
-        status: active
-        last_update: 2024-12-09
       - name: Python FastAPI UV Example
         url: https://github.com/CleverCloud/python-fastapi-uv-example
         description: Deploy a FastAPI app, blazing fast, using uv
@@ -397,6 +387,16 @@ runtimes:
         description: Run Keras on Clever Grid
         status: deprecated
         last_update: 2019-07-07
+      - name: Django Example
+        url: https://github.com/CleverCloud/django-example
+        description: Run Django on Clever Cloud
+        status: deprecated
+        last_update: 2024-04-23
+      - name: Python Django UV Example
+        url: https://github.com/CleverCloud/python-django-uv-example
+        description: Deploy a Django app, blazing fast, using uv
+        status: deprecated
+        last_update: 2024-12-09
 
   ruby:
     title: Ruby

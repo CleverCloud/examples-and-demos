@@ -132,10 +132,8 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2025-04-04 | 🟢 |
-| [Django Example](https://github.com/CleverCloud/django-example) | Run Django on Clever Cloud | 2024-04-23 | 🟡 |
-| [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2025-12-03 | 🟢 |
+| [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2026-03-16 | 🟢 |
 | [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
-| [Python Django UV Example](https://github.com/CleverCloud/python-django-uv-example) | Deploy a Django app, blazing fast, using uv | 2024-12-09 | 🟡 |
 | [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
 | [Falcon StatsD Example](https://github.com/CleverCloud/falcon-statsd-example) | Run Falcon with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python 3 Flask Example](https://github.com/CleverCloud/python-3-flask-example) | Flask web application | 2025-03-15 | 📌 |
@@ -145,6 +143,8 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Python 3.12 Django uWSGI Example](https://github.com/CleverCloud/python-3.12-django-uwsgi-example) | Django with uWSGI | 2024-12-13 | 📌 |
 | [Python 3.13 Django uWSGI Example](https://github.com/CleverCloud/python-3.13-django-uwsgi-example) | Django with uWSGI on Python 3.13 | 2024-12-09 | 📌 |
 | [Keras Example](https://github.com/CleverCloud/keras-example) | Run Keras on Clever Grid | 2019-07-07 | 🪦 |
+| [Django Example](https://github.com/CleverCloud/django-example) | Run Django on Clever Cloud | 2024-04-23 | 🪦 |
+| [Python Django UV Example](https://github.com/CleverCloud/python-django-uv-example) | Deploy a Django app, blazing fast, using uv | 2024-12-09 | 🪦 |
 
 ### Ruby
 
@@ -301,10 +301,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 61 | Updated within the last year |
-| 🟡 Aging | 17 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 15 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Fixed | 21 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 25 | Upstream project discontinued |
+| 🪦 Deprecated | 27 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
