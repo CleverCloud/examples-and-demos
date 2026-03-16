@@ -415,7 +415,7 @@ runtimes:
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
         status: active
-        last_update: 2024-02-26
+        last_update: 2026-03-16
       - name: Ruby PostgreSQL Example
         url: https://github.com/CleverCloud/ruby-postgresql-example
         description: Ruby on Rails with PostgreSQL

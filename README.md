@@ -152,7 +152,7 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [Rack Example](https://github.com/CleverCloud/rack-example) | Run Rack on Clever Cloud | 2026-03-16 | 🟢 |
 | [Rack StatsD Example](https://github.com/CleverCloud/rack-statsd-example) | Run Rack with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
-| [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2024-02-26 | 🟡 |
+| [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2026-03-16 | 🟢 |
 | [Ruby PostgreSQL Example](https://github.com/CleverCloud/ruby-postgresql-example) | Ruby on Rails with PostgreSQL | 2026-03-16 | 🟢 |
 | [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2026-03-12 | 🟢 |
 | [Ruby 2.7 Rails Example](https://github.com/CleverCloud/ruby-2.7-rails-example) | Rails with Ruby 2.7 | 2024-09-13 | 📌 |
@@ -300,8 +300,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 63 | Updated within the last year |
-| 🟡 Aging | 13 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 64 | Updated within the last year |
+| 🟡 Aging | 12 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 27 | Upstream project discontinued |
