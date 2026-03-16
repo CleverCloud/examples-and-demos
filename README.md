@@ -238,7 +238,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2025-04-30 | 🟢 |
-| [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2020-01-27 | 🔴 |
+| [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2026-03-16 | 🟢 |
 | [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2021-04-03 | 📌 |
 | [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
 | [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🪦 |
@@ -300,9 +300,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 61 | Updated within the last year |
+| 🟢 Fresh | 62 | Updated within the last year |
 | 🟡 Aging | 21 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 3 | Not updated for more than 3 years |
+| 🔴 Outdated | 2 | Not updated for more than 3 years |
 | 📌 Fixed | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 18 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
