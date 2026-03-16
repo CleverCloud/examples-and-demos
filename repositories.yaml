@@ -654,11 +654,6 @@ self_hosted:
         url: https://github.com/CleverCloud/wordpress-bedrock-example
         description: Install and manage WordPress with Bedrock's Composer
         status: active
-        last_update: 2025-04-30
-      - name: WordPress Example
-        url: https://github.com/CleverCloud/wordpress-example
-        description: Run WordPress on Clever Cloud
-        status: active
         last_update: 2026-03-16
       - name: Collabora Online Example
         url: https://github.com/CleverCloud/collabora-online-example
@@ -675,6 +670,11 @@ self_hosted:
         description: Run Rocket.Chat on Clever Cloud
         status: deprecated
         last_update: 2017-09-21
+      - name: WordPress Example
+        url: https://github.com/CleverCloud/wordpress-example
+        description: Run WordPress on Clever Cloud
+        status: deprecated
+        last_update: 2026-03-16
 
 kubernetes:
   title: Kubernetes
