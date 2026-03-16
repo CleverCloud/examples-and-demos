@@ -271,8 +271,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [GitLab Simple CI/CD Example](https://github.com/CleverCloud/Gitlab-simple-CI-CD-example) | Deploy from GitLab with clever-tools | 2024-12-12 | 🟡 |
-| [Elastic APM Configuration Example](https://github.com/CleverCloud/Elastic-APM-configuration-files-example) | Connect apps to Elastic APM on Clever Cloud | 2023-08-16 | 🟡 |
+| [GitLab Simple CI/CD Example](https://github.com/CleverCloud/Gitlab-simple-CI-CD-example) | Deploy from GitLab with clever-tools | 2026-03-16 | 🟢 |
+| [Elastic APM Configuration Example](https://github.com/CleverCloud/Elastic-APM-configuration-files-example) | Connect apps to Elastic APM on Clever Cloud | 2026-03-16 | 🟢 |
 | [Logstash Example](https://github.com/CleverCloud/logstash-example) | Logstash on Clever Cloud | 2023-06-29 | 🟡 |
 | [Network Groups Example](https://github.com/CleverCloud/network-groups-example) | Network isolation and VPN configurations | 2025-11-05 | 🟢 |
 
@@ -300,8 +300,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 64 | Updated within the last year |
-| 🟡 Aging | 12 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 66 | Updated within the last year |
+| 🟡 Aging | 10 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 27 | Upstream project discontinued |
