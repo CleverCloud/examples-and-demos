@@ -574,7 +574,7 @@ self_hosted:
         url: https://github.com/CleverCloud/grafana-example
         description: Run Grafana on Clever Cloud
         status: active
-        last_update: 2022-05-19
+        last_update: 2026-03-16
       - name: HiveMQ Example
         url: https://github.com/CleverCloud/hivemq-example
         description: Deploy HiveMQ MQTT broker

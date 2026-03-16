@@ -221,7 +221,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟢 |
 | [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
-| [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2022-05-19 | 🔴 |
+| [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2026-03-16 | 🟢 |
 | [HiveMQ Example](https://github.com/CleverCloud/hivemq-example) | Deploy HiveMQ MQTT broker | 2026-01-08 | 🟢 |
 | [HiveMQ Add-on Provider Example](https://github.com/CleverCloud/hivemq-adp-example) | HiveMQ as add-on provider | 2026-01-15 | 🟢 |
 | [Kestra Example](https://github.com/CleverCloud/kestra-example) | Deploy Kestra orchestration platform | 2025-08-18 | 🟢 |
@@ -300,9 +300,9 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 60 | Updated within the last year |
+| 🟢 Fresh | 61 | Updated within the last year |
 | 🟡 Aging | 21 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 4 | Not updated for more than 3 years |
+| 🔴 Outdated | 3 | Not updated for more than 3 years |
 | 📌 Fixed | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 18 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
