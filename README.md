@@ -280,13 +280,13 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Create an Add-on Provider Example](https://github.com/CleverCloud/create-an-addon-provider-example) | Step-by-step add-on creation | 2022-02-09 | 🔴 |
+| [Create an Add-on Provider Example](https://github.com/CleverCloud/create-an-addon-provider-example) | Step-by-step add-on creation | 2022-02-09 | 🪦 |
 
 ### Templates
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Template Example](https://github.com/CleverCloud/template-example) | Template repository to create example applications | 2021-07-03 | 🔴 |
+| [Template Example](https://github.com/CleverCloud/template-example) | Template repository to create example applications | 2021-07-03 | 🪦 |
 
 ### Eclipse Biscuit
 
@@ -302,9 +302,9 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 62 | Updated within the last year |
 | 🟡 Aging | 21 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 2 | Not updated for more than 3 years |
+| 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Fixed | 21 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 18 | Upstream project discontinued |
+| 🪦 Deprecated | 20 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 

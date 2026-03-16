@@ -733,7 +733,7 @@ other:
       - name: Create an Add-on Provider Example
         url: https://github.com/CleverCloud/create-an-addon-provider-example
         description: Step-by-step add-on creation
-        status: active
+        status: deprecated
         last_update: 2022-02-09
 
   templates:
@@ -742,7 +742,7 @@ other:
       - name: Template Example
         url: https://github.com/CleverCloud/template-example
         description: Template repository to create example applications
-        status: active
+        status: deprecated
         last_update: 2021-07-03
 
   biscuit:
