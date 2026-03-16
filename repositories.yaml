@@ -599,7 +599,7 @@ self_hosted:
         url: https://github.com/CleverCloud/mattermost-example
         description: Run Mattermost on Clever Cloud
         status: active
-        last_update: 2024-02-21
+        last_update: 2026-03-16
       - name: Mosquitto Example
         url: https://github.com/CleverCloud/mosquitto-for-clevercloud-example
         description: Deploy Mosquitto MQTT broker
