@@ -176,7 +176,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Play Scala Example](https://github.com/CleverCloud/play-scala-example) | Deploy a Scala app built with Play Framework | 2023-10-05 | 🟡 |
-| [Scala Akka HTTP Postgres Example](https://github.com/CleverCloud/scala-akka-http-postgres-example) | Akka HTTP example with PostgreSQL persistence | 2022-05-20 | 🔴 |
+| [Scala Akka HTTP Postgres Example](https://github.com/CleverCloud/scala-akka-http-postgres-example) | Akka HTTP example with PostgreSQL persistence | 2022-05-20 | 📌 |
 
 ### Smalltalk
 
@@ -219,7 +219,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟢 |
-| [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2021-04-03 | 🔴 |
 | [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
 | [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2022-05-19 | 🔴 |
@@ -240,6 +239,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2023-09-29 | 🟡 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2025-04-30 | 🟢 |
 | [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2020-01-27 | 🔴 |
+| [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2021-04-03 | 📌 |
 | [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
 | [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🪦 |
 
@@ -302,8 +302,8 @@ Each example includes a freshness indicator based on the date of its last commit
 |--------|-------|---------|
 | 🟢 Fresh | 60 | Updated within the last year |
 | 🟡 Aging | 21 | Updated between 1 and 3 years ago |
-| 🔴 Outdated | 6 | Not updated for more than 3 years |
-| 📌 Fixed | 19 | Pinned to a specific version, still useful |
+| 🔴 Outdated | 4 | Not updated for more than 3 years |
+| 📌 Fixed | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 18 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |

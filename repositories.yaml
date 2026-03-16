@@ -491,7 +491,7 @@ runtimes:
       - name: Scala Akka HTTP Postgres Example
         url: https://github.com/CleverCloud/scala-akka-http-postgres-example
         description: Akka HTTP example with PostgreSQL persistence
-        status: active
+        status: fixed
         last_update: 2022-05-20
 
   smalltalk:
@@ -560,11 +560,6 @@ self_hosted:
         description: Vector database for AI applications
         status: active
         last_update: 2025-03-17
-      - name: Collabora Online Example
-        url: https://github.com/CleverCloud/collabora-online-example
-        description: Run Collabora Online with Docker
-        status: active
-        last_update: 2021-04-03
       - name: Docs Example
         url: https://github.com/CleverCloud/docs-example
         description: Collaborative note-taking platform (Django + React)
@@ -665,6 +660,11 @@ self_hosted:
         description: Run WordPress on Clever Cloud
         status: active
         last_update: 2020-01-27
+      - name: Collabora Online Example
+        url: https://github.com/CleverCloud/collabora-online-example
+        description: Run Collabora Online with Docker
+        status: fixed
+        last_update: 2021-04-03
       - name: Okazanta Example
         url: https://github.com/CleverCloud/okazanta-example
         description: Deploy a status page (upstream project discontinued)
