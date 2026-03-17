@@ -227,7 +227,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Kestra Example](https://github.com/CleverCloud/kestra-example) | Deploy Kestra orchestration platform | 2025-08-18 | 🟢 |
 | [Khoj Example](https://github.com/CleverCloud/khoj-example) | Deploy Khoj AI assistant | 2025-06-18 | 🟢 |
 | [Mattermost Example](https://github.com/CleverCloud/mattermost-example) | Run Mattermost on Clever Cloud | 2026-03-16 | 🟢 |
-| [Mosquitto Example](https://github.com/CleverCloud/mosquitto-for-clevercloud-example) | Deploy Mosquitto MQTT broker | 2024-10-02 | 🟡 |
+| [Mosquitto Example](https://github.com/CleverCloud/mosquitto-example) | Deploy Mosquitto MQTT broker | 2026-03-17 | 🟢 |
 | [Moodle Example](https://github.com/CleverCloud/moodle-example) | Deploy the open source learning platform | 2024-03-18 | 🟡 |
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
 | [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 🟡 |
@@ -300,15 +300,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 68 | Updated within the last year |
-| 🟡 Aging | 7 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 69 | Updated within the last year |
+| 🟡 Aging | 6 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 28 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 
-> **Last generated**: 2026-03-16 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-17 — Dates are based on the last commit on the default branch.
 
 ---
 
