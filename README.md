@@ -175,8 +175,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Play Scala Example](https://github.com/CleverCloud/play-scala-example) | Deploy a Scala app built with Play Framework | 2023-10-05 | 🟡 |
 | [Scala Akka HTTP Postgres Example](https://github.com/CleverCloud/scala-akka-http-postgres-example) | Akka HTTP example with PostgreSQL persistence | 2022-05-20 | 📌 |
+| [Play Scala Example](https://github.com/CleverCloud/play-scala-example) | Deploy a Scala app built with Play Framework | 2023-10-05 | 🪦 |
 
 ### Smalltalk
 
@@ -301,10 +301,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 71 | Updated within the last year |
-| 🟡 Aging | 3 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 22 | Pinned to a specific version, still useful |
-| 🪦 Deprecated | 28 | Upstream project discontinued |
+| 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
 

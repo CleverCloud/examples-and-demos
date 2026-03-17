@@ -483,16 +483,16 @@ runtimes:
   scala:
     title: Scala
     examples:
-      - name: Play Scala Example
-        url: https://github.com/CleverCloud/play-scala-example
-        description: Deploy a Scala app built with Play Framework
-        status: active
-        last_update: 2023-10-05
       - name: Scala Akka HTTP Postgres Example
         url: https://github.com/CleverCloud/scala-akka-http-postgres-example
         description: Akka HTTP example with PostgreSQL persistence
         status: pinned
         last_update: 2022-05-20
+      - name: Play Scala Example
+        url: https://github.com/CleverCloud/play-scala-example
+        description: Deploy a Scala app built with Play Framework
+        status: deprecated
+        last_update: 2023-10-05
 
   smalltalk:
     title: Smalltalk
