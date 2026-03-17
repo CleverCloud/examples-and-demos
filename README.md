@@ -228,7 +228,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Khoj Example](https://github.com/CleverCloud/khoj-example) | Deploy Khoj AI assistant | 2025-06-18 | 🟢 |
 | [Mattermost Example](https://github.com/CleverCloud/mattermost-example) | Run Mattermost on Clever Cloud | 2026-03-16 | 🟢 |
 | [Mosquitto Example](https://github.com/CleverCloud/mosquitto-example) | Deploy Mosquitto MQTT broker | 2026-03-17 | 🟢 |
-| [Moodle Example](https://github.com/CleverCloud/moodle-example) | Deploy the open source learning platform | 2024-03-18 | 🟡 |
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
@@ -238,6 +237,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-03-17 | 🟢 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-03-16 | 🟢 |
 | [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2021-04-03 | 📌 |
+| [Moodle Example](https://github.com/CleverCloud/moodle-example) | Deploy the open source learning platform | 2024-03-18 | 📌 |
 | [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 📌 |
 | [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
 | [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🪦 |
@@ -301,9 +301,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 71 | Updated within the last year |
-| 🟡 Aging | 1 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 0 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
-| 📌 Pinned | 23 | Pinned to a specific version, still useful |
+| 📌 Pinned | 24 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |

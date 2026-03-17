@@ -605,11 +605,6 @@ self_hosted:
         description: Deploy Mosquitto MQTT broker
         status: active
         last_update: 2026-03-17
-      - name: Moodle Example
-        url: https://github.com/CleverCloud/moodle-example
-        description: Deploy the open source learning platform
-        status: active
-        last_update: 2024-03-18
       - name: n8n Example
         url: https://github.com/CleverCloud/n8n-example
         description: Run n8n workflow automation
@@ -655,6 +650,11 @@ self_hosted:
         description: Run Collabora Online with Docker
         status: pinned
         last_update: 2021-04-03
+      - name: Moodle Example
+        url: https://github.com/CleverCloud/moodle-example
+        description: Deploy the open source learning platform
+        status: pinned
+        last_update: 2024-03-18
       - name: Ollama Chat Deploy Example
         url: https://github.com/CleverCloud/ollama-chat-deploy-example
         description: Deploy AI models with Ollama
