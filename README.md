@@ -230,7 +230,6 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Mosquitto Example](https://github.com/CleverCloud/mosquitto-example) | Deploy Mosquitto MQTT broker | 2026-03-17 | 🟢 |
 | [Moodle Example](https://github.com/CleverCloud/moodle-example) | Deploy the open source learning platform | 2024-03-18 | 🟡 |
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
-| [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 🟡 |
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
@@ -239,6 +238,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-03-17 | 🟢 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-03-16 | 🟢 |
 | [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2021-04-03 | 📌 |
+| [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2024-02-23 | 📌 |
 | [Okazanta Example](https://github.com/CleverCloud/okazanta-example) | Deploy a status page (upstream project discontinued) | 2026-03-10 | 🪦 |
 | [Rocket.Chat Example](https://github.com/CleverCloud/rocketchat-example) | Run Rocket.Chat on Clever Cloud | 2017-09-21 | 🪦 |
 | [WordPress Example](https://github.com/CleverCloud/wordpress-example) | Run WordPress on Clever Cloud | 2026-03-16 | 🪦 |
@@ -301,9 +301,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 71 | Updated within the last year |
-| 🟡 Aging | 4 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 3 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
-| 📌 Pinned | 21 | Pinned to a specific version, still useful |
+| 📌 Pinned | 22 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 28 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |

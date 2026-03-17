@@ -615,11 +615,6 @@ self_hosted:
         description: Run n8n workflow automation
         status: active
         last_update: 2026-02-06
-      - name: Ollama Chat Deploy Example
-        url: https://github.com/CleverCloud/ollama-chat-deploy-example
-        description: Deploy AI models with Ollama
-        status: active
-        last_update: 2024-02-23
       - name: Outline Example
         url: https://github.com/CleverCloud/outline-example
         description: Run Outline wiki on Clever Cloud
@@ -660,6 +655,11 @@ self_hosted:
         description: Run Collabora Online with Docker
         status: pinned
         last_update: 2021-04-03
+      - name: Ollama Chat Deploy Example
+        url: https://github.com/CleverCloud/ollama-chat-deploy-example
+        description: Deploy AI models with Ollama
+        status: pinned
+        last_update: 2024-02-23
       - name: Okazanta Example
         url: https://github.com/CleverCloud/okazanta-example
         description: Deploy a status page (upstream project discontinued)
