@@ -234,7 +234,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
-| [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2023-08-18 | 🟡 |
+| [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2026-03-17 | 🟢 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-03-17 | 🟢 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-03-16 | 🟢 |
@@ -300,8 +300,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 70 | Updated within the last year |
-| 🟡 Aging | 5 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 71 | Updated within the last year |
+| 🟡 Aging | 4 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 21 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 28 | Upstream project discontinued |

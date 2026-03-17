@@ -639,7 +639,7 @@ self_hosted:
         url: https://github.com/CleverCloud/PostOwl-example
         description: Run PostOwl, personal website for blogging, letter sharing and private journaling
         status: active
-        last_update: 2023-08-18
+        last_update: 2026-03-17
       - name: Strapi Example
         url: https://github.com/CleverCloud/strapi-example
         description: Deploy Strapi CMS on Clever Cloud
