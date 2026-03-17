@@ -649,7 +649,7 @@ self_hosted:
         url: https://github.com/CleverCloud/umami-example
         description: Deploy Umami analytics
         status: active
-        last_update: 2023-09-29
+        last_update: 2026-03-17
       - name: WordPress Bedrock Example
         url: https://github.com/CleverCloud/wordpress-bedrock-example
         description: Install and manage WordPress with Bedrock's Composer
