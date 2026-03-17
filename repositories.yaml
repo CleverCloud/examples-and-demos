@@ -467,7 +467,7 @@ runtimes:
       - name: Rust Actix Example
         url: https://github.com/CleverCloud/rust-stable-actix-example
         description: Rust with Actix Web
-        status: active
+        status: pinned
         last_update: 2024-09-18
       - name: Rust Docker Example
         url: https://github.com/CleverCloud/rust-docker-example

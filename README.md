@@ -167,7 +167,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Rust Actix Example](https://github.com/CleverCloud/rust-stable-actix-example) | Rust with Actix Web | 2024-09-18 | 🟡 |
+| [Rust Actix Example](https://github.com/CleverCloud/rust-stable-actix-example) | Rust with Actix Web | 2024-09-18 | 📌 |
 | [Rust Docker Example](https://github.com/CleverCloud/rust-docker-example) | Run Rust with Docker on Clever Cloud | 2022-09-19 | 📌 |
 | [Rust Wemos Example](https://github.com/CleverCloud/rust-wemos-example) | Run Rust Wemos on Clever Cloud | 2018-05-23 | 🪦 |
 
@@ -301,9 +301,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Status | Count | Meaning |
 |--------|-------|---------|
 | 🟢 Fresh | 71 | Updated within the last year |
-| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
+| 🟡 Aging | 1 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
-| 📌 Pinned | 22 | Pinned to a specific version, still useful |
+| 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **125** | |
