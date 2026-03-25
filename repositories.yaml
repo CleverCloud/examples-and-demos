@@ -53,12 +53,12 @@ runtimes:
         url: https://github.com/CleverCloud/dotnet-6-blazor-example
         description: Blazor app with .NET 6
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: .NET 8 Blazor Example
         url: https://github.com/CleverCloud/dotnet-8-blazor-example
         description: Blazor app with .NET 8
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
 
   elixir:
     title: Elixir
@@ -72,7 +72,7 @@ runtimes:
         url: https://github.com/CleverCloud/phoenix-docker-example
         description: Run Phoenix with Docker on Clever Cloud
         status: deprecated
-        last_update: 2017-03-16
+        last_update: 2026-03-11
 
   go:
     title: Go
@@ -110,7 +110,7 @@ runtimes:
         url: https://github.com/CleverCloud/haskell-scotty-example
         description: Haskell web app with Scotty
         status: pinned
-        last_update: 2024-09-11
+        last_update: 2026-03-12
 
   java:
     title: Java
@@ -124,7 +124,7 @@ runtimes:
         url: https://github.com/CleverCloud/spring-mysql-example
         description: Spring Boot example on Clever Cloud
         status: active
-        last_update: 2026-03-11
+        last_update: 2026-03-12
       - name: Spring Boot MongoDB Example
         url: https://github.com/CleverCloud/springboot-mongo-example
         description: Run Spring Boot with MongoDB on Clever Cloud
@@ -228,32 +228,32 @@ runtimes:
         url: https://github.com/CleverCloud/node-14-meteor-2-example
         description: Meteor 2 with Node 14
         status: pinned
-        last_update: 2024-09-11
+        last_update: 2026-03-12
       - name: Node 20 Meteor 3 Example
         url: https://github.com/CleverCloud/node-20-meteor-3-example
         description: Meteor 3 with Node 20
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: Meteor.js Node ESM Example
         url: https://github.com/CleverCloud/meteorjs-node-esm-example
         description: Meteor.js with Node.js ESM 14.21.4
         status: deprecated
-        last_update: 2024-02-23
+        last_update: 2026-03-12
       - name: Keystone.js Example
         url: https://github.com/CleverCloud/keystonejs-example
         description: Run Keystone on Clever Cloud
         status: deprecated
-        last_update: 2017-10-18
+        last_update: 2026-03-13
       - name: IO.js Example
         url: https://github.com/CleverCloud/iojs-example
         description: Run IO.js on Clever Cloud
         status: deprecated
-        last_update: 2015-03-16
+        last_update: 2026-03-13
       - name: CasperJS Example
         url: https://github.com/CleverCloud/casperjs-example
         description: Run CasperJS on Clever Cloud
         status: deprecated
-        last_update: 2018-09-03
+        last_update: 2026-03-13
       - name: Parse React Example
         url: https://github.com/CleverCloud/parse-react-example
         description: React parse integration
@@ -297,32 +297,32 @@ runtimes:
         url: https://github.com/CleverCloud/lumen-statsd-example
         description: Run Lumen with StatsD on Clever Cloud
         status: deprecated
-        last_update: 2018-01-15
+        last_update: 2026-03-12
       - name: HHVM Example
         url: https://github.com/CleverCloud/hhvm-example
         description: Run HHVM on Clever Cloud
         status: deprecated
-        last_update: 2015-01-06
+        last_update: 2026-03-12
       - name: PHP FrankenPHP Binary Example
         url: https://github.com/CleverCloud/php-franken-binary-example
         description: Deploy Laravel/Octane as FrankenPHP binary
         status: deprecated
-        last_update: 2024-03-04
+        last_update: 2026-03-16
       - name: PHP FrankenPHP Laravel Example
         url: https://github.com/CleverCloud/php-franken-laravel-example
         description: Deploy FrankenPHP-based Laravel app
         status: deprecated
-        last_update: 2024-03-02
+        last_update: 2026-03-16
       - name: PHP FrankenPHP Symfony Example
         url: https://github.com/CleverCloud/php-franken-symfony-example
         description: Deploy FrankenPHP-based Symfony app
         status: deprecated
-        last_update: 2024-03-02
+        last_update: 2026-03-16
       - name: PHP FrankenPHP Standalone Example
         url: https://github.com/CleverCloud/php-franken-standalone-example
         description: Deploy FrankenPHP standalone binary app
         status: deprecated
-        last_update: 2024-03-02
+        last_update: 2026-03-16
 
   python:
     title: Python
@@ -356,7 +356,7 @@ runtimes:
         url: https://github.com/CleverCloud/python-3-flask-example
         description: Flask web application
         status: pinned
-        last_update: 2025-03-15
+        last_update: 2026-03-12
       - name: Python 3.9 Django Daphne Example
         url: https://github.com/CleverCloud/python-3.9-django-daphne-example
         description: Django application with Daphne ASGI server
@@ -366,37 +366,37 @@ runtimes:
         url: https://github.com/CleverCloud/python-3.10-django-gunicorn-example
         description: Django with Gunicorn
         status: pinned
-        last_update: 2024-09-18
+        last_update: 2026-03-12
       - name: Python 3.11 Django Uvicorn Example
         url: https://github.com/CleverCloud/python-3.11-django-uvicorn-example
         description: Django with Uvicorn
         status: pinned
-        last_update: 2024-09-18
+        last_update: 2026-03-12
       - name: Python 3.12 Django uWSGI Example
         url: https://github.com/CleverCloud/python-3.12-django-uwsgi-example
         description: Django with uWSGI
         status: pinned
-        last_update: 2024-12-13
+        last_update: 2026-03-12
       - name: Python 3.13 Django uWSGI Example
         url: https://github.com/CleverCloud/python-3.13-django-uwsgi-example
         description: Django with uWSGI on Python 3.13
         status: pinned
-        last_update: 2024-12-09
+        last_update: 2026-03-12
       - name: Keras Example
         url: https://github.com/CleverCloud/keras-example
         description: Run Keras on Clever Grid
         status: deprecated
-        last_update: 2019-07-07
+        last_update: 2026-03-11
       - name: Django Example
         url: https://github.com/CleverCloud/django-example
         description: Run Django on Clever Cloud
         status: deprecated
-        last_update: 2024-04-23
+        last_update: 2026-03-16
       - name: Python Django UV Example
         url: https://github.com/CleverCloud/python-django-uv-example
         description: Deploy a Django app, blazing fast, using uv
         status: deprecated
-        last_update: 2024-12-09
+        last_update: 2026-03-16
 
   ruby:
     title: Ruby
@@ -430,32 +430,32 @@ runtimes:
         url: https://github.com/CleverCloud/ruby-2.7-rails-example
         description: Rails with Ruby 2.7
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: Ruby 3.0 Rails Example
         url: https://github.com/CleverCloud/ruby-3.0-rails-example
         description: Rails with Ruby 3.0
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: Ruby 3.1 Rails Example
         url: https://github.com/CleverCloud/ruby-3.1-rails-example
         description: Rails with Ruby 3.1
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: Ruby 3.2 Rails Example
         url: https://github.com/CleverCloud/ruby-3.2-rails-example
         description: Rails with Ruby 3.2
         status: pinned
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: Ruby 3.3 Rails Example
         url: https://github.com/CleverCloud/ruby-3.3-rails-example
         description: Rails with Ruby 3.3
         status: pinned 
-        last_update: 2024-09-13
+        last_update: 2026-03-12
       - name: MKV Raw TCP Ruby Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-ruby-example
         description: Materia KV raw TCP demo in Ruby
         status: deprecated
-        last_update: 2024-06-11
+        last_update: 2026-03-12
       - name: Rails PostgreSQL Example
         url: https://github.com/CleverCloud/rails-postgresql-example
         description: Run Ruby on Rails with PostgreSQL
@@ -468,17 +468,17 @@ runtimes:
         url: https://github.com/CleverCloud/rust-stable-actix-example
         description: Rust with Actix Web
         status: pinned
-        last_update: 2024-09-18
+        last_update: 2026-03-17
       - name: Rust Docker Example
         url: https://github.com/CleverCloud/rust-docker-example
         description: Run Rust with Docker on Clever Cloud
         status: pinned
-        last_update: 2022-09-19
+        last_update: 2026-03-16
       - name: Rust Wemos Example
         url: https://github.com/CleverCloud/rust-wemos-example
         description: Run Rust Wemos on Clever Cloud
         status: deprecated
-        last_update: 2018-05-23
+        last_update: 2026-03-12
 
   scala:
     title: Scala
@@ -487,12 +487,12 @@ runtimes:
         url: https://github.com/CleverCloud/scala-akka-http-postgres-example
         description: Akka HTTP example with PostgreSQL persistence
         status: pinned
-        last_update: 2022-05-20
+        last_update: 2026-03-16
       - name: Play Scala Example
         url: https://github.com/CleverCloud/play-scala-example
         description: Deploy a Scala app built with Play Framework
         status: deprecated
-        last_update: 2023-10-05
+        last_update: 2026-03-17
 
   smalltalk:
     title: Smalltalk
@@ -501,7 +501,7 @@ runtimes:
         url: https://github.com/CleverCloud/seaside-example
         description: Seaside web application with Pharo Smalltalk
         status: deprecated
-        last_update: 2015-12-02
+        last_update: 2026-03-13
 
   static:
     title: Static Sites
@@ -510,7 +510,7 @@ runtimes:
         url: https://github.com/CleverCloud/angular-example
         description: Angular Tour of Heroes on Clever Cloud
         status: pinned
-        last_update: 2024-04-10
+        last_update: 2026-03-13
 
   swift:
     title: Swift
@@ -519,12 +519,12 @@ runtimes:
         url: https://github.com/CleverCloud/swift-hello-world-example
         description: Deploy a Swift app using Mise and Linux runtime
         status: active
-        last_update: 2025-07-02
+        last_update: 2026-03-19
       - name: Swift Vapor Example
         url: https://github.com/CleverCloud/swift-vapor-example
         description: Run Swift with PostgreSQL using Vapor
         status: deprecated
-        last_update: 2023-05-23
+        last_update: 2026-03-16
 
   v:
     title: V
@@ -538,7 +538,7 @@ runtimes:
         url: https://github.com/CleverCloud/mkv-raw-tcp-v-example
         description: Materia KV raw TCP demo in V
         status: deprecated
-        last_update: 2024-06-11
+        last_update: 2026-03-12
 
   zig:
     title: Zig
@@ -649,17 +649,17 @@ self_hosted:
         url: https://github.com/CleverCloud/collabora-online-example
         description: Run Collabora Online with Docker
         status: pinned
-        last_update: 2021-04-03
+        last_update: 2026-03-16
       - name: Moodle Example
         url: https://github.com/CleverCloud/moodle-example
         description: Deploy the open source learning platform
         status: pinned
-        last_update: 2024-03-18
+        last_update: 2026-03-17
       - name: Ollama Chat Deploy Example
         url: https://github.com/CleverCloud/ollama-chat-deploy-example
         description: Deploy AI models with Ollama
         status: pinned
-        last_update: 2024-02-23
+        last_update: 2026-03-17
       - name: Okazanta Example
         url: https://github.com/CleverCloud/okazanta-example
         description: Deploy a status page (upstream project discontinued)
@@ -669,7 +669,7 @@ self_hosted:
         url: https://github.com/CleverCloud/rocketchat-example
         description: Run Rocket.Chat on Clever Cloud
         status: deprecated
-        last_update: 2017-09-21
+        last_update: 2026-03-13
       - name: WordPress Example
         url: https://github.com/CleverCloud/wordpress-example
         description: Run WordPress on Clever Cloud
@@ -730,11 +730,16 @@ other:
   platform:
     title: Platform
     examples:
+      - name: OAuth1 Example
+        url: https://github.com/CleverCloud/oauth1-example
+        description: Integrate Clever Cloud OAuth login with Node.js
+        status: active
+        last_update: 2026-03-25
       - name: Create an Add-on Provider Example
         url: https://github.com/CleverCloud/create-an-addon-provider-example
         description: Step-by-step add-on creation
         status: deprecated
-        last_update: 2022-02-09
+        last_update: 2026-03-16
 
   templates:
     title: Templates
@@ -743,7 +748,7 @@ other:
         url: https://github.com/CleverCloud/template-example
         description: Template repository to create example applications
         status: deprecated
-        last_update: 2021-07-03
+        last_update: 2026-03-16
 
   biscuit:
     title: Eclipse Biscuit
