@@ -188,6 +188,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
+| [Astro Example](https://github.com/CleverCloud/astro-example) | Deploy an Astro app on Clever Cloud | 2026-03-27 | 🟢 |
 | [Angular Example](https://github.com/CleverCloud/angular-example) | Angular Tour of Heroes on Clever Cloud | 2026-03-13 | 📌 |
 
 ### Swift
@@ -301,15 +302,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 72 | Updated within the last year |
+| 🟢 Fresh | 73 | Updated within the last year |
 | 🟡 Aging | 0 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 24 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
-| **Total** | **126** | |
+| **Total** | **127** | |
 
-> **Last generated**: 2026-03-25 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-03-27 — Dates are based on the last commit on the default branch.
 
 ---
 

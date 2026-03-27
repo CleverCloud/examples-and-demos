@@ -506,6 +506,11 @@ runtimes:
   static:
     title: Static Sites
     examples:
+      - name: Astro Example
+        url: https://github.com/CleverCloud/astro-example
+        description: Deploy an Astro app on Clever Cloud
+        status: active
+        last_update: 2026-03-27
       - name: Angular Example
         url: https://github.com/CleverCloud/angular-example
         description: Angular Tour of Heroes on Clever Cloud
