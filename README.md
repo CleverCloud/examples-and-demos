@@ -54,6 +54,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Phoenix Elixir Example](https://github.com/CleverCloud/phoenix-elixir-example) | Run Phoenix on Elixir runtime on Clever Cloud | 2026-03-11 | 🟢 |
+| [Elixir Libcluster Example](https://github.com/CleverCloud/elixir-libcluster-example) | Example with multi Elixir nodes powered by libcluster | 2026-04-09 | 🟢 |
 | [Phoenix Docker Example](https://github.com/CleverCloud/phoenix-docker-example) | Run Phoenix with Docker on Clever Cloud | 2026-03-11 | 🪦 |
 
 ### Go
@@ -88,10 +89,10 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2025-09-15 | 🟢 |
+| [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2026-04-03 | 🟢 |
 | [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-03-12 | 🟢 |
 | [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2026-03-12 | 🟢 |
-| [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟢 |
+| [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟡 |
 | [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟢 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2026-03-12 | 🟢 |
@@ -188,7 +189,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Astro Example](https://github.com/CleverCloud/astro-example) | Deploy an Astro app on Clever Cloud | 2026-03-27 | 🟢 |
+| [Astro Example](https://github.com/CleverCloud/astro-example) | Deploy an Astro app on Clever Cloud | 2026-04-01 | 🟢 |
 | [Angular Example](https://github.com/CleverCloud/angular-example) | Angular Tour of Heroes on Clever Cloud | 2026-03-13 | 📌 |
 
 ### Swift
@@ -219,7 +220,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟢 |
+| [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟡 |
 | [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
 | [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2026-03-16 | 🟢 |
@@ -302,15 +303,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 73 | Updated within the last year |
-| 🟡 Aging | 0 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 72 | Updated within the last year |
+| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 24 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
-| **Total** | **127** | |
+| **Total** | **128** | |
 
-> **Last generated**: 2026-03-27 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-04-10 — Dates are based on the last commit on the default branch.
 
 ---
 

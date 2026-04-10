@@ -68,6 +68,11 @@ runtimes:
         description: Run Phoenix on Elixir runtime on Clever Cloud
         status: active
         last_update: 2026-03-11
+      - name: Elixir Libcluster Example
+        url: https://github.com/CleverCloud/elixir-libcluster-example
+        description: Example with multi Elixir nodes powered by libcluster
+        status: active
+        last_update: 2026-04-09
       - name: Phoenix Docker Example
         url: https://github.com/CleverCloud/phoenix-docker-example
         description: Run Phoenix with Docker on Clever Cloud
@@ -158,7 +163,7 @@ runtimes:
         url: https://github.com/CleverCloud/nodejs-example
         description: The smallest (no deps) node app you can deploy on Clever Cloud
         status: active
-        last_update: 2025-09-15
+        last_update: 2026-04-03
       - name: Express.js MongoDB StatsD Example
         url: https://github.com/CleverCloud/expressjs-mongodb-statsd-example
         description: Run Express.js with MongoDB and StatsD
@@ -510,7 +515,7 @@ runtimes:
         url: https://github.com/CleverCloud/astro-example
         description: Deploy an Astro app on Clever Cloud
         status: active
-        last_update: 2026-03-27
+        last_update: 2026-04-01
       - name: Angular Example
         url: https://github.com/CleverCloud/angular-example
         description: Angular Tour of Heroes on Clever Cloud
