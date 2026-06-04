@@ -38,7 +38,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Dart with Mise Example](https://github.com/CleverCloud/dart-with-mise-example) | Deploy a Dart app on Clever Cloud, using Mise and Linux runtime | 2025-07-04 | 🟢 |
+| [Dart with Mise Example](https://github.com/CleverCloud/dart-with-mise-example) | Deploy a Dart app on Clever Cloud, using Mise and Linux runtime | 2026-04-23 | 🟢 |
 
 ### .NET / C#
 
@@ -54,7 +54,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Phoenix Elixir Example](https://github.com/CleverCloud/phoenix-elixir-example) | Run Phoenix on Elixir runtime on Clever Cloud | 2026-03-11 | 🟢 |
-| [Elixir Libcluster Example](https://github.com/CleverCloud/elixir-libcluster-example) | Example with multi Elixir nodes powered by libcluster | 2026-04-09 | 🟢 |
+| [Elixir Libcluster Example](https://github.com/CleverCloud/elixir-libcluster-example) | Example with multi Elixir nodes powered by libcluster | 2026-04-10 | 🟢 |
 | [Phoenix Docker Example](https://github.com/CleverCloud/phoenix-docker-example) | Run Phoenix with Docker on Clever Cloud | 2026-03-11 | 🪦 |
 
 ### Go
@@ -90,10 +90,10 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2026-04-03 | 🟢 |
-| [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-03-12 | 🟢 |
+| [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-06-04 | 🟢 |
 | [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2026-03-12 | 🟢 |
 | [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟡 |
-| [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟢 |
+| [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟡 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2026-03-12 | 🟢 |
 | [Node.js Pulsar Example](https://github.com/CleverCloud/nodejs-pulsar-example) | Apache Pulsar with Node.js | 2026-03-13 | 🟢 |
@@ -132,7 +132,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2025-04-04 | 🟢 |
+| [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2025-04-04 | 🟡 |
 | [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2026-03-16 | 🟢 |
 | [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
@@ -221,6 +221,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟡 |
+| [Docmost Example](https://github.com/CleverCloud/docmost-example) | Docmost on Clever Cloud | 2026-06-04 | 🟢 |
 | [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
 | [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2026-03-16 | 🟢 |
@@ -231,11 +232,11 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Mattermost Example](https://github.com/CleverCloud/mattermost-example) | Run Mattermost on Clever Cloud | 2026-03-16 | 🟢 |
 | [Mosquitto Example](https://github.com/CleverCloud/mosquitto-example) | Deploy Mosquitto MQTT broker | 2026-03-17 | 🟢 |
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
-| [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-03-10 | 🟢 |
+| [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-06-04 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2026-03-17 | 🟢 |
-| [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2025-06-08 | 🟢 |
+| [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2026-05-04 | 🟢 |
 | [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-03-17 | 🟢 |
 | [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-03-16 | 🟢 |
 | [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2026-03-16 | 📌 |
@@ -263,7 +264,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Otoroshi API Example](https://github.com/CleverCloud/otoroshi-api-example) | Otoroshi API gateway example | 2025-05-05 | 🟢 |
+| [Otoroshi API Example](https://github.com/CleverCloud/otoroshi-api-example) | Otoroshi API gateway example | 2025-05-05 | 🟡 |
 
 ---
 
@@ -303,15 +304,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 72 | Updated within the last year |
-| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 70 | Updated within the last year |
+| 🟡 Aging | 5 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 24 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
-| **Total** | **128** | |
+| **Total** | **129** | |
 
-> **Last generated**: 2026-04-10 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-06-04 — Dates are based on the last commit on the default branch.
 
 ---
 

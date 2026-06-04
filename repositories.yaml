@@ -34,7 +34,7 @@ runtimes:
         url: https://github.com/CleverCloud/dart-with-mise-example
         description: Deploy a Dart app on Clever Cloud, using Mise and Linux runtime
         status: active
-        last_update: 2025-07-04
+        last_update: 2026-04-23
 
   dotnet:
     title: ".NET / C#"
@@ -72,7 +72,7 @@ runtimes:
         url: https://github.com/CleverCloud/elixir-libcluster-example
         description: Example with multi Elixir nodes powered by libcluster
         status: active
-        last_update: 2026-04-09
+        last_update: 2026-04-10
       - name: Phoenix Docker Example
         url: https://github.com/CleverCloud/phoenix-docker-example
         description: Run Phoenix with Docker on Clever Cloud
@@ -168,7 +168,7 @@ runtimes:
         url: https://github.com/CleverCloud/expressjs-mongodb-statsd-example
         description: Run Express.js with MongoDB and StatsD
         status: active
-        last_update: 2026-03-12
+        last_update: 2026-06-04
       - name: Express.js PostgreSQL Example
         url: https://github.com/CleverCloud/expressjs-postgresql-example
         description: Run Express.js with PostgreSQL
@@ -570,6 +570,11 @@ self_hosted:
         description: Vector database for AI applications
         status: active
         last_update: 2025-03-17
+      - name: Docmost Example
+        url: https://github.com/CleverCloud/docmost-example
+        description: Docmost on Clever Cloud
+        status: active
+        last_update: 2026-06-04
       - name: Docs Example
         url: https://github.com/CleverCloud/docs-example
         description: Collaborative note-taking platform (Django + React)
@@ -624,7 +629,7 @@ self_hosted:
         url: https://github.com/CleverCloud/outline-example
         description: Run Outline wiki on Clever Cloud
         status: active
-        last_update: 2026-03-10
+        last_update: 2026-06-04
       - name: Parse Server Example
         url: https://github.com/CleverCloud/parse-server-example
         description: Run parse-server on Clever Cloud
@@ -644,7 +649,7 @@ self_hosted:
         url: https://github.com/CleverCloud/strapi-example
         description: Deploy Strapi CMS on Clever Cloud
         status: active
-        last_update: 2025-06-08
+        last_update: 2026-05-04
       - name: Umami Example
         url: https://github.com/CleverCloud/umami-example
         description: Deploy Umami analytics

@@ -13,6 +13,8 @@ Generate a change report for `repositories.yaml` over a date range.
 - [scripts/freshness-stats.js](scripts/freshness-stats.js) — Computes freshness category counts from `repositories.yaml`. Outputs JSON. Accepts `--commit <sha>` to read the file at a specific commit, and `--date YYYY-MM-DD` to evaluate freshness relative to a given date.
 - [scripts/freshness-diff.js](scripts/freshness-diff.js) — Compares two snapshots and lists every repo whose freshness category changed. Used in Step 5 to verify the report is complete.
 - [scripts/repo-diff.js](scripts/repo-diff.js) — Compares all repo fields (name, status, last_update) between two snapshots. Reliably catches date-only updates, status changes, renames, additions, and removals — unlike grep-based diffing, it is not confused by block reorderings in the YAML file.
+- [scripts/check-dates.js](scripts/check-dates.js) — Compares the `last_update` date of each repo in `repositories.yaml` against the actual last commit date on its GitHub default branch, reporting mismatches. Defaults to active/pinned repos; accepts `--all` to include deprecated/archived and `--name "<repo name>"` to check a single repo. Requires the `gh` CLI authenticated for the CleverCloud org.
+- [scripts/find-missing.js](scripts/find-missing.js) — Searches the CleverCloud GitHub org for public repositories that look like examples (name/description matching example, demo, sample, starter, template, etc.) but are not listed in `repositories.yaml`. Accepts `--include-archived` to also surface archived repos. Requires the `gh` CLI authenticated for the CleverCloud org.
 
 ## Step 1: Parse the date range from $ARGUMENTS
 
