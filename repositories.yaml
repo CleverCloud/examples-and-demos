@@ -79,6 +79,15 @@ runtimes:
         status: deprecated
         last_update: 2026-03-11
 
+  gleam:
+    title: Gleam
+    examples:
+      - name: Gleam Example
+        url: https://github.com/CleverCloud/gleam-example
+        description: Deploy a Gleam web app built with the Wisp framework on Clever Cloud
+        status: active
+        last_update: 2026-06-09
+
   go:
     title: Go
     examples:

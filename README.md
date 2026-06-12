@@ -57,6 +57,12 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Elixir Libcluster Example](https://github.com/CleverCloud/elixir-libcluster-example) | Example with multi Elixir nodes powered by libcluster | 2026-04-10 | 🟢 |
 | [Phoenix Docker Example](https://github.com/CleverCloud/phoenix-docker-example) | Run Phoenix with Docker on Clever Cloud | 2026-03-11 | 🪦 |
 
+### Gleam
+
+| Example | Description | Last Commit | Status |
+|---------|-------------|-------------|--------|
+| [Gleam Example](https://github.com/CleverCloud/gleam-example) | Deploy a Gleam web app built with the Wisp framework on Clever Cloud | 2026-06-09 | 🟢 |
+
 ### Go
 
 | Example | Description | Last Commit | Status |
@@ -304,15 +310,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 70 | Updated within the last year |
+| 🟢 Fresh | 71 | Updated within the last year |
 | 🟡 Aging | 5 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 24 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
-| **Total** | **129** | |
+| **Total** | **130** | |
 
-> **Last generated**: 2026-06-04 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-06-12 — Dates are based on the last commit on the default branch.
 
 ---
 
