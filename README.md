@@ -61,7 +61,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Gleam Example](https://github.com/CleverCloud/gleam-example) | Deploy a Gleam web app built with the Wisp framework on Clever Cloud | 2026-06-09 | 🟢 |
+| [Gleam Example](https://github.com/CleverCloud/gleam-example) | Deploy a Gleam web app built with the Wisp framework on Clever Cloud | 2026-06-10 | 🟢 |
 
 ### Go
 
@@ -95,10 +95,10 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2026-04-03 | 🟢 |
+| [Node.js Example](https://github.com/CleverCloud/nodejs-example) | The smallest (no deps) node app you can deploy on Clever Cloud | 2026-06-12 | 🟢 |
 | [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-06-04 | 🟢 |
 | [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2026-03-12 | 🟢 |
-| [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2025-03-17 | 🟡 |
+| [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2026-06-12 | 🟢 |
 | [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟡 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2026-03-12 | 🟢 |
@@ -138,7 +138,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2025-04-04 | 🟡 |
+| [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2026-06-12 | 🟢 |
 | [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2026-03-16 | 🟢 |
 | [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
@@ -159,7 +159,7 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [Rack Example](https://github.com/CleverCloud/rack-example) | Run Rack on Clever Cloud | 2026-03-16 | 🟢 |
 | [Rack StatsD Example](https://github.com/CleverCloud/rack-statsd-example) | Run Rack with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
-| [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2026-03-16 | 🟢 |
+| [Ruby Multi Redirect Example](https://github.com/CleverCloud/ruby-multi-redirect-example) | Puma web server and Sinatra DSL, managing multiple redirections | 2026-06-12 | 🟢 |
 | [Ruby PostgreSQL Example](https://github.com/CleverCloud/ruby-postgresql-example) | Ruby on Rails with PostgreSQL | 2026-03-16 | 🟢 |
 | [Sinatra PostgreSQL Example](https://github.com/CleverCloud/sinatra-postgresql-example) | Run Sinatra with PostgreSQL | 2026-03-12 | 🟢 |
 | [Ruby 2.7 Rails Example](https://github.com/CleverCloud/ruby-2.7-rails-example) | Rails with Ruby 2.7 | 2026-03-12 | 📌 |
@@ -226,7 +226,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2025-03-17 | 🟡 |
+| [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2026-06-12 | 🟢 |
 | [Docmost Example](https://github.com/CleverCloud/docmost-example) | Docmost on Clever Cloud | 2026-06-04 | 🟢 |
 | [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
@@ -280,7 +280,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [GitLab Simple CI/CD Example](https://github.com/CleverCloud/Gitlab-simple-CI-CD-example) | Deploy from GitLab with clever-tools | 2026-03-16 | 🟢 |
+| [GitLab Simple CI/CD Example](https://github.com/CleverCloud/Gitlab-simple-CI-CD-example) | Deploy from GitLab with clever-tools | 2026-06-12 | 🟢 |
 | [Elastic APM Configuration Example](https://github.com/CleverCloud/Elastic-APM-configuration-files-example) | Connect apps to Elastic APM on Clever Cloud | 2026-03-16 | 🟢 |
 | [Logstash Example](https://github.com/CleverCloud/logstash-example) | Logstash on Clever Cloud | 2026-03-16 | 🟢 |
 | [Network Groups Example](https://github.com/CleverCloud/network-groups-example) | Network isolation and VPN configurations | 2025-11-05 | 🟢 |
@@ -298,25 +298,19 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [Template Example](https://github.com/CleverCloud/template-example) | Template repository to create example applications | 2026-03-16 | 🪦 |
 
-### Eclipse Biscuit
-
-| Example | Description | Last Commit | Status |
-|---------|-------------|-------------|--------|
-| [Biscuit Example](https://github.com/CleverCloud/biscuit-example) | Biscuit tokens example | 2021-04-23 | 📌 |
-
 ---
 
 ## Summary
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 71 | Updated within the last year |
-| 🟡 Aging | 5 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 74 | Updated within the last year |
+| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
-| 📌 Pinned | 24 | Pinned to a specific version, still useful |
+| 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
-| **Total** | **130** | |
+| **Total** | **129** | |
 
 > **Last generated**: 2026-06-12 — Dates are based on the last commit on the default branch.
 

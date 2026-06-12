@@ -86,7 +86,7 @@ runtimes:
         url: https://github.com/CleverCloud/gleam-example
         description: Deploy a Gleam web app built with the Wisp framework on Clever Cloud
         status: active
-        last_update: 2026-06-09
+        last_update: 2026-06-10
 
   go:
     title: Go
@@ -172,7 +172,7 @@ runtimes:
         url: https://github.com/CleverCloud/nodejs-example
         description: The smallest (no deps) node app you can deploy on Clever Cloud
         status: active
-        last_update: 2026-04-03
+        last_update: 2026-06-12
       - name: Express.js MongoDB StatsD Example
         url: https://github.com/CleverCloud/expressjs-mongodb-statsd-example
         description: Run Express.js with MongoDB and StatsD
@@ -187,7 +187,7 @@ runtimes:
         url: https://github.com/CleverCloud/HexoJS-example
         description: Deploy Hexo-based website on Clever Cloud
         status: active
-        last_update: 2025-03-17
+        last_update: 2026-06-12
       - name: FaolTS Node.js MateriaKV Example
         url: https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example
         description: Node.js application using MateriaKV
@@ -345,7 +345,7 @@ runtimes:
         url: https://github.com/CleverCloud/celery-gunicorn-example
         description: Python app using Celery and Gunicorn
         status: active
-        last_update: 2025-04-04
+        last_update: 2026-06-12
       - name: Django Todo List Example
         url: https://github.com/CleverCloud/django-todo-list-example
         description: Django todo list with modern Python tooling (uv, pyproject.toml)
@@ -429,7 +429,7 @@ runtimes:
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
         status: active
-        last_update: 2026-03-16
+        last_update: 2026-06-12
       - name: Ruby PostgreSQL Example
         url: https://github.com/CleverCloud/ruby-postgresql-example
         description: Ruby on Rails with PostgreSQL
@@ -578,7 +578,7 @@ self_hosted:
         url: https://github.com/CleverCloud/chromadb-server-example
         description: Vector database for AI applications
         status: active
-        last_update: 2025-03-17
+        last_update: 2026-06-12
       - name: Docmost Example
         url: https://github.com/CleverCloud/docmost-example
         description: Docmost on Clever Cloud
@@ -734,7 +734,7 @@ other:
         url: https://github.com/CleverCloud/Gitlab-simple-CI-CD-example
         description: Deploy from GitLab with clever-tools
         status: active
-        last_update: 2026-03-16
+        last_update: 2026-06-12
       - name: Elastic APM Configuration Example
         url: https://github.com/CleverCloud/Elastic-APM-configuration-files-example
         description: Connect apps to Elastic APM on Clever Cloud
@@ -773,12 +773,3 @@ other:
         description: Template repository to create example applications
         status: deprecated
         last_update: 2026-03-16
-
-  biscuit:
-    title: Eclipse Biscuit
-    examples:
-      - name: Biscuit Example
-        url: https://github.com/CleverCloud/biscuit-example
-        description: Biscuit tokens example
-        status: pinned
-        last_update: 2021-04-23
