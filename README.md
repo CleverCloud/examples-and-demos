@@ -99,7 +99,7 @@ Each example includes a freshness indicator based on the date of its last commit
 | [Express.js MongoDB StatsD Example](https://github.com/CleverCloud/expressjs-mongodb-statsd-example) | Run Express.js with MongoDB and StatsD | 2026-06-04 | 🟢 |
 | [Express.js PostgreSQL Example](https://github.com/CleverCloud/expressjs-postgresql-example) | Run Express.js with PostgreSQL | 2026-03-12 | 🟢 |
 | [HexoJS Example](https://github.com/CleverCloud/HexoJS-example) | Deploy Hexo-based website on Clever Cloud | 2026-06-12 | 🟢 |
-| [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2025-05-21 | 🟡 |
+| [FaolTS Node.js MateriaKV Example](https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example) | Node.js application using MateriaKV | 2026-06-18 | 🟢 |
 | [MCP PostgreSQL Example](https://github.com/CleverCloud/mcp-pg-example) | MCP server for PostgreSQL with natural language querying | 2026-01-31 | 🟢 |
 | [Meteor.js MongoDB Example](https://github.com/CleverCloud/meteorjs-mongodb-example) | Run Meteor with MongoDB on Clever Cloud | 2026-03-12 | 🟢 |
 | [Node.js Pulsar Example](https://github.com/CleverCloud/nodejs-pulsar-example) | Apache Pulsar with Node.js | 2026-03-13 | 🟢 |
@@ -304,15 +304,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 74 | Updated within the last year |
-| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 75 | Updated within the last year |
+| 🟡 Aging | 1 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **129** | |
 
-> **Last generated**: 2026-06-12 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-06-18 — Dates are based on the last commit on the default branch.
 
 ---
 

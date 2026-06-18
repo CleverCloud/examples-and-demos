@@ -192,7 +192,7 @@ runtimes:
         url: https://github.com/CleverCloud/FaolTS-NodeJS-MateriaKV-example
         description: Node.js application using MateriaKV
         status: active
-        last_update: 2025-05-21
+        last_update: 2026-06-18
       - name: MCP PostgreSQL Example
         url: https://github.com/CleverCloud/mcp-pg-example
         description: MCP server for PostgreSQL with natural language querying
