@@ -228,7 +228,7 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2026-06-12 | 🟢 |
 | [Docmost Example](https://github.com/CleverCloud/docmost-example) | Docmost on Clever Cloud | 2026-06-04 | 🟢 |
-| [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟡 |
+| [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2026-10-15 | 🟢 |
 | [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2026-10-15 | 🟢 |
 | [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2026-03-16 | 🟢 |
 | [HiveMQ Example](https://github.com/CleverCloud/hivemq-example) | Deploy HiveMQ MQTT broker | 2026-01-08 | 🟢 |
@@ -304,8 +304,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 73 | Updated within the last year |
-| 🟡 Aging | 3 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 74 | Updated within the last year |
+| 🟡 Aging | 2 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |

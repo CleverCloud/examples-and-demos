@@ -588,7 +588,7 @@ self_hosted:
         url: https://github.com/CleverCloud/docs-example
         description: Collaborative note-taking platform (Django + React)
         status: active
-        last_update: 2025-06-26
+        last_update: 2026-10-15
       - name: GlitchTip Example
         url: https://github.com/CleverCloud/glitchtip-example
         description: Run GlitchTip error tracking
