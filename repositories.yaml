@@ -291,7 +291,7 @@ runtimes:
         url: https://github.com/CleverCloud/frankenphp-kv-json-example
         description: PHP app using FrankenPHP runtime and MateriaKV JSON commands
         status: active
-        last_update: 2025-08-07
+        last_update: 2026-10-15
       - name: PHP Composer Example
         url: https://github.com/CleverCloud/php-composer-example
         description: Run PHP with Composer on Clever Cloud
@@ -350,7 +350,7 @@ runtimes:
         url: https://github.com/CleverCloud/django-todo-list-example
         description: Django todo list with modern Python tooling (uv, pyproject.toml)
         status: active
-        last_update: 2026-03-16
+        last_update: 2026-07-15
       - name: Flask Example
         url: https://github.com/CleverCloud/flask-example
         description: Run Flask on Clever Cloud
@@ -360,7 +360,7 @@ runtimes:
         url: https://github.com/CleverCloud/python-fastapi-uv-example
         description: Deploy a FastAPI app, blazing fast, using uv
         status: active
-        last_update: 2025-07-01
+        last_update: 2026-10-15
       - name: Falcon StatsD Example
         url: https://github.com/CleverCloud/falcon-statsd-example
         description: Run Falcon with StatsD on Clever Cloud
@@ -552,7 +552,7 @@ runtimes:
         url: https://github.com/CleverCloud/v-example
         description: Deploy a V app using V runtime
         status: active
-        last_update: 2025-07-04
+        last_update: 2026-10-15
       - name: MKV Raw TCP V Example
         url: https://github.com/CleverCloud/mkv-raw-tcp-v-example
         description: Materia KV raw TCP demo in V
@@ -566,7 +566,7 @@ runtimes:
         url: https://github.com/CleverCloud/zig-with-mise-example
         description: Deploy a Zig app using Mise and Linux runtime
         status: active
-        last_update: 2025-07-04
+        last_update: 2026-10-15
 
 self_hosted:
   title: Self-Hosted Applications
@@ -593,7 +593,7 @@ self_hosted:
         url: https://github.com/CleverCloud/glitchtip-example
         description: Run GlitchTip error tracking
         status: active
-        last_update: 2025-08-18
+        last_update: 2026-10-15
       - name: Grafana Example
         url: https://github.com/CleverCloud/grafana-example
         description: Run Grafana on Clever Cloud
@@ -613,7 +613,7 @@ self_hosted:
         url: https://github.com/CleverCloud/kestra-example
         description: Deploy Kestra orchestration platform
         status: active
-        last_update: 2025-08-18
+        last_update: 2026-10-15
       - name: Khoj Example
         url: https://github.com/CleverCloud/khoj-example
         description: Deploy Khoj AI assistant
@@ -638,7 +638,7 @@ self_hosted:
         url: https://github.com/CleverCloud/outline-example
         description: Run Outline wiki on Clever Cloud
         status: active
-        last_update: 2026-06-04
+        last_update: 2026-09-22
       - name: Parse Server Example
         url: https://github.com/CleverCloud/parse-server-example
         description: Run parse-server on Clever Cloud
@@ -663,12 +663,12 @@ self_hosted:
         url: https://github.com/CleverCloud/umami-example
         description: Deploy Umami analytics
         status: active
-        last_update: 2026-03-17
+        last_update: 2026-09-27
       - name: WordPress Bedrock Example
         url: https://github.com/CleverCloud/wordpress-bedrock-example
         description: Install and manage WordPress with Bedrock's Composer
         status: active
-        last_update: 2026-03-16
+        last_update: 2026-10-15
       - name: Collabora Online Example
         url: https://github.com/CleverCloud/collabora-online-example
         description: Run Collabora Online with Docker
@@ -722,7 +722,7 @@ addons:
         url: https://github.com/CleverCloud/otoroshi-api-example
         description: Otoroshi API gateway example
         status: active
-        last_update: 2025-05-05
+        last_update: 2026-10-15
 
 other:
   title: Other Examples

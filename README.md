@@ -122,8 +122,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2025-09-20 | 🟢 |
-| [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2025-08-07 | 🟢 |
+| [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2025-09-20 | 🟡 |
+| [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2026-10-15 | 🟢 |
 | [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
 | [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2026-03-12 | 🟢 |
 | [PHP Sessions KV Example](https://github.com/CleverCloud/php-sessions-kv-example) | PHP applications with sessions on Materia KV | 2025-10-15 | 🟢 |
@@ -139,9 +139,9 @@ Each example includes a freshness indicator based on the date of its last commit
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
 | [Celery Gunicorn Example](https://github.com/CleverCloud/celery-gunicorn-example) | Python app using Celery and Gunicorn | 2026-06-12 | 🟢 |
-| [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2026-03-16 | 🟢 |
+| [Django Todo List Example](https://github.com/CleverCloud/django-todo-list-example) | Django todo list with modern Python tooling (uv, pyproject.toml) | 2026-07-15 | 🟢 |
 | [Flask Example](https://github.com/CleverCloud/flask-example) | Run Flask on Clever Cloud | 2026-03-11 | 🟢 |
-| [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2025-07-01 | 🟢 |
+| [Python FastAPI UV Example](https://github.com/CleverCloud/python-fastapi-uv-example) | Deploy a FastAPI app, blazing fast, using uv | 2026-10-15 | 🟢 |
 | [Falcon StatsD Example](https://github.com/CleverCloud/falcon-statsd-example) | Run Falcon with StatsD on Clever Cloud | 2026-03-11 | 🟢 |
 | [Python 3 Flask Example](https://github.com/CleverCloud/python-3-flask-example) | Flask web application | 2026-03-12 | 📌 |
 | [Python 3.9 Django Daphne Example](https://github.com/CleverCloud/python-3.9-django-daphne-example) | Django application with Daphne ASGI server | 2025-03-17 | 📌 |
@@ -209,14 +209,14 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [V Example](https://github.com/CleverCloud/v-example) | Deploy a V app using V runtime | 2025-07-04 | 🟢 |
+| [V Example](https://github.com/CleverCloud/v-example) | Deploy a V app using V runtime | 2026-10-15 | 🟢 |
 | [MKV Raw TCP V Example](https://github.com/CleverCloud/mkv-raw-tcp-v-example) | Materia KV raw TCP demo in V | 2026-03-12 | 🪦 |
 
 ### Zig
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Zig with Mise Example](https://github.com/CleverCloud/zig-with-mise-example) | Deploy a Zig app using Mise and Linux runtime | 2025-07-04 | 🟢 |
+| [Zig with Mise Example](https://github.com/CleverCloud/zig-with-mise-example) | Deploy a Zig app using Mise and Linux runtime | 2026-10-15 | 🟢 |
 
 ---
 
@@ -228,23 +228,23 @@ Each example includes a freshness indicator based on the date of its last commit
 |---------|-------------|-------------|--------|
 | [ChromaDB Server Example](https://github.com/CleverCloud/chromadb-server-example) | Vector database for AI applications | 2026-06-12 | 🟢 |
 | [Docmost Example](https://github.com/CleverCloud/docmost-example) | Docmost on Clever Cloud | 2026-06-04 | 🟢 |
-| [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟢 |
-| [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2025-08-18 | 🟢 |
+| [Docs Example](https://github.com/CleverCloud/docs-example) | Collaborative note-taking platform (Django + React) | 2025-06-26 | 🟡 |
+| [GlitchTip Example](https://github.com/CleverCloud/glitchtip-example) | Run GlitchTip error tracking | 2026-10-15 | 🟢 |
 | [Grafana Example](https://github.com/CleverCloud/grafana-example) | Run Grafana on Clever Cloud | 2026-03-16 | 🟢 |
 | [HiveMQ Example](https://github.com/CleverCloud/hivemq-example) | Deploy HiveMQ MQTT broker | 2026-01-08 | 🟢 |
 | [HiveMQ Add-on Provider Example](https://github.com/CleverCloud/hivemq-adp-example) | HiveMQ as add-on provider | 2026-01-15 | 🟢 |
-| [Kestra Example](https://github.com/CleverCloud/kestra-example) | Deploy Kestra orchestration platform | 2025-08-18 | 🟢 |
-| [Khoj Example](https://github.com/CleverCloud/khoj-example) | Deploy Khoj AI assistant | 2025-06-18 | 🟢 |
+| [Kestra Example](https://github.com/CleverCloud/kestra-example) | Deploy Kestra orchestration platform | 2026-10-15 | 🟢 |
+| [Khoj Example](https://github.com/CleverCloud/khoj-example) | Deploy Khoj AI assistant | 2025-06-18 | 🟡 |
 | [Mattermost Example](https://github.com/CleverCloud/mattermost-example) | Run Mattermost on Clever Cloud | 2026-03-16 | 🟢 |
 | [Mosquitto Example](https://github.com/CleverCloud/mosquitto-example) | Deploy Mosquitto MQTT broker | 2026-03-17 | 🟢 |
 | [n8n Example](https://github.com/CleverCloud/n8n-example) | Run n8n workflow automation | 2026-02-06 | 🟢 |
-| [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-06-04 | 🟢 |
+| [Outline Example](https://github.com/CleverCloud/outline-example) | Run Outline wiki on Clever Cloud | 2026-09-22 | 🟢 |
 | [Parse Server Example](https://github.com/CleverCloud/parse-server-example) | Run parse-server on Clever Cloud | 2026-03-13 | 🟢 |
 | [Parse Server Dashboard Example](https://github.com/CleverCloud/parse-server-dashboard-example) | Run parse-server dashboard | 2026-03-13 | 🟢 |
 | [PostOwl Example](https://github.com/CleverCloud/PostOwl-example) | Run PostOwl, personal website for blogging, letter sharing and private journaling | 2026-03-17 | 🟢 |
 | [Strapi Example](https://github.com/CleverCloud/strapi-example) | Deploy Strapi CMS on Clever Cloud | 2026-05-04 | 🟢 |
-| [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-03-17 | 🟢 |
-| [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-03-16 | 🟢 |
+| [Umami Example](https://github.com/CleverCloud/umami-example) | Deploy Umami analytics | 2026-09-27 | 🟢 |
+| [WordPress Bedrock Example](https://github.com/CleverCloud/wordpress-bedrock-example) | Install and manage WordPress with Bedrock's Composer | 2026-10-15 | 🟢 |
 | [Collabora Online Example](https://github.com/CleverCloud/collabora-online-example) | Run Collabora Online with Docker | 2026-03-16 | 📌 |
 | [Moodle Example](https://github.com/CleverCloud/moodle-example) | Deploy the open source learning platform | 2026-03-17 | 📌 |
 | [Ollama Chat Deploy Example](https://github.com/CleverCloud/ollama-chat-deploy-example) | Deploy AI models with Ollama | 2026-03-17 | 📌 |
@@ -270,7 +270,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [Otoroshi API Example](https://github.com/CleverCloud/otoroshi-api-example) | Otoroshi API gateway example | 2025-05-05 | 🟡 |
+| [Otoroshi API Example](https://github.com/CleverCloud/otoroshi-api-example) | Otoroshi API gateway example | 2026-10-15 | 🟢 |
 
 ---
 
@@ -304,15 +304,15 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 75 | Updated within the last year |
-| 🟡 Aging | 1 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 73 | Updated within the last year |
+| 🟡 Aging | 3 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
 | 📦 Archived | 1 | Repository is archived |
 | **Total** | **129** | |
 
-> **Last generated**: 2026-06-18 — Dates are based on the last commit on the default branch.
+> **Last generated**: 2026-10-15 — Dates are based on the last commit on the default branch.
 
 ---
 
