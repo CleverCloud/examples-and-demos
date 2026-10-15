@@ -25,7 +25,7 @@ runtimes:
         url: https://github.com/CleverCloud/boxlang-example
         description: Deploy a Boxlang application on Clever Cloud
         status: active
-        last_update: 2026-02-06
+        last_update: 2026-10-15
 
   dart:
     title: Dart
@@ -86,7 +86,7 @@ runtimes:
         url: https://github.com/CleverCloud/gleam-example
         description: Deploy a Gleam web app built with the Wisp framework on Clever Cloud
         status: active
-        last_update: 2026-06-10
+        last_update: 2026-10-15
 
   go:
     title: Go
@@ -133,7 +133,7 @@ runtimes:
         url: https://github.com/CleverCloud/quarkus-example
         description: Run Quarkus on Clever Cloud
         status: active
-        last_update: 2026-03-10
+        last_update: 2026-10-15
       - name: Spring MySQL Example
         url: https://github.com/CleverCloud/spring-mysql-example
         description: Spring Boot example on Clever Cloud
@@ -153,7 +153,7 @@ runtimes:
         url: https://github.com/CleverCloud/vaadin-example
         description: Deploy a Vaadin application on Clever Cloud
         status: active
-        last_update: 2026-03-10
+        last_update: 2026-10-15
       - name: Java WAR Example
         url: https://github.com/CleverCloud/java-war-example
         description: Run Java WAR project on Clever Cloud
@@ -197,7 +197,7 @@ runtimes:
         url: https://github.com/CleverCloud/mcp-pg-example
         description: MCP server for PostgreSQL with natural language querying
         status: active
-        last_update: 2026-01-31
+        last_update: 2026-10-15
       - name: Meteor.js MongoDB Example
         url: https://github.com/CleverCloud/meteorjs-mongodb-example
         description: Run Meteor with MongoDB on Clever Cloud
@@ -345,7 +345,7 @@ runtimes:
         url: https://github.com/CleverCloud/celery-gunicorn-example
         description: Python app using Celery and Gunicorn
         status: active
-        last_update: 2026-06-12
+        last_update: 2026-10-15
       - name: Django Todo List Example
         url: https://github.com/CleverCloud/django-todo-list-example
         description: Django todo list with modern Python tooling (uv, pyproject.toml)
@@ -375,7 +375,7 @@ runtimes:
         url: https://github.com/CleverCloud/python-3.9-django-daphne-example
         description: Django application with Daphne ASGI server
         status: pinned
-        last_update: 2025-03-17
+        last_update: 2026-10-15
       - name: Python 3.10 Django Gunicorn Example
         url: https://github.com/CleverCloud/python-3.10-django-gunicorn-example
         description: Django with Gunicorn
@@ -429,7 +429,7 @@ runtimes:
         url: https://github.com/CleverCloud/ruby-multi-redirect-example
         description: Puma web server and Sinatra DSL, managing multiple redirections
         status: active
-        last_update: 2026-06-12
+        last_update: 2026-10-15
       - name: Ruby PostgreSQL Example
         url: https://github.com/CleverCloud/ruby-postgresql-example
         description: Ruby on Rails with PostgreSQL
@@ -578,12 +578,12 @@ self_hosted:
         url: https://github.com/CleverCloud/chromadb-server-example
         description: Vector database for AI applications
         status: active
-        last_update: 2026-06-12
+        last_update: 2026-10-15
       - name: Docmost Example
         url: https://github.com/CleverCloud/docmost-example
         description: Docmost on Clever Cloud
         status: active
-        last_update: 2026-06-04
+        last_update: 2026-10-15
       - name: Docs Example
         url: https://github.com/CleverCloud/docs-example
         description: Collaborative note-taking platform (Django + React)
@@ -618,7 +618,7 @@ self_hosted:
         url: https://github.com/CleverCloud/khoj-example
         description: Deploy Khoj AI assistant
         status: active
-        last_update: 2025-06-18
+        last_update: 2026-10-15
       - name: Mattermost Example
         url: https://github.com/CleverCloud/mattermost-example
         description: Run Mattermost on Clever Cloud
@@ -633,12 +633,12 @@ self_hosted:
         url: https://github.com/CleverCloud/n8n-example
         description: Run n8n workflow automation
         status: active
-        last_update: 2026-02-06
+        last_update: 2026-10-15
       - name: Outline Example
         url: https://github.com/CleverCloud/outline-example
         description: Run Outline wiki on Clever Cloud
         status: active
-        last_update: 2026-09-22
+        last_update: 2026-10-15
       - name: Parse Server Example
         url: https://github.com/CleverCloud/parse-server-example
         description: Run parse-server on Clever Cloud
@@ -678,7 +678,7 @@ self_hosted:
         url: https://github.com/CleverCloud/moodle-example
         description: Deploy the open source learning platform
         status: pinned
-        last_update: 2026-03-17
+        last_update: 2026-10-15
       - name: Ollama Chat Deploy Example
         url: https://github.com/CleverCloud/ollama-chat-deploy-example
         description: Deploy AI models with Ollama
@@ -710,7 +710,7 @@ kubernetes:
         url: https://github.com/CleverCloud/clever-autoscaler-operator-example
         description: K8s operator for Clever Cloud node group autoscaling
         status: active
-        last_update: 2025-12-04
+        last_update: 2026-10-15
 
 addons:
   title: Add-ons
