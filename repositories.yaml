@@ -286,7 +286,7 @@ runtimes:
         url: https://github.com/CleverCloud/api-platform-example
         description: API Platform on Clever Cloud
         status: active
-        last_update: 2025-09-20
+        last_update: 2026-10-15
       - name: FrankenPHP KV JSON Example
         url: https://github.com/CleverCloud/frankenphp-kv-json-example
         description: PHP app using FrankenPHP runtime and MateriaKV JSON commands

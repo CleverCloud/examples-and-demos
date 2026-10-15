@@ -122,7 +122,7 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Example | Description | Last Commit | Status |
 |---------|-------------|-------------|--------|
-| [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2025-09-20 | 🟡 |
+| [API Platform Example](https://github.com/CleverCloud/api-platform-example) | API Platform on Clever Cloud | 2026-10-15 | 🟢 |
 | [FrankenPHP KV JSON Example](https://github.com/CleverCloud/frankenphp-kv-json-example) | PHP app using FrankenPHP runtime and MateriaKV JSON commands | 2026-10-15 | 🟢 |
 | [PHP Composer Example](https://github.com/CleverCloud/php-composer-example) | Run PHP with Composer on Clever Cloud | 2026-03-12 | 🟢 |
 | [Laravel PostgreSQL Example](https://github.com/CleverCloud/laravel-postgresql-example) | Run Laravel with PostgreSQL | 2026-03-12 | 🟢 |
@@ -304,8 +304,8 @@ Each example includes a freshness indicator based on the date of its last commit
 
 | Status | Count | Meaning |
 |--------|-------|---------|
-| 🟢 Fresh | 75 | Updated within the last year |
-| 🟡 Aging | 1 | Updated between 1 and 3 years ago |
+| 🟢 Fresh | 76 | Updated within the last year |
+| 🟡 Aging | 0 | Updated between 1 and 3 years ago |
 | 🔴 Outdated | 0 | Not updated for more than 3 years |
 | 📌 Pinned | 23 | Pinned to a specific version, still useful |
 | 🪦 Deprecated | 29 | Upstream project discontinued |
